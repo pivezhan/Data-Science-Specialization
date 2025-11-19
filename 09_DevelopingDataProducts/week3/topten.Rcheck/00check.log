@@ -1,0 +1,15 @@
+* using log directory 'C:/Users/lenovo/Desktop/Rlearning/data product/week3/topten.Rcheck'
+* using R version 3.2.0 (2015-04-16)
+* using platform: x86_64-w64-mingw32 (64-bit)
+* using session charset: CP1256
+* using options '--no-manual --no-build-vignettes'
+* checking for file 'topten/DESCRIPTION' ... OK
+* checking extension type ... Package
+* this is package 'topten' version '1.0'
+* checking package namespace information ... OK
+* checking package dependencies ... ERROR
+Namespace dependency not required: 'stat'
+
+See section 'The DESCRIPTION file' in the 'Writing R Extensions'
+manual.
+Status: 1 ERROR

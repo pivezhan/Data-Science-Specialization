@@ -1,0 +1,21 @@
+setwd("C:\\Users\\lenovo\\Desktop\\Rlearning\\r programming\\week2")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

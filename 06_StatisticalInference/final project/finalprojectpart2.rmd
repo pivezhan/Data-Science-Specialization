@@ -1,0 +1,42 @@
+---
+title: "Statistical Inference Final Project (Part 2)"
+author: "MP"
+date: "Sunday, September 27, 2015"
+output: rmarkdown::tufte_handout
+---
+
+# Introduction
+
+The ToothGrowth in datasets library shows the effect of vitamin C on Tooth Growth in Guinea Pigs. The response is the length of odontoblasts (teeth) in each of 10 guinea pigs at each of three dose levels of Vitamin C (0.5, 1, and 2 mg) with each of two delivery methods (orange juice or ascorbic acid).
+Here there is a data frame with 60 observations on 3 variables:
+[,1]     len	 numeric	 Tooth length
+[,2]	 supp	 factor	         Supplement type (VC or OJ)
+[,3]	 dose	 numeric	 Dose in milligrams
+
+```{r, fig.margin = TRUE, fig.cap = "len vs. dose, colored by supp"}
+library(ggplot2)
+qplot(len, dose, data = ToothGrowth, color = supp)
+```
+
+as shown in figure above there exists high corelation between Doze in miligram and Tooth Length. The summarized characteristic of dataset is as below:
+```{r, echo=TRUE}
+summary(ToothGrowth)
+```
+
+DataSet could be fitted with GLM (Generalized Linear Model)function. in the Coefficients $Supplement type$ has lower significance against the $Dose in milligrams$ according to P-Value and because of that P-Values are below 0.05 both features are important for prediction of $Tooth length$.
+```{r, echo=TRUE}
+fit <- glm(len ~ dose + supp, data=ToothGrowth)
+summary(fit)
+```
+
+```{r, echo=TRUE}
+confint(fit)
+```
+
+In this study number of observations are less than previous one and so there need t-statistic in this case. Because of uncorrelated variables in Confidence Interval The Paired Argument is FALSE and because of same number of observations the var.equal is TRUE.
+```{r, echo=TRUE}
+t.test(ToothGrowth$len, ToothGrowth$dose, paired=FALSE, var.equal=TRUE)$conf
+```
+
+#Conclusion
+The goal of this study was Tooth length Prediction with two Supplement type (VC or OJ) and Dose in milligrams features. the P_value on t-statistic show high significance of Dose in milligrams in prediction of Tooth length.

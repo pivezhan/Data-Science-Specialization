@@ -1,0 +1,13 @@
+https://github.com/pivezhandi/PMLfinalproject.git
+
+cd C:/Users/lenovo/Desktop/pro/PMLfinalproject
+git init
+git clone https://github.com/pivezhandi/PMLfinalproject.git
+git remote add origin https://github.com/pivezhandi/
+
+git add -A
+git commit -m --all
+git log
+git push origin master
+##pivezhan
+##worldis69

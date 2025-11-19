@@ -1,0 +1,1692 @@
+TY  - CONF
+JO  - e-Health Networking, Application and Services, 2007 9th International Conference on
+TI  - Development of a Self-Constructing Neuro-Fuzzy Inference System for Online Classification of Physical Movements
+T2  - e-Health Networking, Application and Services, 2007 9th International Conference on
+IS  - 
+SN  - 
+VO  - 
+SP  - 332
+EP  - 335
+AU  - Jatoba, L.
+AU  - Grossmann, U.
+AU  - Ottenbacher, J.
+AU  - Stork, W.
+AU  - Muller-Glaser, K.
+Y1  - 19-22 June 2007
+PY  - 2007
+KW  - biomedical telemetry
+KW  - biosensors
+KW  - blood pressure measurement
+KW  - diseases
+KW  - electrocardiography
+KW  - fuzzy neural nets
+KW  - fuzzy reasoning
+KW  - medical signal processing
+KW  - patient monitoring
+KW  - pattern classification
+KW  - ECG
+KW  - acceleration sensor
+KW  - activity recognition system
+KW  - cardiovascular illnesses
+KW  - context-aware cardiac long-term monitoring
+KW  - continuous patient telemonitoring
+KW  - electrocardiogram measurement
+KW  - online physical movement classification
+KW  - patient physiological parameter
+KW  - patient-friendly blood-pressure measurement
+KW  - pattern classification
+KW  - self-constructing adaptive neuro-fuzzy inference system
+VL  - 
+JA  - e-Health Networking, Application and Services, 2007 9th International Conference on
+DOI  - 10.1109/HEALTH.2007.381666
+AB  - This work is a part of the project "context- aware cardiac long-term monitoring (CALM)" of the Institute for information processing technology of the University of Karlsruhe. The aim of our research is the development of a system to help on the prevention of cardiovascular illnesses by continuous telemonitoring of patients. Therefore, the system should enable patient-friendly measurements of blood- pressure and electrocardiogram (ECG). Furthermore, it should allow an objective evaluation of the patient's physiological parameters taking into consideration context information. When evaluating cardiovascular parameters, the most important context information is physical activity. For obtaining the activity or movements of a patient, the authors propose a system based on acceleration sensors and adaptive neuro- fuzzy inference system (ANFIS) for pattern classification. Using this method, an online self-constructing activity recognition system has been developed and its results are shown.
+ER  - 
+TY  - CONF
+JO  - Data Mining, 2009. ICDM '09. Ninth IEEE International Conference on
+TI  - Semi-Markov kMeans Clustering and Activity Recognition from Body-Worn Sensors
+T2  - Data Mining, 2009. ICDM '09. Ninth IEEE International Conference on
+IS  - 
+SN  - 1550-4786
+VO  - 
+SP  - 438
+EP  - 446
+AU  - Robards, M.W.
+AU  - Sunehag, P.
+Y1  - 6-9 Dec. 2009
+PY  - 2009
+KW  - Markov processes
+KW  - image segmentation
+KW  - pattern clustering
+KW  - sensors
+KW  - time series
+KW  - activity recognition
+KW  - body worn sensors
+KW  - detailed segmentation sensor data
+KW  - full detailed labeled segmentation
+KW  - non expert user
+KW  - novel subsequence clustering technique
+KW  - semi Markov kmeans clustering
+KW  - sophisticated discriminative methods
+KW  - time series data
+VL  - 
+JA  - Data Mining, 2009. ICDM '09. Ninth IEEE International Conference on
+DOI  - 10.1109/ICDM.2009.13
+AB  - Subsequence clustering aims to find patterns that appear repeatedly in time series data. We introduce a novel subsequence clustering technique that we call semi-Markov kmeans clustering. The clustering results in ideal examples of the repeating patterns and in labeled segmentations that can be used as training data for sophisticated discriminative methods like max-margin semi-Markov models. We are applying the new clustering technique to activity recognition from body-worn sensors by showing how it can enable a system to learn from data that is only annotated by an ordered list of activity types that have been undertaken. This kind of annotation, unlike a detailed segmentation of the sensor data, is easily provided by a non-expert user. We show that we can achieve equally good results using only an ordered list of activity types for training as when using a full detailed labeled segmentation.
+ER  - 
+TY  - CONF
+JO  - Genetic and Evolutionary Fuzzy Systems (GEFS), 2011 IEEE 5th International Workshop on
+TI  - Body posture recognition by means of a genetic fuzzy finite state machine
+T2  - Genetic and Evolutionary Fuzzy Systems (GEFS), 2011 IEEE 5th International Workshop on
+IS  - 
+SN  - 
+VO  - 
+SP  - 60
+EP  - 65
+AU  - Alvarez-Alvarez, A.
+AU  - Trivino, G.
+AU  - Cordon, O.
+Y1  - 11-15 April 2011
+PY  - 2011
+KW  - finite state machines
+KW  - fuzzy reasoning
+KW  - fuzzy set theory
+KW  - genetic algorithms
+KW  - gesture recognition
+KW  - knowledge based systems
+KW  - learning (artificial intelligence)
+KW  - body posture recognition
+KW  - fuzzy inference system
+KW  - fuzzy rules
+KW  - genetic algorithms
+KW  - genetic fuzzy finite state machine
+KW  - human friendly linguistic description
+KW  - knowledge base
+KW  - learning
+KW  - user behavior detection
+VL  - 
+JA  - Genetic and Evolutionary Fuzzy Systems (GEFS), 2011 IEEE 5th International Workshop on
+DOI  - 10.1109/GEFS.2011.5949493
+AB  - Body posture recognition is a very important issue as a basis for the detection of user's behavior. In this paper, we propose the use of a genetic fuzzy finite state machine for this real-world application. Fuzzy finite state machines (FFSMs) are an extension of classical finite state machines where the states and inputs are defined and calculated by means of a fuzzy inference system, allowing them to handle imprecise and uncertain data. Since the definition of the knowledge base of the fuzzy inference system is a complex task for experts, we use an automatic method for learning this component based on the hybridization of FFSMs and genetic algorithms (GAs). This genetic fuzzy system learns automatically the fuzzy rules and membership functions of the FFSM devoted to body posture recognition while an expert defines the possible states and allowed transitions. We aim to obtain a specific model (FFSM) with the capability of generalizing well under different subject's situations. The obtained model must become an accurate and human friendly linguistic description of this phenomenon, with the capability of identifying the posture of the user. A complete experimentation is developed to test the performance of the new proposal, comprising a detailed analysis of results which shows the advantages of our proposal in comparison with another classical technique.
+ER  - 
+TY  - CONF
+JO  - Body Sensor Networks (BSN), 2011 International Conference on
+TI  - Accurate Activity Recognition Using a Mobile Phone Regardless of Device Orientation and Location
+T2  - Body Sensor Networks (BSN), 2011 International Conference on
+IS  - 
+SN  - 
+VO  - 
+SP  - 41
+EP  - 46
+AU  - Henpraserttae, A.
+AU  - Thiemjarus, S.
+AU  - Marukatat, S.
+Y1  - 23-25 May 2011
+PY  - 2011
+KW  - accelerometers
+KW  - mobile handsets
+KW  - pattern recognition
+KW  - signal processing
+KW  - acceleration signal
+KW  - activity recognition
+KW  - device coordinate system estimation
+KW  - mobile device location
+KW  - mobile device orientation
+KW  - signal transformation
+KW  - tri-axial accelerometer-embedded mobile phone
+VL  - 
+JA  - Body Sensor Networks (BSN), 2011 International Conference on
+DOI  - 10.1109/BSN.2011.8
+AB  - This paper investigates two major issues in using a tri-axial accelerometer-embedded mobile phone for continuous activity monitoring, i.e. the difference in orientations and locations of the device. Two experiments with a total of ten test subjects performed six daily activities were conducted in this study: one with a device fixed on the waist in sixteen different orientations and another with three different device locations (i.e., shirt-pocket, trouser-pocket and waist) in two different device orientations. For handling with varying device orientations, a projection-based method for device coordinate system estimation has been proposed. Based on the dataset with sixteen different device orientations, the experimental results have illustrated that the proposed method is efficient for rectifying the acceleration signals into the same coordinate system, yielding significantly improved activity recognition accuracy. After signal transformation, the recognition results of signals acquired from different device locations are compared. The experimental results show that when the sensor is placed on different rigid body, different models are required for certain activities.
+ER  - 
+TY  - JOUR
+JO  - Information Technology in Biomedicine, IEEE Transactions on
+TI  - Emergency Fall Incidents Detection in Assisted Living Environments Utilizing Motion, Sound, and Visual Perceptual Components
+T2  - Information Technology in Biomedicine, IEEE Transactions on
+IS  - 2
+SN  - 1089-7771
+VO  - 15
+SP  - 277
+EP  - 289
+AU  - Doukas, C.N.
+AU  - Maglogiannis, I.
+Y1  - March  2011
+PY  - 2011
+KW  - audio signal processing
+KW  - biomechanics
+KW  - body sensor networks
+KW  - geriatrics
+KW  - health care
+KW  - image motion analysis
+KW  - image sensors
+KW  - medical image processing
+KW  - microphone arrays
+KW  - patient monitoring
+KW  - target tracking
+KW  - telemedicine
+KW  - visual perception
+KW  - assisted living environments
+KW  - audio data processing
+KW  - body sensors
+KW  - classification techniques
+KW  - elder population
+KW  - elderly falls
+KW  - emergency detection
+KW  - emergency event
+KW  - emergency fall incident detection
+KW  - human activity interpretation
+KW  - microphone arrays
+KW  - motion behavior
+KW  - motion data
+KW  - motion information
+KW  - overhead cameras
+KW  - patient collapse
+KW  - patient status awareness
+KW  - personal health
+KW  - semantic representation
+KW  - sound directionality analysis
+KW  - tracking techniques
+KW  - trajectory tracking
+KW  - visual perceptual components
+KW  - Accidental Falls
+KW  - Adult
+KW  - Assisted Living Facilities
+KW  - Humans
+KW  - Image Processing, Computer-Assisted
+KW  - Male
+KW  - Monitoring, Ambulatory
+KW  - Pattern Recognition, Automated
+KW  - Sound Spectrography
+KW  - Telemetry
+VL  - 15
+JA  - Information Technology in Biomedicine, IEEE Transactions on
+DOI  - 10.1109/TITB.2010.2091140
+AB  - This paper presents the implementation details of a patient status awareness enabling human activity interpretation and emergency detection in cases, where the personal health is threatened like elder falls or patient collapses. The proposed system utilizes video, audio, and motion data captured from the patient's body using appropriate body sensors and the surrounding environment, using overhead cameras and microphone arrays. Appropriate tracking techniques are applied to the visual perceptual component enabling the trajectory tracking of persons, while proper audio data processing and sound directionality analysis in conjunction to motion information and subject's visual location can verify fall and indicate an emergency event. The postfall visual and motion behavior of the subject, which indicates the severity of the fall (e.g., if the person remains unconscious or patient recovers) is performed through a semantic representation of the patient's status, context and rules-based evaluation, and advanced classification. A number of advanced classification techniques have been examined in the framework of this study and their corresponding performance in terms of accuracy and efficiency in detecting an emergency situation has been thoroughly assessed.
+ER  - 
+TY  - CONF
+JO  - Natural Computation (ICNC), 2011 Seventh International Conference on
+TI  - Optimization of ride comfort and handing stability base on virtual prototyping
+T2  - Natural Computation (ICNC), 2011 Seventh International Conference on
+IS  - 
+SN  - 2157-9555
+VO  - 2
+SP  - 803
+EP  - 806
+AU  - Cheng Yue
+AU  - Shi Wen-ku
+AU  - Liu Wei
+AU  - Sun Guo-Hui
+Y1  - 26-28 July 2011
+PY  - 2011
+KW  - automobile industry
+KW  - magnetorheology
+KW  - mechanical engineering computing
+KW  - suspensions (mechanical components)
+KW  - vehicle dynamics
+KW  - vibrations
+KW  - virtual prototyping
+KW  - SIMPACK
+KW  - automotive applications
+KW  - complex nonlinear force-velocity response
+KW  - force-displacement behavior
+KW  - handing stability
+KW  - magneto-rheological fluid dampers
+KW  - mathematical MR damper model
+KW  - optimization
+KW  - ride comfort
+KW  - semiactive suspension
+KW  - suspension design
+KW  - vehicle dynamics simulation software
+KW  - vehicle features
+KW  - vehicle virtual prototyping model
+VL  - 2
+JA  - Natural Computation (ICNC), 2011 Seventh International Conference on
+DOI  - 10.1109/ICNC.2011.6022298
+AB  - Ride comfort and handing stability are the two important driving features of vehicle. In the process of suspension design, ride comfort and handing stability are two conflicting considerations. Magneto-rheological(MR) fluid dampers are a new class of devices that more suitable for the requirements of automotive applications, including having very low power requirements. According to different driving conditions and body posture, semi-active suspension based on MR damper can coordinate the body posture angle, and reduce the vibration from suspension pass to vehicle body. This paper deals with theoretical analysis and experiments of MR fluid damper in semi-active suspension system. Based on a large number of experimental data, a mathematical MR damper model was adopted to predict both the force-displacement behavior and the complex nonlinear force-velocity response. For the purpose of developing semi-active controller, a detailed vehicle Virtual Prototyping model with steering, frame and semi-active suspensions systems was established by vehicle dynamics simulation software SIMPACK. The co-simulation of ride comfort and handing stability showed that the semi-active suspension designed in this paper was suitable for solving the conflict between ride comfort and handing stability, and improve the ride and handing performance simultaneously.
+ER  - 
+TY  - CONF
+JO  - Robotics and Automation (ICRA), 2010 IEEE International Conference on
+TI  - Wearable accelerometer based extendable activity recognition system
+T2  - Robotics and Automation (ICRA), 2010 IEEE International Conference on
+IS  - 
+SN  - 1050-4729
+VO  - 
+SP  - 3641
+EP  - 3647
+AU  - Jie Yang
+AU  - Shuangquan Wang
+AU  - Ningjiang Chen
+AU  - Xin Chen
+AU  - Pengfei Shi
+Y1  - 3-7 May 2010
+PY  - 2010
+KW  - pattern classification
+KW  - support vector machines
+KW  - ubiquitous computing
+KW  - extendable activity recognition system
+KW  - human activities of daily living
+KW  - multiclass classifier
+KW  - pervasive environment
+KW  - segmentation algorithm
+KW  - wearable accelerometer
+VL  - 
+JA  - Robotics and Automation (ICRA), 2010 IEEE International Conference on
+DOI  - 10.1109/ROBOT.2010.5509783
+AB  - Recognizing the human activities of daily living (ADL) is an important research issue in the pervasive environment. Activity recognition is treated as a classification problem and the multi-class classifier is often used. Though the multi-class classifier can obtain high classification accuracy, it can not detect the noise activities and unknown activities, and the system has no extendable recognition capability. In this paper, we proposed a recognition system which can recognize known activities and detect unknown activities simultaneously. For each known activity, one one-class classification model is built up and the combined one-class classification models are used to judge whether a test sample belongs to known activities. For the known samples, the multi-class classifier is used to recognize their types. For the continuous unknown samples, based on segmentation algorithm, training samples of new activities are extracted and added into the recognition system to extend the system's recognition capability.
+ER  - 
+TY  - CONF
+JO  - Multimedia, 2009. ISM '09. 11th IEEE International Symposium on
+TI  - Recursive Sparse, Spatiotemporal Coding
+T2  - Multimedia, 2009. ISM '09. 11th IEEE International Symposium on
+IS  - 
+SN  - 
+VO  - 
+SP  - 645
+EP  - 650
+AU  - Dean, T.
+AU  - Washington, R.
+AU  - Corrado, G.
+Y1  - 14-16 Dec. 2009
+PY  - 2009
+KW  - image motion analysis
+KW  - image recognition
+KW  - unsupervised learning
+KW  - video coding
+KW  - Boltzmann machines
+KW  - SPARSENET
+KW  - activity recognition
+KW  - basis vectors
+KW  - denoising autoencoders
+KW  - primitive motion features
+KW  - space-time interest-point operator
+KW  - sparse coding
+KW  - spatiotemporal codes
+KW  - training set
+KW  - unsupervised training
+VL  - 
+JA  - Multimedia, 2009. ISM '09. 11th IEEE International Symposium on
+DOI  - 10.1109/ISM.2009.28
+AB  - We present a new approach to learning sparse, spatiotemporal codes in which the number of basis vectors, their orientations, velocities and the size of their receptive fields change over the duration of unsupervised training. The algorithm starts with a relatively small, initial basis with minimal temporal extent. This initial basis is obtained through conventional sparse coding techniques and is expanded over time by recursively constructing a new basis consisting of basis vectors with larger temporal extent that proportionally conserve regions of previously trained weights. These proportionally conserved weights are combined with the result of adjusting newly added weights to represent a greater range of primitive motion features. The size of the current basis is determined probabilistically by sampling from existing basis vectors according to their activation on the training set. The resulting algorithm produces bases consisting of filters that are bandpass, spatially oriented and temporally diverse in terms of their transformations and velocities. The basic methodology borrows inspiration from the layer-by-layer learning of multiple-layer restricted Boltzmann machines developed by Geoff Hinton and his students. Indeed, we can learn multiple-layer sparse codes by training a stack of denoising autoencoders, but we have had greater success using L<sub>1</sub> regularized regression in a variation on Olshausen and Field's original SPARSENET. To accelerate learning and focus attention, we apply a space-time interest-point operator that selects for periodic motion. This attentional mechanism enables us to efficiently compute and compactly represent a broad range of interesting motion. We demonstrate the utility of our approach by using it to recognize human activity in video. Our algorithm meets or exceeds the performance of state-of-the-art activity-recognition methods.
+ER  - 
+TY  - CONF
+JO  - Future Network and Mobile Summit, 2010
+TI  - Movement recognition using the accelerometer in smartphones
+T2  - Future Network and Mobile Summit, 2010
+IS  - 
+SN  - 
+VO  - 
+SP  - 1
+EP  - 9
+AU  - Sian Lun Lau
+AU  - David, K.
+Y1  - 16-18 June 2010
+PY  - 2010
+KW  - accelerometers
+KW  - feature extraction
+KW  - gesture recognition
+KW  - mobile radio
+KW  - ubiquitous computing
+KW  - accurate movement
+KW  - activity recognition
+KW  - attractive sensor device
+KW  - built-in accelerometer
+KW  - classification accuracy
+KW  - classification algorithms
+KW  - context-aware systems
+KW  - features extraction
+KW  - movement recognition
+KW  - sampling rates
+KW  - smartphones
+VL  - 
+JA  - Future Network and Mobile Summit, 2010
+DOI  - 
+AB  - The area of activity recognition is essential for context-aware systems. Previous and current investigations demonstrate that the accelerometer is suitable for accurate movement and activity recognition. Since smartphones are used by people in their daily lives, they can be seen as an attractive sensor device for the purpose of activity recognition. In our work, experiments have been carried out to investigate the suitability of the built-in accelerometer by comparing the influences of classification algorithms, features and the combination of sampling rates and window sizes for features extraction have on the classification accuracy. Obtained results indicate that smartphones similar to the test device provide good accuracy in recognizing common movements.
+ER  - 
+TY  - CONF
+JO  - Engineering in Medicine and Biology Society,EMBC, 2011 Annual International Conference of the IEEE
+TI  - 3D accelerometer features' differences between young and older people, and between lower back and neck band sensor placements
+T2  - Engineering in Medicine and Biology Society,EMBC, 2011 Annual International Conference of the IEEE
+IS  - 
+SN  - 1557-170X
+VO  - 
+SP  - 7885
+EP  - 7887
+AU  - Merilahti, J.
+AU  - Ermes, M.
+Y1  - Aug. 30 2011-Sept. 3 2011
+PY  - 2011
+KW  - accelerometers
+KW  - biomedical measurement
+KW  - medical signal processing
+KW  - motion measurement
+KW  - 3D accelerometer
+KW  - activity recognition algorithms
+KW  - frequency domain features
+KW  - lower back sensor placement
+KW  - neck band sensor placement
+KW  - older people
+KW  - peak frequency
+KW  - power
+KW  - range
+KW  - spectral entropy
+KW  - time domain features
+KW  - young people
+VL  - 
+JA  - Engineering in Medicine and Biology Society,EMBC, 2011 Annual International Conference of the IEEE
+DOI  - 10.1109/IEMBS.2011.6091944
+AB  - In the earlier studies we have developed activity recognition algorithms which are based on features calculated from data of 3D accelerometer sensor placed on the hip, close to the centre of mass. In the development subjects have been young adults. Now we study if the input features of the algorithm are generalized for different set-ups; for older adults and when the sensor is worn as a necklace. From the 3D accelerometer resultant magnitude the following features were calculated for each second: spectral entropy, peak frequency, power and range. The frequency domain features behaved in a relatively stable manner in the set-ups but the time domain features differed significantly from statistical and algorithm perspective between the set-ups. By developing time domain features to be more inter-individual independent would be beneficial for activity recognition algorithms.
+ER  - 
+TY  - CONF
+JO  - Computational Intelligence and Data Mining (CIDM), 2011 IEEE Symposium on
+TI  - Periodic quick test for classifying long-term activities
+T2  - Computational Intelligence and Data Mining (CIDM), 2011 IEEE Symposium on
+IS  - 
+SN  - 
+VO  - 
+SP  - 135
+EP  - 140
+AU  - Siirtola, P.
+AU  - Koskimaki, H.
+AU  - Roning, J.
+Y1  - 11-15 April 2011
+PY  - 2011
+KW  - accelerometers
+KW  - signal classification
+KW  - sport
+KW  - activity recognition
+KW  - long-term human activities classification
+KW  - long-term sports exercises
+KW  - periodic quick test classification
+KW  - sliding window
+KW  - two-dimensional accelerometer
+VL  - 
+JA  - Computational Intelligence and Data Mining (CIDM), 2011 IEEE Symposium on
+DOI  - 10.1109/CIDM.2011.5949426
+AB  - A novel method to classify long-term human activities is presented in this study. The method consists of two parts: quick test and periodic classification. The quick test uses temporal information to improve recognition accuracy, while the periodic classification is based on the assumption that recognized activities are long-term. Periodic quick test (PQT) classification was tested using a data set consisting of six long-term sports exercises. The data were collected from six persons wearing a two-dimensional accelerometer on their wrist. The results show that the presented method is not only faster than a normal method, that does not use temporal information and does not assume that activities are long-term, but also more accurate. The results were compared with a normal sliding window technique which divides signal into smaller sequences and classifies each sequence into one of the six classes. The classification accuracy using a normal method was around 84% while using PQT the recognition rate was over 90%. In addition, the number of classified sequences using a normal method was over six times higher than using PQT.
+ER  - 
+TY  - CONF
+JO  - Pervasive Computing Technologies for Healthcare (PervasiveHealth), 2011 5th International Conference on
+TI  - Towards a pervasive kitchen infrastructure for measuring cooking competence
+T2  - Pervasive Computing Technologies for Healthcare (PervasiveHealth), 2011 5th International Conference on
+IS  - 
+SN  - 
+VO  - 
+SP  - 107
+EP  - 114
+AU  - Wagner, J.
+AU  - van Halteren, A.
+AU  - Hoonhout, J.
+AU  - Ploetz, T.
+AU  - Pham, C.
+AU  - Moynihan, P.
+AU  - Jackson, D.
+AU  - Ladha, C.
+AU  - Ladha, K.
+AU  - Olivier, P.
+Y1  - 23-26 May 2011
+PY  - 2011
+KW  - accelerometers
+KW  - domestic appliances
+KW  - gait analysis
+KW  - ubiquitous computing
+KW  - ambient kitchen environment
+KW  - cooking competence
+KW  - custom-made wireless accelerometers
+KW  - kitchen utensils
+KW  - pervasive kitchen infrastructure
+KW  - pervasive sensor infrastructure
+VL  - 
+JA  - Pervasive Computing Technologies for Healthcare (PervasiveHealth), 2011 5th International Conference on
+DOI  - 
+AB  - Research has demonstrated that a lack of cooking competence can be a significant barrier to healthier eating. We present two studies from which we develop a set of requirements for a pervasive sensor infrastructure that will enable our Ambient Kitchen environment to measure cooking competence in an unobtrusive manner. From the first study we derive key characteristics and potentially measurable aspects of cooking competence. This study also led to the specification and design of a pervasive sensor infrastructure comprising of a set of kitchen utensils equipped with custom-made wireless accelerometers. The second study reports our initial findings from the use of the sensor infrastructure and demonstrates its potential to measure key indicators of cooking competence. Our studies provide initial evidence that cooking competence can be measured automatically using our proposed pervasive kitchen infrastructure.
+ER  - 
+TY  - CONF
+JO  - Engineering in Medicine and Biology Society,EMBC, 2011 Annual International Conference of the IEEE
+TI  - Introducing a modular activity monitoring system
+T2  - Engineering in Medicine and Biology Society,EMBC, 2011 Annual International Conference of the IEEE
+IS  - 
+SN  - 1557-170X
+VO  - 
+SP  - 5621
+EP  - 5624
+AU  - Reiss, A.
+AU  - Stricker, D.
+Y1  - Aug. 30 2011-Sept. 3 2011
+PY  - 2011
+KW  - accelerometers
+KW  - biomedical measurement
+KW  - patient monitoring
+KW  - 3D-accelerometers
+KW  - HR-monitor
+KW  - coarse intensity estimation
+KW  - modular activity monitoring system
+VL  - 
+JA  - Engineering in Medicine and Biology Society,EMBC, 2011 Annual International Conference of the IEEE
+DOI  - 10.1109/IEMBS.2011.6091360
+AB  - In this paper, the idea of a modular activity monitoring system is introduced. By using different combinations of the system's three modules, different functionality becomes available: 1) a coarse intensity estimation of physical activities 2) different features based on HR-data and 3) the recognition of basic activities and postures. 3D-accelerometers - placed on lower arm, chest and foot - and a heart rate monitor were used as sensors. A dataset with 8 subjects and 14 different activities was recorded to evaluate the performance of the system. The overall performance on the intensity estimation task, relying on the chest-worn accelerometer and the HR-monitor, was 94.37%. The overall performance on the activity recognition task, using all three accelerometer placements and the HR-monitor, was 90.65%. This paper also gives an analysis of the importance of different accelerometer placements and the importance of a HR-monitor for both tasks.
+ER  - 
+TY  - CONF
+JO  - Machine Learning and Cybernetics, 2008 International Conference on
+TI  - Activity recognition from acceleration data using AR model representation and SVM
+T2  - Machine Learning and Cybernetics, 2008 International Conference on
+IS  - 
+SN  - 
+VO  - 4
+SP  - 2245
+EP  - 2250
+AU  - Zhen-Yu He
+AU  - Lian-Wen Jin
+Y1  - 12-15 July 2008
+PY  - 2008
+KW  - autoregressive processes
+KW  - feature extraction
+KW  - image classification
+KW  - support vector machines
+KW  - time series
+KW  - acceleration data
+KW  - autoregressive model
+KW  - feature extraction
+KW  - human activity classification
+KW  - human activity recognition
+KW  - support vector machine
+KW  - time series
+VL  - 4
+JA  - Machine Learning and Cybernetics, 2008 International Conference on
+DOI  - 10.1109/ICMLC.2008.4620779
+AB  - In this paper, the autoregressive (AR) model of time-series is presented to recognize human activity from a tri-axial accelerometer data. Four orders of autoregressive model for accelerometer data is built and the AR coefficients are extracted as features for activity recognition. Classification of the human activities is performed with support vector machine (SVM). The average recognition results for four activities (running, still, jumping and walking) using the proposed AR-based features are 92.25%, which are better than using traditional frequently used time domains features (mean, standard deviation, energy and correlation of acceleration data) and FFT features. The results show that AR coefficients obvious discriminate different human activities and it can be extract as an effective feature for the recognition of accelerometer date.
+ER  - 
+TY  - CONF
+JO  - Pervasive Computing and Communications Workshops (PERCOM Workshops), 2011 IEEE International Conference on
+TI  - Exploiting context for automatic check-in suggestion and validation
+T2  - Pervasive Computing and Communications Workshops (PERCOM Workshops), 2011 IEEE International Conference on
+IS  - 
+SN  - 
+VO  - 
+SP  - 348
+EP  - 351
+AU  - Valla, M.
+AU  - Fra, C.
+Y1  - 21-25 March 2011
+PY  - 2011
+KW  - mobile computing
+KW  - mobile handsets
+KW  - social networking (online)
+KW  - automatic check-in suggestion
+KW  - automatic check-in validation
+KW  - mobile social applications
+KW  - system architecture description
+KW  - user context exploitation
+VL  - 
+JA  - Pervasive Computing and Communications Workshops (PERCOM Workshops), 2011 IEEE International Conference on
+DOI  - 10.1109/PERCOMW.2011.5766903
+AB  - Mobile social applications that allow users to share presence, opinions and recommendations about places are spreading rapidly. Among these, check-in applications are becoming increasingly popular, but present some issues. In this paper we illustrate a system to exploit user's context to perform automatic check-in validation and suggestion. A description of the system architecture and its technical components is given, focusing on how raw and inferred context data (position, motion status, contacts proximity, etc.) are used to validate and suggest check-ins automatically.
+ER  - 
+TY  - CONF
+JO  - Consumer Communications and Networking Conference (CCNC), 2010 7th IEEE
+TI  - Secured WSN-Integrated Cloud Computing for u-Life Care
+T2  - Consumer Communications and Networking Conference (CCNC), 2010 7th IEEE
+IS  - 
+SN  - 
+VO  - 
+SP  - 1
+EP  - 2
+AU  - Xuan Hung Le
+AU  - Sungyoung Lee
+AU  - Phan Truc
+AU  - La The Vinh
+AU  - Khattak, A.M.
+AU  - Manhyung Han
+AU  - Dang Viet Hung
+AU  - Hassan, M.M.
+AU  - Kim, M.
+AU  - Kyo-Ho Koo
+AU  - Young-Koo Lee
+AU  - Eui-Nam Huh
+Y1  - 9-12 Jan. 2010
+PY  - 2010
+KW  - Internet
+KW  - patient care
+KW  - patient monitoring
+KW  - security of data
+KW  - telecommunication security
+KW  - wireless sensor networks
+KW  - SC<sup>3</sup>
+KW  - activity recognition
+KW  - human health monitoring
+KW  - secured WSN integrated cloud computing
+KW  - u-Life Care
+KW  - wireless sensor network
+VL  - 
+JA  - Consumer Communications and Networking Conference (CCNC), 2010 7th IEEE
+DOI  - 10.1109/CCNC.2010.5421618
+AB  - This paper presents a Secured Wireless Sensor Network-integrated Cloud computing for u-Life Care (SC3). SC3 monitors human health, activities, and shares information among doctors, care-givers, clinics, and pharmacies in the Cloud, so that users can have better care with low cost. SC3 incorporates various technologies with novel ideas including; sensor networks, Cloud computing security, and activities recognition.
+ER  - 
+TY  - CONF
+JO  - Wearable Computers, 2009. ISWC '09. International Symposium on
+TI  - Variability in Foot-Worn Sensor Placement for Activity Recognition
+T2  - Wearable Computers, 2009. ISWC '09. International Symposium on
+IS  - 
+SN  - 1550-4816
+VO  - 
+SP  - 143
+EP  - 144
+AU  - Doppler, J.
+AU  - Holl, G.
+AU  - Ferscha, A.
+AU  - Franz, M.
+AU  - Klein, C.
+AU  - Rocha, M.
+AU  - Zeidler, A.
+Y1  - 4-7 Sept. 2009
+PY  - 2009
+KW  - gait analysis
+KW  - medical computing
+KW  - pattern recognition
+KW  - sensor fusion
+KW  - support vector machines
+KW  - wireless sensor networks
+KW  - SVM classifier
+KW  - activity recognition
+KW  - bipedal sensing setup
+KW  - foot-worn sensor
+KW  - human gait aspect
+KW  - orientation based feature classification
+KW  - placement-invariant classification model
+VL  - 
+JA  - Wearable Computers, 2009. ISWC '09. International Symposium on
+DOI  - 10.1109/ISWC.2009.18
+AB  - On-shoe acceleration and orientation sensors have revealed as a potentially powerful means for capturing aspects of human gait. The placement of sensors however has been done intuitively and mostly without quantitative evaluation of sensor positioning. Based on recorded signals of the five placement options sole, heel, toe-cap, instep and ankle we built SVM classifiers using orientation based features and evaluate their performance on three activity classes level walking, going upstairs and going downstairs. Finally we present an approach to a placement-invariant classification model and discuss the benefit for a bipedal sensing setup.
+ER  - 
+TY  - CONF
+JO  - Computers & Informatics (ISCI), 2011 IEEE Symposium on
+TI  - Recognizing user activity based on accelerometer data from a mobile phone
+T2  - Computers & Informatics (ISCI), 2011 IEEE Symposium on
+IS  - 
+SN  - 
+VO  - 
+SP  - 617
+EP  - 621
+AU  - Ayu, M.A.
+AU  - Mantoro, T.
+AU  - Matin, A.F.A.
+AU  - Basamh, S.S.O.
+Y1  - 20-23 March 2011
+PY  - 2011
+KW  - accelerometers
+KW  - mobile computing
+KW  - mobile handsets
+KW  - activity recognition
+KW  - context aware computing
+KW  - mobile phone
+KW  - ubiquitous computing
+KW  - wearable accelerometer
+VL  - 
+JA  - Computers & Informatics (ISCI), 2011 IEEE Symposium on
+DOI  - 10.1109/ISCI.2011.5958987
+AB  - Activity recognition refers to the ability of a machine/device to recognize the activity of users. This area of research has attracted many works especially related to the context aware and ubiquitous computing area. Wearable accelerometers have been explored for this activity recognition purpose; however the impracticality of attaching accelerometers to the user presents significant issues. Accelerometers today are embedded in many mobile devices. This paper explores the potential and possibility of using these accelerometer data to determine user activity recognition. The initial experiments show encouraging results with a very good accuracy rate of 92%. A simple prototype developed supports the implementation of the recognition process conducted.
+ER  - 
+TY  - CONF
+JO  - Engineering in Medicine and Biology Society,EMBC, 2011 Annual International Conference of the IEEE
+TI  - Change-of-state determination to recognize mobility activities using a BlackBerry smartphone
+T2  - Engineering in Medicine and Biology Society,EMBC, 2011 Annual International Conference of the IEEE
+IS  - 
+SN  - 1557-170X
+VO  - 
+SP  - 5252
+EP  - 5255
+AU  - Hui Hsien Wu
+AU  - Lemaire, E.D.
+AU  - Baddour, N.
+Y1  - Aug. 30 2011-Sept. 3 2011
+PY  - 2011
+KW  - accelerometers
+KW  - bioelectric potentials
+KW  - biomechanics
+KW  - biomedical optical imaging
+KW  - decision trees
+KW  - feature extraction
+KW  - medical image processing
+KW  - patient monitoring
+KW  - patient rehabilitation
+KW  - smart phones
+KW  - video recording
+KW  - wearable computers
+KW  - BlackBerry 9550
+KW  - BlackBerry smartphone
+KW  - BlackBerry video recording
+KW  - GPS
+KW  - change-of-state determination
+KW  - decision tree
+KW  - feature extraction
+KW  - meal preparation
+KW  - mobility activity recognition
+KW  - proof-of-concept system
+KW  - rehabilitation decision making
+KW  - static activity
+KW  - three axes accelerometer
+KW  - timer
+KW  - video camera
+KW  - walking
+KW  - wearable mobility monitoring system
+VL  - 
+JA  - Engineering in Medicine and Biology Society,EMBC, 2011 Annual International Conference of the IEEE
+DOI  - 10.1109/IEMBS.2011.6091299
+AB  - A Wearable Mobility Monitoring System (WMMS) can be a useful tool for rehabilitation decision-making. This paper presents preliminary design and evaluation of a WMMS proof-of-concept system. Software was developed for the BlackBerry 9550, using the integrated three axes accelerometer, GPS, video camera, and timer to identify mobility changes-of-state (CoS) between static activities, walking-related activities, taking an elevator, bathroom activities, working in the kitchen, and meal preparation (five able-bodied subjects). This pilot project provides insight into new algorithms and features that recognize CoS and activities in real-time. Following features extraction from the sensor data, two decision trees were used to distinguish the CoS and activities. Real-time CoS identification triggered BlackBerry video recording for improved mobility context analysis during post-processing.
+ER  - 
+TY  - CONF
+JO  - Neural Networks (IJCNN), The 2010 International Joint Conference on
+TI  - Ambient living activity recognition based on feature-set ranking using intelligent systems
+T2  - Neural Networks (IJCNN), The 2010 International Joint Conference on
+IS  - 
+SN  - 1098-7576
+VO  - 
+SP  - 1
+EP  - 4
+AU  - Ba&#x00F1;os, O.
+AU  - Pomares, H.
+AU  - Rojas, I.
+Y1  - 18-23 July 2010
+PY  - 2010
+KW  - knowledge acquisition
+KW  - statistical analysis
+KW  - tree searching
+KW  - ambient living activity recognition
+KW  - e-health
+KW  - e-monitoring
+KW  - feature selection
+KW  - feature-set ranking
+KW  - intelligent systems
+KW  - knowledge extraction
+KW  - multidimensional space
+KW  - seminaturalistic activity
+VL  - 
+JA  - Neural Networks (IJCNN), The 2010 International Joint Conference on
+DOI  - 10.1109/IJCNN.2010.5596635
+AB  - E-health and e-monitoring have become an increasingly important area during recent years, being the recognition of motion, postures and physical exercises one of the main topics. In this kind of problem is common to work with a huge training data set in a multidimensional space, so feature selection is absolutely necessary. Most works are based on knowledge extraction using features which permit to make decisions about the activity realized, being feature selection the most critical stage. Conventional feature selection procedures based on wrapper methods or `branch and bound' are highly computationally expensive. In this work, we propose an alternative filter method using a feature-set ranking via a couple of two statistical criteria, which achieves remarkable accuracy rates in the classification process. We demonstrate the usefulness of our method on both laboratory and seminaturalistic activity ambient living datasets for real problems.
+ER  - 
+TY  - CONF
+JO  - Software, Knowledge Information, Industrial Management and Applications (SKIMA), 2011 5th International Conference on
+TI  - Activity classification using a single wrist-worn accelerometer
+T2  - Software, Knowledge Information, Industrial Management and Applications (SKIMA), 2011 5th International Conference on
+IS  - 
+SN  - 
+VO  - 
+SP  - 1
+EP  - 6
+AU  - Chernbumroong, S.
+AU  - Atkins, A.S.
+AU  - Hongnian Yu
+Y1  - 8-11 Sept. 2011
+PY  - 2011
+KW  - accelerometers
+KW  - decision trees
+KW  - neural nets
+KW  - signal classification
+KW  - artificial neural network
+KW  - automatic activity classification
+KW  - automatic activity recognition
+KW  - decision tree C4.5
+KW  - human activity automatic identification
+KW  - sensor technology
+KW  - single wrist-worn accelerometer
+VL  - 
+JA  - Software, Knowledge Information, Industrial Management and Applications (SKIMA), 2011 5th International Conference on
+DOI  - 10.1109/SKIMA.2011.6089975
+AB  - Automatic identification of human activity has led to a possibility of providing personalised services in different domains i.e. healthcare, security and sport etc. With advancement in sensor technology, automatic activity recognition can be done in an unobtrusive and non-intrusive way. The placement of the sensor and wearability are ones of vital keys in the successful activity recognition of free space livings. Experiments were carried out to investigate the use of a single wrist-worn accelerometer for automatic activity classification. The performances of two classification algorithms namely Decision Tree C4.5 and Artificial Neural Network were compared using four different sets of features to classify five daily living activities. The result revealed that Decision Tree C4.5 has outperformed Neural Network regardless of the different sets of features used. The best classification result was achieved using the set containing the most popular and accurate features i.e. mean, minimum, energy and sample differences etc. The best accuracy of 94.13% was achieved using only wrist-worn accelerometer showing a possibility of automatic activity classification with no movement constrain, discomfort and stigmatisation caused by the sensor.
+ER  - 
+TY  - CONF
+JO  - Consumer Electronics - Berlin (ICCE-Berlin), 2011 IEEE International Conference on
+TI  - A mobile proposal for frailty monitoring by rehabilitation and physical daily activity
+T2  - Consumer Electronics - Berlin (ICCE-Berlin), 2011 IEEE International Conference on
+IS  - 
+SN  - 
+VO  - 
+SP  - 176
+EP  - 180
+AU  - Bravo, J.
+AU  - Navarro, F.J.
+AU  - Fontecha, J.
+AU  - Hervas, R.
+Y1  - 6-8 Sept. 2011
+PY  - 2011
+KW  - accelerometers
+KW  - biomechanics
+KW  - biomedical equipment
+KW  - geriatrics
+KW  - patient diagnosis
+KW  - patient monitoring
+KW  - patient rehabilitation
+KW  - elderly people
+KW  - frailty index diagnosis
+KW  - frailty monitoring
+KW  - mobile phone-accelerometer
+KW  - patient rehabilitation
+KW  - physical daily activity
+VL  - 
+JA  - Consumer Electronics - Berlin (ICCE-Berlin), 2011 IEEE International Conference on
+DOI  - 10.1109/ICCE-Berlin.2011.6031839
+AB  - Frailty refers to a condition in which elderly people have medical and social problems, determining the index of vulnerability. This process begins by presenting a reduction in the ability to care for oneself. It is caused by characteristics like shrinking, weakness, poor endurance, slowness or low activity levels. In this work we present a proposal for frailty monitoring through the control of rehabilitation and daily activities. After the frailty index diagnosis, elderly people are continuously monitoring by using a mobile phone-accelerometer enabled. Only, carrying this device all day, it is possible to control daily activities, recommending rehabilitation exercises and checking whether there could be a risk according to the frailty index.
+ER  - 
+TY  - CONF
+JO  - Pervasive Computing Technologies for Healthcare (PervasiveHealth), 2011 5th International Conference on
+TI  - PEAR: Power efficiency through activity recognition (for ECG-based sensing)
+T2  - Pervasive Computing Technologies for Healthcare (PervasiveHealth), 2011 5th International Conference on
+IS  - 
+SN  - 
+VO  - 
+SP  - 115
+EP  - 122
+AU  - Feng-Tso Sun
+AU  - Kuo, C.
+AU  - Griss, M.
+Y1  - 23-26 May 2011
+PY  - 2011
+KW  - body sensor networks
+KW  - decision trees
+KW  - electrocardiography
+KW  - health care
+KW  - medical signal processing
+KW  - ubiquitous computing
+KW  - ECG-based body sensor network
+KW  - PEAR
+KW  - RR interval extraction
+KW  - SHIMMER sensor node
+KW  - activity-aware energy model
+KW  - coarse-grained decision tree-based activity classifier
+KW  - pervasive health applications
+KW  - physiological signals
+KW  - power efficiency through activity recognition
+VL  - 
+JA  - Pervasive Computing Technologies for Healthcare (PervasiveHealth), 2011 5th International Conference on
+DOI  - 
+AB  - The PEAR (Power Efficiency though Activity Recognition) framework is presented using an ECG-based body sensor network as a case study. PEAR addresses real-world challenges in continuously monitoring physiological signals. PEAR leverages a wearable sensor's embedded processing power to conserve energy resources. This is accomplished by performing some data processing on the sensor and reducing the overhead of wireless data transmission. A coarse-grained decision tree-based activity classifier was implemented on a sensor node to recognize the sensor wearer's activity level. Using the wearer's activity level, the sensor dynamically manages its activities-sampling of the ECG sensor, processing of the data, and wireless transmission - to minimize overall power consumption. This paper describes the design and implementation of RR interval extraction and activity recognition modules on a SHIMMER sensor node. An activity-aware energy model is presented along with energy profiling results. The level of energy conservation varies with a wearer's level of activity, and a sensitivity analysis shows that PEAR's advantage over standard body sensor network architectures increases with more activity. In a user study, our participants were active 18%-28% of the time. Based on this level of activity, our implementation of PEAR increases battery life up to 2.5 times when compared to conventional ECG sensing approaches. This approach is applicable to a broad range of pervasive health applications that incorporate continuous monitoring of physiological signals.
+ER  - 
+TY  - CONF
+JO  - Wearable Computers (ISWC), 2011 15th Annual International Symposium on
+TI  - What Can an Arm Holster Worn Smart Phone Do for Activity Recognition?
+T2  - Wearable Computers (ISWC), 2011 15th Annual International Symposium on
+IS  - 
+SN  - 1550-4816
+VO  - 
+SP  - 79
+EP  - 82
+AU  - Muehlbauer, M.
+AU  - Bahle, G.
+AU  - Lukowicz, P.
+Y1  - 12-15 June 2011
+PY  - 2011
+KW  - acceleration measurement
+KW  - inertial systems
+KW  - mobile handsets
+KW  - motion measurement
+KW  - sensors
+KW  - NULL class dominated continuous data stream
+KW  - arm dominated activity recognition
+KW  - arm holster
+KW  - arm motion monitoring
+KW  - gym exercise
+KW  - smart phone
+KW  - user independent recognition
+VL  - 
+JA  - Wearable Computers (ISWC), 2011 15th Annual International Symposium on
+DOI  - 10.1109/ISWC.2011.23
+AB  - While mobile phones are increasingly being used in activity recognition, tasks that require arm motion monitoring have so far not been studied on phone platforms. We leverage the fact that upper arm holsters are an increasingly popular way of wearing mobile devices during physical exercise to investigate the suitability of such platforms for arm dominated activity recognition. We focus on (1) user independent recognition from (2) a NULL class dominated, continuous data stream and (3) requiring no special care in device attachment (apart from being placed in a commercial holster). These are 3 key requirements for a realization in a real life mobile "App". We evaluate our methods on a gym exercises data set from 7 users that contains 11'000 individual repetitions of 10 different upper body exercises organized in 700 "sets" (=consecutive repetitions of the same exercise). On set level we achieve a user independent recognition of 93.6%. In over 90% of cases we can also count individual instances with an accuracy of &#x00B1;20%.
+ER  - 
+TY  - CONF
+JO  - Intelligent Environments (IE), 2011 7th International Conference on
+TI  - Accelerometer Placement for Posture Recognition and Fall Detection
+T2  - Intelligent Environments (IE), 2011 7th International Conference on
+IS  - 
+SN  - 
+VO  - 
+SP  - 47
+EP  - 54
+AU  - Gjoreski, H.
+AU  - Lustrek, M.
+AU  - Gams, M.
+Y1  - 25-28 July 2011
+PY  - 2011
+KW  - accelerometers
+KW  - ultra wideband technology
+KW  - accelerometer placement
+KW  - fall detection
+KW  - location based system
+KW  - posture recognition
+KW  - standalone task
+KW  - ultra wide band location sensors
+VL  - 
+JA  - Intelligent Environments (IE), 2011 7th International Conference on
+DOI  - 10.1109/IE.2011.11
+AB  - This paper presents an approach to fall detection with accelerometers that exploits posture recognition to identify postures that may be the result of a fall. Posture recognition as a standalone task was also studied. Nine placements of up to four sensors were considered: on the waist, chest, thigh and ankle. The results are compared to the results of a system using ultra wide band location sensors on a scenario consisting of events difficult to recognize as falls or non-falls. Three accelerometers proved sufficient to correctly recognize all the events except one(a slow fall). The location-based system was comparable to two accelerometers, except that it was able to recognize the slow fall because it resulted in lying outside the bed, whose location was known to the system. One accelerometer was able to recognize only the most clear-cut fall. Two accelerometers achieved over 90% accuracy of posture recognition, which was better than the location-based system. Chest and waist accelerometers proved best at both tasks, with the chest accelerometer having a slight advantage in posture recognition.
+ER  - 
+TY  - CONF
+JO  - Engineering in Medicine and Biology Society,EMBC, 2011 Annual International Conference of the IEEE
+TI  - A system for activity recognition using multi-sensor fusion
+T2  - Engineering in Medicine and Biology Society,EMBC, 2011 Annual International Conference of the IEEE
+IS  - 
+SN  - 1557-170X
+VO  - 
+SP  - 7869
+EP  - 7872
+AU  - Lei Gao
+AU  - Bourke, A.K.
+AU  - Nelson, J.
+Y1  - Aug. 30 2011-Sept. 3 2011
+PY  - 2011
+KW  - Bayes methods
+KW  - calibration
+KW  - feature extraction
+KW  - medical signal processing
+KW  - sensor fusion
+KW  - Naive Bayes classifier
+KW  - activity recognition
+KW  - calibration drift
+KW  - multisensor fusion
+VL  - 
+JA  - Engineering in Medicine and Biology Society,EMBC, 2011 Annual International Conference of the IEEE
+DOI  - 10.1109/IEMBS.2011.6091939
+AB  - This paper proposes a system for activity recognition using multi-sensor fusion. In this system, four sensors are attached to the waist, chest, thigh, and side of the body. In the study we present two solutions for factors that affect the activity recognition accuracy: the calibration drift and the sensor orientation changing. The datasets used to evaluate this system were collected from 8 subjects who were asked to perform 8 scripted normal activities of daily living (ADL), three times each. The Nai&#x0308;ve Bayes classifier using multi-sensor fusion is adopted and achieves 70.88%-97.66% recognition accuracies for 1-4 sensors.
+ER  - 
+TY  - CONF
+JO  - Intelligent Networking and Collaborative Systems (INCoS), 2011 Third International Conference on
+TI  - Implementation of Activity Recognition from Accelerometers on Mobile Phones
+T2  - Intelligent Networking and Collaborative Systems (INCoS), 2011 Third International Conference on
+IS  - 
+SN  - 
+VO  - 
+SP  - 346
+EP  - 347
+AU  - Hirakawa, G.
+AU  - Nwe, T.T.
+AU  - Hattori, Y.
+AU  - Inoue, S.
+Y1  - Nov. 30 2011-Dec. 2 2011
+PY  - 2011
+KW  - accelerometers
+KW  - learning (artificial intelligence)
+KW  - mobile computing
+KW  - ALKAN
+KW  - accelerometers
+KW  - activity information gathering system
+KW  - activity recognition algorithm
+KW  - client system
+KW  - machine learning
+KW  - mobile phones
+KW  - server system
+VL  - 
+JA  - Intelligent Networking and Collaborative Systems (INCoS), 2011 Third International Conference on
+DOI  - 10.1109/INCoS.2011.103
+AB  - In this paper, we propose an experimental implementation of activity recognition feature on the activity information gathering system named ALKAN. In this experiment, we develop activity recognition algorithm using machine learning on server system, and port it onto client system on mobile phone. We also confirmed the feasibility of real-time activity recognition with actual mobile phone.
+ER  - 
+TY  - CONF
+JO  - Signal Processing Algorithms, Architectures, Arrangements, and Applications Conference Proceedings (SPA), 2009
+TI  - Accelerometer signal pre-processing influence on human activity recognition
+T2  - Signal Processing Algorithms, Architectures, Arrangements, and Applications Conference Proceedings (SPA), 2009
+IS  - 
+SN  - 
+VO  - 
+SP  - 95
+EP  - 99
+AU  - Maziewski, P.
+AU  - Kupryjanow, A.
+AU  - Kaszuba, K.
+AU  - Czyzewski, A.
+Y1  - 24-26 Sept. 2009
+PY  - 2009
+KW  - accelerometers
+KW  - biomechanics
+KW  - biomedical measurement
+KW  - data acquisition
+KW  - filtering theory
+KW  - medical signal processing
+KW  - accelerometer-based human activity recognition algorithms
+KW  - data preprocessing
+KW  - frequency band
+KW  - signal filtering
+KW  - signal preprocessing
+VL  - 
+JA  - Signal Processing Algorithms, Architectures, Arrangements, and Applications Conference Proceedings (SPA), 2009
+DOI  - 
+AB  - A study of data pre-processing influence on accelerometer-based human activity recognition algorithms is presented. The frequency band used to filter-out the accelerometer signals and the number of accelerometers involved were considered in terms of their influence on the recognition accuracy.
+ER  - 
+TY  - CONF
+JO  - Instrumentation and Measurement Technology Conference (I2MTC), 2011 IEEE
+TI  - Hamon: An activity recognition framework for health monitoring support at home
+T2  - Instrumentation and Measurement Technology Conference (I2MTC), 2011 IEEE
+IS  - 
+SN  - 1091-5281
+VO  - 
+SP  - 1
+EP  - 5
+AU  - Alhamid, M.F.
+AU  - Saboune, J.
+AU  - Alamri, A.
+AU  - El Saddik, A.
+Y1  - 10-12 May 2011
+PY  - 2011
+KW  - accelerometers
+KW  - belief networks
+KW  - feedback
+KW  - health care
+KW  - information storage
+KW  - medical information systems
+KW  - patient monitoring
+KW  - pattern classification
+KW  - sensors
+KW  - telemedicine
+KW  - Bayesian network
+KW  - Hamon framework
+KW  - K-nearest neighbor classifier
+KW  - KNN classifier
+KW  - accelerometer signal
+KW  - activity recognition algorithm
+KW  - alert generation
+KW  - context information storage
+KW  - data storage
+KW  - feedback
+KW  - health monitoring support
+KW  - health signs and activity recognition monitoring framework
+KW  - medical sever
+KW  - off-the-shelf sensor
+VL  - 
+JA  - Instrumentation and Measurement Technology Conference (I2MTC), 2011 IEEE
+DOI  - 10.1109/IMTC.2011.5944206
+AB  - In this paper, we introduce a Health signs and Activity recognition MONitoring framework (Hamon). Hamon, of German origin meaning a home protector, is designed to be an enabling prototype for health monitoring applications. As one of the possible applications, we implemented an activity detection prototype using off-the-shelf sensors. The new activity recognition algorithm we present here is based on accelerometers signals, a K-nearest neighbor (KNN) classifier and a Bayesian network. The framework collects and analyzes sensory data in real-time, and provides different feedback to the users. In addition, it can generate alerts based on the detected events and store the data collected to a medical sever. Context information such as the weather condition, the type of activity, and physiological data collected such as the heart rate, is also integrated in the framework.
+ER  - 
+TY  - CONF
+JO  - Telecommunications and Signal Processing (TSP), 2011 34th International Conference on
+TI  - Detection of daily movements from data collected with two tri-axial accelerometers
+T2  - Telecommunications and Signal Processing (TSP), 2011 34th International Conference on
+IS  - 
+SN  - 
+VO  - 
+SP  - 376
+EP  - 380
+AU  - Ioana-Iuliana, F.
+AU  - Rodica-Elena, D.
+Y1  - 18-20 Aug. 2011
+PY  - 2011
+KW  - accelerometers
+KW  - biomechanics
+KW  - biomedical measurement
+KW  - data acquisition
+KW  - pattern classification
+KW  - classifier design
+KW  - daily movements data
+KW  - data collection
+KW  - hip
+KW  - right leg
+KW  - tri axial accelerometers
+VL  - 
+JA  - Telecommunications and Signal Processing (TSP), 2011 34th International Conference on
+DOI  - 10.1109/TSP.2011.6043706
+AB  - This paper presents a design for a classifier using detection and classification of eight daily movements data collected with two tri-axial accelerometers, one mounted on the right part of the hip and the other one mounted on the lower part of the right leg. This classifier gave good accuracy of 99.8% in controlled laboratory experiments, in which four healthy subjects carried out a set of eight basic movements.
+ER  - 
+TY  - CONF
+JO  - Wearable Computers, 2007 11th IEEE International Symposium on
+TI  - Using FSR based muscule activity monitoring to recognize manipulative arm gestures
+T2  - Wearable Computers, 2007 11th IEEE International Symposium on
+IS  - 
+SN  - 
+VO  - 
+SP  - 45
+EP  - 48
+AU  - Ogris, G.
+AU  - Kreil, M.
+AU  - Lukowicz, P.
+Y1  - 11-13 Oct. 2007
+PY  - 2007
+KW  - force sensors
+KW  - gesture recognition
+KW  - monitoring
+KW  - resistors
+KW  - wearable computers
+KW  - FSR based muscule activity monitoring
+KW  - accelerometer
+KW  - activity recognition
+KW  - arm mounted force sensitive resistors
+KW  - leg muscles
+KW  - manipulative arm gesture recognition
+KW  - muscle activity monitoring
+KW  - muscle monitoring information
+VL  - 
+JA  - Wearable Computers, 2007 11th IEEE International Symposium on
+DOI  - 10.1109/ISWC.2007.4373776
+AB  - We present an experiment that investigates the usefulness of muscle monitoring information from arm mounted force sensitive resistors (FSR) for activity recognition. The paper is motivated by previous work that has demonstrated the feasibility of using FSRs for muscle activity monitoring (on leg muscles) and presented some initial signals related to distinct arm activities. We systematically investigate the performance of an FSR system on 16 different manipulative gestures and 2 subjects. The aim is to test the limits of the system, compare them to established sensing modalities (3D acceleration and gyro), and establish the value of combining FSR with other sensing modalities. We also present a hardware setup that addresses key problems that were identified in previous work: large variations in the attachment force and sensor placement accuracy issues. For all classifiers the overall accuracy of the FSR system is in the middle between the accelerometer (between 5% and 10% better) and the gyro (between 2% and 11% worse). Adding FSRs to another sensor improves the accuracy by 1% to 29%.
+ER  - 
+TY  - CONF
+JO  - Engineering in Medicine and Biology Society (EMBC), 2010 Annual International Conference of the IEEE
+TI  - A single tri-axial accelerometer-based real-time personal life log system capable of activity classification and exercise information generation
+T2  - Engineering in Medicine and Biology Society (EMBC), 2010 Annual International Conference of the IEEE
+IS  - 
+SN  - 1557-170X
+VO  - 
+SP  - 1390
+EP  - 1393
+AU  - Myong-Woo Lee
+AU  - Khan, A.M.
+AU  - Ji-Hwan Kim
+AU  - Young-Sun Cho
+AU  - Tae-Seong Kim
+Y1  - Aug. 31 2010-Sept. 4 2010
+PY  - 2010
+KW  - accelerometers
+KW  - biomechanics
+KW  - biomedical equipment
+KW  - biomedical measurement
+KW  - health care
+KW  - medical information systems
+KW  - medical signal processing
+KW  - neural nets
+KW  - signal classification
+KW  - activity classification
+KW  - activity duration
+KW  - autoregressive coefficients
+KW  - e-health services
+KW  - energy expenditure
+KW  - exercise information generation
+KW  - hierarchical artificial neural network classifier
+KW  - linear discriminant analysis
+KW  - metabolic equivalents
+KW  - real-time personal life log system
+KW  - signal magnitude area
+KW  - single tri-axial accelerometer
+KW  - step count
+KW  - tilt angles
+KW  - u-lifecare
+KW  - walking distance
+KW  - walking speed
+KW  - Acceleration
+KW  - Actigraphy
+KW  - Activities of Daily Living
+KW  - Exercise
+KW  - Health Records, Personal
+KW  - Humans
+KW  - Information Storage and Retrieval
+KW  - Medical Records Systems, Computerized
+KW  - Monitoring, Ambulatory
+VL  - 
+JA  - Engineering in Medicine and Biology Society (EMBC), 2010 Annual International Conference of the IEEE
+DOI  - 10.1109/IEMBS.2010.5626729
+AB  - Recording a personal life log (PLL) of daily activities is an emerging technology for u-lifecare and e-health services. In this paper, we present an accelerometer-based personal life log system capable of human activity classification and exercise information generation. In our system, we use a tri-axial accelerometer and a real-time activity recognition scheme in which a set of augmented features of accelerometer signals, processed with Linear Discriminant Analysis (LDA), is classified by our hierarchical artificial neural network classifier: in the lower level of the classifier, a state of an activity is recognized based on the statistical and spectral features; in the upper level, an activity is recognized with a set of augmented features including autoregressive (AR) coefficients, signal magnitude area (SMA), and tilt angles (TA). Upon the recognition of each activity, we further estimate exercise information such as energy expenditure based on Metabolic Equivalents (METS), step count, walking distance, walking speed, activity duration, etc. Our PLL system functions in real-time and all information generated from our system is archived in a daily-log database. By testing our system on seven different daily activities, we have obtained an average accuracy of 84.8% in activity recognition and generated their relative exercise information.
+ER  - 
+TY  - CONF
+JO  - e-Health Networking Applications and Services (Healthcom), 2010 12th IEEE International Conference on
+TI  - Accelerometer's position free human activity recognition using a hierarchical recognition model
+T2  - e-Health Networking Applications and Services (Healthcom), 2010 12th IEEE International Conference on
+IS  - 
+SN  - 
+VO  - 
+SP  - 296
+EP  - 301
+AU  - Khan, A.M.
+AU  - Lee, Y.K.
+AU  - Lee, S.Y.
+Y1  - 1-3 July 2010
+PY  - 2010
+KW  - accelerometers
+KW  - biomechanics
+KW  - biomedical measurement
+KW  - medical signal processing
+KW  - patient monitoring
+KW  - body-worn triaxial accelerometer
+KW  - cycling
+KW  - daily physical activities
+KW  - free human activity recognition
+KW  - hierarchical recognition model
+KW  - resting
+KW  - running
+KW  - walking downstairs
+KW  - walking upstairs
+VL  - 
+JA  - e-Health Networking Applications and Services (Healthcom), 2010 12th IEEE International Conference on
+DOI  - 10.1109/HEALTH.2010.5556553
+AB  - Monitoring of physical activities is a growing field with potential applications such as lifecare and healthcare. Accelerometry shows promise in providing an inexpensive but effective means of long-term activity monitoring of elderly patients. However, even for the same physical activity the output of any body-worn Triaxial Accelerometer (TA) varies at different positions of a subject's body, resulting in a high within-class variance. Thus almost all existing TA-based human activity recognition systems require firm attachment of TA to a specific body part, making them impractical for long-term activity monitoring during unsupervised free living. Therefore, we present a novel hierarchical recognition model that can recognize human activities independent of TA's position along a human body. The proposed model minimizes the high within-class variance significantly and allows subjects to carry TA freely in any pocket without attaching it firmly to a body-part. We validated our model using six daily physical activities: resting (sit/stand), walking, walk-upstairs, walk-downstairs, running, and cycling. Activity data is collected from four most probable body positions of TA: chest pocket, front trousers pocket, rear trousers pocket, and inner jacket pocket. The average accuracy of about 95% illustrates the effectiveness of the proposed method.
+ER  - 
+TY  - CONF
+JO  - Global Telecommunications Conference, 2009. GLOBECOM 2009. IEEE
+TI  - Movement Recognition Using Body Area Networks
+T2  - Global Telecommunications Conference, 2009. GLOBECOM 2009. IEEE
+IS  - 
+SN  - 1930-529X
+VO  - 
+SP  - 1
+EP  - 6
+AU  - Varkey, J.P.
+AU  - Pompili, D.
+Y1  - Nov. 30 2009-Dec. 4 2009
+PY  - 2009
+KW  - accelerometers
+KW  - biomechanics
+KW  - body area networks
+KW  - learning (artificial intelligence)
+KW  - medical computing
+KW  - patient monitoring
+KW  - accelerometers
+KW  - body area networks
+KW  - fitness monitoring
+KW  - geriatric care
+KW  - health monitoring
+KW  - machine learning algorithm
+KW  - movement granularity
+KW  - movement recognition
+KW  - rehabilitation
+KW  - smoking activity
+KW  - sports medicine
+VL  - 
+JA  - Global Telecommunications Conference, 2009. GLOBECOM 2009. IEEE
+DOI  - 10.1109/GLOCOM.2009.5425290
+AB  - Significant research has been done on recognizing the daily activities using acceleration data but few works have focused on classifying the movements comprising an activity due to the shorter time scales of the movements compared to that of an activity. Recognizing the individual movements within an activity can help improve the activity recognition on the whole by using the extra information from the movement granularity. Also, for many applications such as rehabilitation, sports medicine, geriatric care, and health/fitness monitoring the importance of movement recognition cannot be overlooked. Hence, in this paper a novel machine learning algorithm using body area networks is proposed that can on the fly, jointly classify the type of movements, and starting and finishing instant of each movement within an activity. A case study on the best set of features and minimum number of accelerometers needed to correctly classify movements within a smoking activity is also presented.
+ER  - 
+TY  - CONF
+JO  - Multimedia and Expo (ICME), 2011 IEEE International Conference on
+TI  - Heterogeneous multimodal sensors based activity recognition system
+T2  - Multimedia and Expo (ICME), 2011 IEEE International Conference on
+IS  - 
+SN  - 1945-7871
+VO  - 
+SP  - 1
+EP  - 4
+AU  - Qiong Ning
+AU  - Yiqiang Chen
+AU  - Junfa Liu
+AU  - Huiguo Zhang
+Y1  - 11-15 July 2011
+PY  - 2011
+KW  - gesture recognition
+KW  - groupware
+KW  - medical information systems
+KW  - pattern classification
+KW  - activity recognition system
+KW  - collaborative classifier combination
+KW  - collaborative classifier training
+KW  - collaborative data collection
+KW  - e-health field
+KW  - heterogeneous multimodal sensors
+VL  - 
+JA  - Multimedia and Expo (ICME), 2011 IEEE International Conference on
+DOI  - 10.1109/ICME.2011.6012091
+AB  - Activity recognition system is the key part in E-Health field. Traditional system needs more labeled training data to meet higher recognition accuracy. This means more calibration effort and time consumption. In this paper, with collaboration of heterogeneous multimodal sensors like a microphone, a camera and an accelerometer etc, we propose to design and implement a system to reduce the required amount of labeled data as well as achieve even better performance than tradition al systems. The system consists of three phases: collaborative data collection, collaborative classifier training and collaborative classifier combination. The experimental results validate that with only 9% labeled data, our system can obtain as high accuracy as other systems which use 100% unimodal labeled data.
+ER  - 
+TY  - CONF
+JO  - Consumer Electronics (ICCE), 2011 IEEE International Conference on
+TI  - Enabling a gesture-based numeric input on mobile phones
+T2  - Consumer Electronics (ICCE), 2011 IEEE International Conference on
+IS  - 
+SN  - 2158-3994
+VO  - 
+SP  - 151
+EP  - 152
+AU  - Jiho Choi
+AU  - Kyohyun Song
+AU  - Seongil Lee
+Y1  - 9-12 Jan. 2011
+PY  - 2011
+KW  - gesture recognition
+KW  - mobile handsets
+KW  - tactile sensors
+KW  - acceleration sensor
+KW  - activity-recognition-based system
+KW  - flipping
+KW  - gesture-based numeric input
+KW  - mobile phone
+KW  - numeric code
+KW  - probabilistic inference model
+KW  - shaking
+KW  - tapping
+KW  - touch-based smart phone
+VL  - 
+JA  - Consumer Electronics (ICCE), 2011 IEEE International Conference on
+DOI  - 10.1109/ICCE.2011.5722511
+AB  - We designed a gesture-based numeric input scheme using a mobile phone equipped with an acceleration sensor. In the suggested scheme, users could key in numbers with a gesture input, instead of a traditional numeric keypad input. The numeric codes are expressed in certain series of gestures with a mobile phone, including tapping, flipping, and shaking. The scheme developed in this study is an activity-recognition-based system by which gestures are categorized through a pre-processing and a probabilistic inference model we developed. The people with visual disabilities who cannot see the screen can take advantage of the proposed scheme to enter numeric codes on most of currently available touch-based smart phones.
+ER  - 
+TY  - CONF
+JO  - Engineering in Medicine and Biology Society,EMBC, 2011 Annual International Conference of the IEEE
+TI  - Continuous monitoring of functional activities using wearable, wireless gyroscope and accelerometer technology
+T2  - Engineering in Medicine and Biology Society,EMBC, 2011 Annual International Conference of the IEEE
+IS  - 
+SN  - 1557-170X
+VO  - 
+SP  - 4844
+EP  - 4847
+AU  - Wagenaar, R.C.
+AU  - Sapir, I.
+AU  - Yuting Zhang
+AU  - Markovic, S.
+AU  - Vaina, L.M.
+AU  - Little, T.D.C.
+Y1  - Aug. 30 2011-Sept. 3 2011
+PY  - 2011
+KW  - Bluetooth
+KW  - accelerometers
+KW  - biomechanics
+KW  - biomedical measurement
+KW  - decision trees
+KW  - gyroscopes
+KW  - medical disorders
+KW  - patient monitoring
+KW  - accelerometer
+KW  - continuous functional activity monitors
+KW  - decision tree
+KW  - lying
+KW  - movement disorders
+KW  - sitting
+KW  - smartphone
+KW  - standing
+KW  - walking
+KW  - wearable FAM system
+KW  - wearable gyroscope
+KW  - wireless Bluetooth transmission capability
+KW  - wireless gyroscope
+VL  - 
+JA  - Engineering in Medicine and Biology Society,EMBC, 2011 Annual International Conference of the IEEE
+DOI  - 10.1109/IEMBS.2011.6091200
+AB  - The development of functional activity monitors (FAMs) will allow rehabilitation researchers and clinicians to evaluate treatment efficacy, to monitor compliance to exercise instructions, and to provide real time feedback in the treatment of movement disorders during the performance of daily activities. The purpose of the present study was to develop and test a small sized wearable FAM system comprised of three sensors positioned on the sternum and both thighs, wireless Bluetooth transmission capability to a smartphone, and computationally efficient activity detection algorithms for the accurate detection of functional activities. Each sensor was composed of a tri-axial accelerometer and a tri-axial gyroscope. Computationally efficient activity recognition algorithms were developed, using a sliding window of 1 second, the variability of the tilt angle time series and power spectral analysis. In addition, it includes a decision tree that identifies postures such as sitting, standing and lying, walking at comfortable, slow and fast speeds, transitions between these functional activities (e.g, sit-to-stand and stand-to-sit), activity duration and step frequency. In a research lab setting the output of the FAM system, video recordings and a 3D motion analysis system were compared in 10 healthy young adults. The results show that the agreement between the FAM system and the video recordings ranged from 98.10% to 100% for all postures, transfers and walking periods. There were no significant differences in activity durations and step frequency between measurement instruments.
+ER  - 
+TY  - CONF
+JO  - Advanced Intelligent Mechatronics, 2009. AIM 2009. IEEE/ASME International Conference on
+TI  - Wearable activity recognition for automatic microblog updates
+T2  - Advanced Intelligent Mechatronics, 2009. AIM 2009. IEEE/ASME International Conference on
+IS  - 
+SN  - 
+VO  - 
+SP  - 1720
+EP  - 1723
+AU  - Hao Tian
+AU  - Pang Lei
+AU  - Li Xingjuan
+AU  - Xing Shusong
+Y1  - 14-17 July 2009
+PY  - 2009
+KW  - hidden Markov models
+KW  - micromechanical devices
+KW  - social networking (online)
+KW  - wearable computers
+KW  - MEMS sensors
+KW  - accelerometers
+KW  - automatic microblog updates
+KW  - context information
+KW  - hidden Markov models
+KW  - social networking
+KW  - wearable activity recognition
+KW  - wearable computer
+VL  - 
+JA  - Advanced Intelligent Mechatronics, 2009. AIM 2009. IEEE/ASME International Conference on
+DOI  - 10.1109/AIM.2009.5229803
+AB  - Activity recognition system based on MEMS sensors and wearable computer can produce updates on microblog automatically and frequently. Miniature sensors like the accelerometers made with MEMS technologies can measure body movements continuously while GPS constrains activity recognition within a small set of possible activities. Context information about a person's activities is made into short text messages shared among group members in order to keep social networking. The work for identifying daily activities from inertial sensor data with hidden Markov models (HMMs) is described.
+ER  - 
+TY  - CONF
+JO  - Body Sensor Networks (BSN), 2011 International Conference on
+TI  - Detecting and Rectifying Anomalies in Body Sensor Networks
+T2  - Body Sensor Networks (BSN), 2011 International Conference on
+IS  - 
+SN  - 
+VO  - 
+SP  - 162
+EP  - 167
+AU  - Sagha, H.
+AU  - del R Millan, J.
+AU  - Chavarriaga, R.
+Y1  - 23-25 May 2011
+PY  - 2011
+KW  - sensors
+KW  - wearable computers
+KW  - activity recognition
+KW  - anomaly detection
+KW  - anomaly rectification
+KW  - body sensor networks
+KW  - onbody sensors
+KW  - sensor readings
+VL  - 
+JA  - Body Sensor Networks (BSN), 2011 International Conference on
+DOI  - 10.1109/BSN.2011.34
+AB  - Activity recognition using on body sensors are prone to degradation due to changes on sensor readings. The changes can occur because of degradation or alteration in the behaviour of the sensor with respect to the others. In this paper we propose a method which detects anomalous nodes in the network and takes compensatory actions to keep the performance of the system as high as possible while the system is running. We show on two activity datasets with different configurations of on body sensors that detection and compensation of anomalies make the system more robust against the changes.
+ER  - 
+TY  - CONF
+JO  - Mobile Data Management (MDM), 2011 12th IEEE International Conference on
+TI  - Towards a Robust Concurrent and Interleaved Activity Recognition of Mobile Users
+T2  - Mobile Data Management (MDM), 2011 12th IEEE International Conference on
+IS  - 
+SN  - 
+VO  - 1
+SP  - 297
+EP  - 298
+AU  - Saguna, S.
+AU  - Zaslavsky, A.
+AU  - Chakraborty, D.
+Y1  - 6-9 June 2011
+PY  - 2011
+KW  - mobile computing
+KW  - sensors
+KW  - body sensor information
+KW  - context information
+KW  - context-aware complex activity recognition system
+KW  - interleaved activity recognition
+KW  - mobile user activities
+KW  - mobile users
+KW  - social networking
+KW  - spatiotemporal analysis
+VL  - 1
+JA  - Mobile Data Management (MDM), 2011 12th IEEE International Conference on
+DOI  - 10.1109/MDM.2011.82
+AB  - This paper proposes a situation and context-aware complex activity recognition system where we use on-body sensor information along with other context information to infer mobile user activities which are both concurrent and interleaved. We develop and validate our complex activity recognition algorithm for detecting these multiple complex activities. Activities are mapped onto situations using spatio-temporal analysis. We further build a test-bed in the social-networking domain to test and validate our approach in different scenarios using mobile devices.
+ER  - 
+TY  - CONF
+JO  - Fuzzy Systems (FUZZ), 2011 IEEE International Conference on
+TI  - Real time recognition of human activities from wearable sensors by evolving classifiers
+T2  - Fuzzy Systems (FUZZ), 2011 IEEE International Conference on
+IS  - 
+SN  - 1098-7584
+VO  - 
+SP  - 2786
+EP  - 2793
+AU  - Andreu, J.
+AU  - Baruah, R.D.
+AU  - Angelov, P.
+Y1  - 27-30 June 2011
+PY  - 2011
+KW  - fuzzy set theory
+KW  - object recognition
+KW  - pattern classification
+KW  - principal component analysis
+KW  - ubiquitous computing
+KW  - LDA
+KW  - PCA
+KW  - eClass
+KW  - eHAR
+KW  - evolving self-learning fuzzy rule-based classifier
+KW  - linear discriminant analysis
+KW  - pervasive intelligence
+KW  - principle component analysis
+KW  - real-time human activity recognition
+KW  - wearable sensor
+VL  - 
+JA  - Fuzzy Systems (FUZZ), 2011 IEEE International Conference on
+DOI  - 10.1109/FUZZY.2011.6007595
+AB  - A new approach to real-time human activity recognition (HAR) using evolving self-learning fuzzy rule-based classifier (eClass) will be described in this paper. A recursive version of the principle component analysis (PCA) and linear discriminant analysis (LDA) pre-processing methods is coupled with the eClass leading to a new approach for HAR which does not require computation and time consuming pre-training and data from many subjects. The proposed new method for evolving HAR (eHAR) takes into account the specifics of each user and possible evolution in time of her/his habits. Data streams from several wearable devices which make possible to develop a pervasive intelligence enabling them to personalize/tune to the specific user were used for the experimental part of the paper.
+ER  - 
+TY  - CONF
+JO  - Internet of Things (iThings/CPSCom), 2011 International Conference on and 4th International Conference on Cyber, Physical and Social Computing
+TI  - Toward High-Level Activity Recognition from Accelerometers on Mobile Phones
+T2  - Internet of Things (iThings/CPSCom), 2011 International Conference on and 4th International Conference on Cyber, Physical and Social Computing
+IS  - 
+SN  - 
+VO  - 
+SP  - 225
+EP  - 231
+AU  - Inoue, Sozo
+AU  - Hattori, Yuichi
+Y1  - 19-22 Oct. 2011
+PY  - 2011
+VL  - 
+JA  - Internet of Things (iThings/CPSCom), 2011 International Conference on and 4th International Conference on Cyber, Physical and Social Computing
+DOI  - 10.1109/iThings/CPSCom.2011.98
+AB  - In this paper, we propose an unsupervised method for multi-level segmentation, which could be used for a pre-process of non-sequential activity recognition, and could construct a high-level activity recognition using accelerometers on mobile phones. We extend single-level segmentation to multi-level by sweeping the temporal parameter. To confirm the validity of our approach. we pursued the experiment of gathering accelerometer data of real nursing in a hospital. After the experiment and multi-level segmentation, we confirmed several phenomena to imply the validity of multi-level segmentation such that sequence seems to be properly segmented fitting to the annotations transcribed from the voice, that there are peaks of lower-level segment boundaries without higher-level boundaries, and that higher-level boundaries are not lower-level boundaries.
+ER  - 
+TY  - CONF
+JO  - Wearable Computers, 2008. ISWC 2008. 12th IEEE International Symposium on
+TI  - Adapting magnetic resonant coupling based relative positioning technology for wearable activitiy recogniton
+T2  - Wearable Computers, 2008. ISWC 2008. 12th IEEE International Symposium on
+IS  - 
+SN  - 1550-4816
+VO  - 
+SP  - 47
+EP  - 54
+AU  - Pirkl, G.
+AU  - Stockinger, K.
+AU  - Kunze, K.
+AU  - Lukowicz, P.
+Y1  - Sept. 28 2008-Oct. 1 2008
+PY  - 2008
+KW  - accelerometers
+KW  - gesture recognition
+KW  - image sensors
+KW  - magnetic field effects
+KW  - magnetic resonance
+KW  - motion estimation
+KW  - XSense in- ertial device
+KW  - accelerometer
+KW  - adapting magnetic resonant coupling
+KW  - modulated magnetic field technology
+KW  - relative positioning technology
+KW  - wearable activitiy recogniton
+VL  - 
+JA  - Wearable Computers, 2008. ISWC 2008. 12th IEEE International Symposium on
+DOI  - 10.1109/ISWC.2008.4911584
+AB  - We demonstrate how modulated magnetic field technology that is well established in high precision, stationary motion tracking systems can be adapted to wearable activity recognition. To this end we describe the design and implementation of a cheap (components cost about 20 Euro for the transmitter and 15 Euro for the receiver), low power (17 mA for the transmitter and 40 mA for the receiver), and easily wearable (the main size constraint are the coils which are about 25 mm<sup>3</sup>) system for tracking the relative position and orientation of body parts. We evaluate our system on two recognition tasks. On a set of 6 subtle nutrition related gestures it achieves 99.25% recognition rate compared to 94.1% for a XSense inertial device (operated calibrated, euler angle mode). On the recognition of 8 Tai Chi moves it reaches 94 % compared to 86% of an accelerometer. Combining our sensor with the accelerometer leads to 100% correct recognition (as compared to 90% when combining the accelerometer with a gyro).
+ER  - 
+TY  - CONF
+JO  - Computer and Information Technology, 2008. ICCIT 2008. 11th International Conference on
+TI  - Automatic Life-Logging: A novel approach to sense real-world activities by environmental sound cues and common sense
+T2  - Computer and Information Technology, 2008. ICCIT 2008. 11th International Conference on
+IS  - 
+SN  - 
+VO  - 
+SP  - 294
+EP  - 299
+AU  - Al Masum Shaikh, M.
+AU  - Molla, M.K.I.
+AU  - Hirose, K.
+Y1  - 24-27 Dec. 2008
+PY  - 2008
+KW  - mobile computing
+KW  - mobile handsets
+KW  - recording
+KW  - social networking (online)
+KW  - virtual reality
+KW  - automatic life-logging
+KW  - common sense
+KW  - daily life events
+KW  - environmental sound cues
+KW  - hand-held devices
+KW  - inference logic
+KW  - internet based communication
+KW  - mobile computing
+KW  - mobile media
+KW  - mobile phones
+KW  - multiple sensors
+KW  - personal memory
+KW  - social-network
+KW  - sound based activity recognition
+KW  - virtual worlds
+VL  - 
+JA  - Computer and Information Technology, 2008. ICCIT 2008. 11th International Conference on
+DOI  - 10.1109/ICCITECHN.2008.4803018
+AB  - There are many studies that collect and store life log for personal memory. The paper explains how a system can create someone's life log in an inexpensive way to share daily life events with family or friends through socialnetwork or messaging. In the modern world where people are usually busier than ever, family members are geographically distributed due to globalization of companies and humans are inundated with more information than they can process, ambient communications through mobile media or internet based communication can provide rich social connections to friends and family. People can stay connected to their loving ones ubiquitously that they care about by sharing awareness information in a passive way. For users who wish to have a persistent existence in a virtual world - to let their friends know about their current activity or to inform their caretakers - new technology is needed. Research that aims to bridge real life and the virtual worlds (e.g., Second Life, Face book etc.) to simulate virtual living or logging daily events, while challenging and promising, is currently rare. Only very recently the mapping of real-world activities to virtual worlds has been attempted by processing multiple sensors data along with inference logic for realworld activities. Detecting or inferring human activity using such simple sensor data is often inaccurate, insufficient and expensive. Hence, this paper proposes to infer human activity from environmental sound cues and common sense knowledge, which is an inexpensive alternative to other sensors (e.g., accelerometers) based approaches. Because of their ubiquity, we believe that mobile phones or hand-held devices (HHD) are ideal channels to achieve a seamless integration between the physical and virtual worlds. Therefore, the paper presents a prototype to log daily events by a mobile phone based application by inferring activities from environmental sound cues. To the best of our knowledge, this system pioneers the-
+-
+ use of environmental sound based activity recognition in mobile computing to reflect one's real-world activity in virtual worlds.
+ER  - 
+TY  - CONF
+JO  - Pervasive Computing and Communications, 2009. PerCom 2009. IEEE International Conference on
+TI  - Towards the combination of statistical and symbolic techniques for activity recognition
+T2  - Pervasive Computing and Communications, 2009. PerCom 2009. IEEE International Conference on
+IS  - 
+SN  - 
+VO  - 
+SP  - 1
+EP  - 2
+AU  - Riboni, D.
+Y1  - 9-13 March 2009
+PY  - 2009
+KW  - inference mechanisms
+KW  - ontologies (artificial intelligence)
+KW  - pattern classification
+KW  - statistical analysis
+KW  - ubiquitous computing
+KW  - activity recognition
+KW  - body-worn sensors
+KW  - complex activities
+KW  - context-aware system
+KW  - ontological reasoning
+KW  - physical activities
+KW  - statistical classifier
+KW  - statistical prediction
+KW  - statistical techniques
+KW  - symbolic constraints
+KW  - symbolic techniques
+VL  - 
+JA  - Pervasive Computing and Communications, 2009. PerCom 2009. IEEE International Conference on
+DOI  - 10.1109/PERCOM.2009.4912886
+AB  - Techniques for activity recognition are fundamental components of any context-aware system. Indeed, precise knowledge of the user's current activity is necessary in order to thoroughly tailor services to the user's context. To this aim, in the last years many research efforts have been devoted to devise statistical techniques for recognizing basic physical activities based on data retrieved from body- worn sensors. An intriguing research issue is how to integrate those statistical techniques with symbolic ones in order to i) refine statistical predictions, and ii) derive more complex activities. The intuition behind this research direction is that the current user's context (e.g., artifacts and persons in the user's surrounding environment) may give useful hints about the possible activities performed by the user herself. Given an ontology that models the addressed scenario, those hints can be automatically derived through ontological reasoning and used to refine the prediction of the statistical classifier. Moreover, ontological reasoning can be performed to derive complex activities described in terms of simpler activities and symbolic constraints about the user's context.
+ER  - 
+TY  - CONF
+JO  - Progress in Informatics and Computing (PIC), 2010 IEEE International Conference on
+TI  - Activity recognition from accelerometer signals based on Wavelet-AR model
+T2  - Progress in Informatics and Computing (PIC), 2010 IEEE International Conference on
+IS  - 
+SN  - 
+VO  - 1
+SP  - 499
+EP  - 502
+AU  - Zhenyu He
+Y1  - 10-12 Dec. 2010
+PY  - 2010
+KW  - accelerometers
+KW  - autoregressive processes
+KW  - feature extraction
+KW  - object recognition
+KW  - signal processing
+KW  - support vector machines
+KW  - wavelet transforms
+KW  - accelerometer signals
+KW  - activity recognition
+KW  - autoregressive model
+KW  - feature extraction
+KW  - human activities
+KW  - multiclass support vector machines
+KW  - signal decomposition
+KW  - triaxial acceleration signals
+KW  - wavelet transform
+KW  - wavelet-AR model
+VL  - 1
+JA  - Progress in Informatics and Computing (PIC), 2010 IEEE International Conference on
+DOI  - 10.1109/PIC.2010.5687572
+AB  - In this paper, a new Wavelet-AR feature for activity recognition from a tri-axial acceleration signals has been proposed. We use Wavelet Transform to decompose the raw accelerometer signals and obtain the decomposed signals that can efficiently discriminate the different activities. After that we build autoregressive (AR) model for the decomposed signals and extract the AR coefficients as features for activity recognition. As a consequence, Multi-class Support Vector Machines is used to distinguish different human activities. The average recognition results for four activities using the proposed Wavelet-AR features are 95.45%, which are better than traditional features. The results show that Wavelet-AR feature obvious discriminates different human activities and it can be extract as an effective feature for the recognition of accelerometer data.
+ER  - 
+TY  - CONF
+JO  - Embedded Systems for Real-Time Multimedia, 2008. ESTImedia 2008. IEEE/ACM/IFIP Workshop on
+TI  - Fast GPU-based space-time correlation for activity recognition in video sequences
+T2  - Embedded Systems for Real-Time Multimedia, 2008. ESTImedia 2008. IEEE/ACM/IFIP Workshop on
+IS  - 
+SN  - 
+VO  - 
+SP  - 33
+EP  - 38
+AU  - Rofouei, M.
+AU  - Moazeni, M.
+AU  - Sarrafzadeh, M.
+Y1  - 23-24 Oct. 2008
+PY  - 2008
+KW  - computer graphics
+KW  - computer vision
+KW  - image recognition
+KW  - image sequences
+KW  - video signal processing
+KW  - NVIDIA Quadro FX 5600 GPU
+KW  - activity recognition
+KW  - computer vision
+KW  - graphic processing units
+KW  - space-time correlation
+KW  - video browsing
+KW  - video indexing
+KW  - video sequences
+KW  - video surveillance
+VL  - 
+JA  - Embedded Systems for Real-Time Multimedia, 2008. ESTImedia 2008. IEEE/ACM/IFIP Workshop on
+DOI  - 10.1109/ESTMED.2008.4696991
+AB  - Action recognition is becoming an important component of many computer vision applications such as video surveillance, video indexing and browsing. However most of the space time approaches to action recognition are very computationally expensive which prevents us from using them in real-time applications. This paper describes how Graphic Processing Units (GPUs) can be used in the field of action recognition to speed up this process. We implement a space-time behavior based correlation scheme on NVIDIA Quadro FX 5600 GPU and gain a 50x speedup over its counterpart CPU implementation.
+ER  - 
+TY  - CONF
+JO  - Engineering in Medicine and Biology Society,EMBC, 2011 Annual International Conference of the IEEE
+TI  - Statistical data mining of streaming motion data for fall detection in assistive environments
+T2  - Engineering in Medicine and Biology Society,EMBC, 2011 Annual International Conference of the IEEE
+IS  - 
+SN  - 1557-170X
+VO  - 
+SP  - 3720
+EP  - 3723
+AU  - Tasoulis, S.K.
+AU  - Doukas, C.N.
+AU  - Maglogiannis, I.
+AU  - Plagianakos, V.P.
+Y1  - Aug. 30 2011-Sept. 3 2011
+PY  - 2011
+KW  - data mining
+KW  - patient monitoring
+KW  - activity recognition
+KW  - assistive environments
+KW  - audio sensor
+KW  - distress situations
+KW  - emergency event detection
+KW  - fall detection
+KW  - human motion data
+KW  - motion sensor
+KW  - statistical data mining
+KW  - streaming motion data
+KW  - video sensor
+VL  - 
+JA  - Engineering in Medicine and Biology Society,EMBC, 2011 Annual International Conference of the IEEE
+DOI  - 10.1109/IEMBS.2011.6090632
+AB  - The analysis of human motion data is interesting for the purpose of activity recognition or emergency event detection, especially in the case of elderly or disabled people living independently in their homes. Several techniques have been proposed for identifying such distress situations using either motion, audio or video sensors on the monitored subject (wearable sensors) or the surrounding environment. The output of such sensors is data streams that require real time recognition, especially in emergency situations, thus traditional classification approaches may not be applicable for immediate alarm triggering or fall prevention. This paper presents a statistical mining methodology that may be used for the specific problem of real time fall detection. Visual data captured from the user's environment, using overhead cameras along with motion data are collected from accelerometers on the subject's body and are fed to the fall detection system. The paper includes the details of the stream data mining methodology incorporated in the system along with an initial evaluation of the achieved accuracy in detecting falls.
+ER  - 
+TY  - CONF
+JO  - Wearable Computers, 2009. ISWC '09. International Symposium on
+TI  - An Analysis of Sensor-Oriented vs. Model-Based Activity Recognition
+T2  - Wearable Computers, 2009. ISWC '09. International Symposium on
+IS  - 
+SN  - 1550-4816
+VO  - 
+SP  - 93
+EP  - 100
+AU  - Zinnen, A.
+AU  - Blanke, U.
+AU  - Schiele, B.
+Y1  - 4-7 Sept. 2009
+PY  - 2009
+KW  - sensors
+KW  - ubiquitous computing
+KW  - user interfaces
+KW  - wearable computers
+KW  - accelerometer sensors
+KW  - context awareness
+KW  - model-based activity recognition
+KW  - sensor-oriented recognition
+KW  - user-independent activity recognition
+KW  - wearable computing
+VL  - 
+JA  - Wearable Computers, 2009. ISWC '09. International Symposium on
+DOI  - 10.1109/ISWC.2009.32
+AB  - Model-based activity recognition has been recently proposed as an alternative to signal-oriented recognition. Such model-based approaches seem attractive due to their ability to enable user-independent activity recognition and due to their improved robustness to signal-variation. The first goal of this paper is therefore to systematically analyze the benefit of body-model derived primitives in different sensor settings for multi activity recognition. Furthermore we propose a new body-model based approach using accelerometer sensors only thereby reducing the sensor requirements significantly. Results on a 20 activity dataset indicate that body-model based approaches consistently improve results over signal-oriented approaches.
+ER  - 
+TY  - JOUR
+JO  - Sensors Journal, IEEE
+TI  - Multiaxial Haar-Like Feature and Compact Cascaded Classifier for Versatile Recognition
+T2  - Sensors Journal, IEEE
+IS  - 11
+SN  - 1530-437X
+VO  - 10
+SP  - 1786
+EP  - 1795
+AU  - Nishimura, J.
+AU  - Kuroda, T.
+Y1  - Nov.  2010
+PY  - 2010
+KW  - image classification
+KW  - image recognition
+KW  - ubiquitous computing
+KW  - 3-D acceleration signals
+KW  - MFCC
+KW  - compact cascaded classifier
+KW  - dynamic look-up table
+KW  - image processing
+KW  - multiaxial Haar-like feature classifier
+KW  - pervasive computing
+KW  - redundant feature selection
+KW  - speech classification
+KW  - ubiquitous computing
+KW  - versatile recognition algorithm
+VL  - 10
+JA  - Sensors Journal, IEEE
+DOI  - 10.1109/JSEN.2010.2049740
+AB  - A versatile recognition algorithm has been proposed to process image, sound, and 3-D acceleration signals with a common framework at low calculation cost. Firstly, a novel 1-D Haar-like feature is used to roughly extract frequency information from temporal signals. Biaxial and mean-embedded Haar-like features are proposed to extract the standard deviation and the interaxial correlation from 3-D acceleration signals. Secondly, two techniques are proposed to build a compact cascaded classifier. Redundant feature selection (RFS) incorporates the features which are already selected in previous stage classifiers to reduce the calculation cost. A dynamic look-up table (DLUT) is proposed to construct a look-up table-based weak classifier with the smallest possible number of bins. A train loss function is by globally optimized using dynamic programming. The proposed algorithm is tested experimentally on speech/nonspeech classification and human activity recognition. The proposed algorithm yields a speech/nonspeech classification performance comparable to the state-of-art method called MFCC while reducing the calculation cost by 100 times. The algorithm also achieves human activity recognition accuracy of 96.1% with calculation cost reduction of 84% compared with the state-of-art method based on C4.5 decision-tree classifier using the basic statistical features. The proposed algorithm has been employed to build the versatile recognition processor.
+ER  - 
+

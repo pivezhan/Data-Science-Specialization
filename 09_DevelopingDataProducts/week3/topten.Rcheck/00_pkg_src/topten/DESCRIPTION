@@ -1,0 +1,11 @@
+Package: topten
+Type: Package
+Title: Building a prediction model from the top 10 features
+Version: 1.0
+Date: 2015-04-26
+Author: pivezhan
+Maintainer: pivezhan <m.pivezhandi@gmail.com>
+Description: function for building and prediction from model 
+License: GPL-3
+NeedsCompilation: no
+Packaged: 2015-04-26 12:54:11 UTC; lenovo

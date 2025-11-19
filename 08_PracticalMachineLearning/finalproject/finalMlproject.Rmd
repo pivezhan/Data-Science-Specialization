@@ -1,0 +1,53 @@
+---
+title: "PMLfinalproject"
+author: "mt"
+date: "Monday, May 25, 2015"
+output: html_document
+---
+
+This is final project of practical machine learning course first of all data doenloaded from here:
+
+The training data for this project are available here: 
+
+https://d396qusza40orc.cloudfront.net/predmachlearn/pml-training.csv
+
+The test data are available here: 
+
+https://d396qusza40orc.cloudfront.net/predmachlearn/pml-testing.csv
+
+
+```{r, comment=FALSE, results='hide',echo=TRUE}
+library(ISLR); library(ggplot2); 
+library(caret);library(ElemStatLearn)
+training<-read.csv("pml-training.csv")
+testing<-read.csv("pml-testing.csv")
+```
+
+trainning and validation data extracted as below in this project trainning data separated with 70% of data for training and 30% for validation of dataset. 
+```{r, echo=TRUE}
+set.seed(33833)
+training$classe<-as.factor(training$classe)
+inBuild <- createDataPartition(y=training$classe,
+                               p=0.7, list=FALSE)
+validation <- training[-inBuild,]; traindata <- training[inBuild,]
+```
+
+in the case of higher speed of training with parallel processing here package doParallel have been used as shown below
+
+```{r}
+library(doParallel)
+registerDoParallel()
+```
+
+training data have been evaluated by random forest algorithm
+
+```{r}
+modfit <- train(classe ~.,method="rf", data=traindata)
+pred <- predict(modfit,validation);
+```
+
+the conclusion have been illustrated with evaluation of confusionMatrix in validation data
+```{r}
+confusionMatrix(validation$classe,pred)$overall
+```
+

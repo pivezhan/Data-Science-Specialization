@@ -1,0 +1,52 @@
+setwd("C:\\Users\\lenovo\\Desktop\\Rlearning\\regression models\\swirl")
+
+library(swirl)
+swirl()
+ones <- rep(1, nrow(galton))
+lm(child ~ ones + parent -1, galton)
+lm(child ~ ones + parent , galton)
+lm(child ~ 1, galton)
+view(trees)
+View(trees)
+fit <- lm(Volume ~ Girth + Height + Constant -1, trees)
+trees2 <- eliminate("Girth", trees)
+View(trees2)
+fit2 <- lm(Volume ~ Height + Constant -1, trees2)
+lapply(list(fit, fit2), coef)
+savehistory("C:/Users/lenovo/Desktop/Rlearning/regression models/swirl/swirl.Rhistory")
+
+
+View(ravenData)
+mdl<-glm(ravenWinNum ~ ravenScore,ravenData)
+mdl<-glm(ravenWinNum ~ ravenScore,data=ravenData)
+mdl <- glm(ravenWinNum ~ ravenScore, binomial, ravenData)
+predict(mdl, data.frame(ravenScore=c(0, 3, 6)))
+lodds <- predict(mdl, data.frame(ravenScore=c(0, 3, 6)))
+exp(lodds)/(1+exp(lodds))
+summary(mdl)
+confint(mdl)
+exp(confint(mdl))
+anova(mdl)
+qchisq(0.95, 1)
+rpois(n, lambda)
+var(rpois(1000, 50))
+View(hits)
+class(hits[,'date'])
+as.integer(head(hits[,'date']))
+mdl <- glm(visits ~ date, poisson, hits)
+summary(mdl)
+exp( confint(mdl, 'date'))
+which.max(hits[,'visits'])
+hits[704,]
+Extract(mdl$fitted.values[704])
+mdl$fitted.values[704]
+lambda<-mdl$fitted.values[704]
+qpois(.95, lambda)
+offset=log(visits+1)
+mdl2<-poiss()
+mdl2<-pois
+mdl2
+1
+mdl2 <- glm(formula = simplystats ~ date, family = poisson, data = hits, offset = log(visits + 1))
+qpois(.95, mdl2$fitted.values[704])
+savehistory("C:/Users/lenovo/Desktop/a.Rhistory")

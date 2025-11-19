@@ -1,0 +1,37 @@
+
+Debugging techniques for Shiny apps
+Added: 06 Jan 2014
+Printing
+
+There are several techniques available for debugging Shiny applications. The first is to add calls to the cat function which print diagnostics where appropriate. For example, these two calls to cat print diagnostics to standard output and standard error respectively:
+
+cat("foo\n")
+cat("bar\n", file=stderr())
+
+Using browser
+
+The second technique is to add explicit calls to the browser function to interrupt execution and inspect the environment where browser was called from. Note that using browser requires that you start the application from an interactive session (as opposed to using R -e as described above).
+
+For example, to unconditionally stop execution at a certain point in the code:
+
+# Always stop execution here
+browser() 
+
+You can also use this technique to stop only on certain conditions. For example, to stop the MPG application only when the user selects “Transmission” as the variable:
+
+# Stop execution when the user selects "am"
+browser(expr = identical(input$variable, "am"))
+
+Establishing a custom error handler
+
+You can also set the R "error" option to automatically enter the browser when an error occurs:
+
+# Immediately enter the browser when an error occurs
+options(error = browser)
+
+Alternatively, you can specify the recover function as your error handler, which will print a list of the call stack and allow you to browse at any point in the stack:
+
+# Call the recover function when an error occurs
+options(error = recover)
+
+If you want to set the error option automatically for every R session, you can do this in your .Rprofile file as described in this article on R Startup.

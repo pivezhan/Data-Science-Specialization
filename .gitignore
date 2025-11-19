@@ -1,0 +1,6 @@
+
+# Large files excluded
+*.mp4
+.RData
+.RDataTmp
+*.zip

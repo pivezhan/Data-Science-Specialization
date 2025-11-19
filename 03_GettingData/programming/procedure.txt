@@ -1,0 +1,27 @@
+cd C:/Users/lenovo/Desktop/pro/GettingandCleanningProject
+git init
+
+git clone https://github.com/pivezhandi/GettingandCleanningProject.git
+
+git remote add origin https://github.com/pivezhandi/GettingCleanningData
+
+git add .
+git status
+git commit -m add README.md and add run_analysis.R and add CodeBook.md
+
+
+cd C:/Users/lenovo/Desktop/Rlearning/Data Scientists Toolbox/week1
+
+git init
+git remote add origin https://github.com/pivezhan/datasciencecoursera
+git add .
+git status
+git commit -m add HelloWorld.md
+git log
+git push origin master
+##pivezhan
+##worldis69
+
+
+cd C:/Users/lenovo/Desktop/project1/ExData_Plotting1
+git clone https://github.com/pivezhan/ExData_Plotting1

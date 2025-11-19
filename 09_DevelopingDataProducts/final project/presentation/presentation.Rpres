@@ -1,0 +1,43 @@
+Central Limit Theorem(CLT)
+========================================================
+author: MT
+date: 2015/07/20
+
+Central Limit Theorem(CLT)
+========================================================
+
+In probability theory, the central limit theorem (CLT) states that, given certain conditions, the arithmetic mean of a sufficiently large number of iterates of independent random variables, each with a well-defined expected value and well-defined variance, will be approximately normally distributed, regardless of the underlying distribution.
+
+
+Central Limit Theorem(CLT)
+========================================================
+In more general probability theory, a central limit theorem is any of a set of weak-convergence theorems. They all express the fact that a sum of many independent and identically distributed (i.i.d.) random variables, or alternatively, random variables with specific types of dependence, will tend to be distributed according to one of a small set of attractor distributions.
+
+Means by Different Observation
+========================================================
+```{r, fig.width = 15, fig.height = 10,echo=F}
+par(mfrow = c(2, 3))
+for (n in c(1, 10, 20)){
+  temp <- matrix(sample(0 : 1, n * 10000, replace = TRUE), ncol = n)
+  temp <- apply(temp, 1, mean)
+  temp <- (temp - .5) * 2 * sqrt(n)
+  dty <- density(temp)
+  plot(dty$x, dty$y, xlab = "", ylab = "density", type = "n", xlim = c(-3, 3), ylim = c(0, .5))
+  title(paste("sample mean of", n, "obs"))
+  lines(seq(-3, 3, length = 100), dnorm(seq(-3, 3, length = 100)), col = grey(.8), lwd = 3)
+  lines(dty$x, dty$y, lwd = 2)
+}
+for (n in c(1, 10, 20)){
+  temp <- matrix(sample(0 : 1, n * 10000, replace = TRUE, prob = c(.9, .1)), ncol = n)
+  temp <- apply(temp, 1, mean)
+  temp <- (temp - .1) / sqrt(.1 * .9 / n)
+  dty <- density(temp)
+  plot(dty$x, dty$y, xlab = "", ylab = "density", type = "n", xlim = c(-3, 3), ylim = c(0, .5))
+  title(paste("sample mean of", n, "obs"))
+  lines(seq(-3, 3, length = 100), dnorm(seq(-3, 3, length = 100)), col = grey(.8), lwd = 3)
+  lines(dty$x, dty$y, lwd = 2)
+}
+```
+Conclusion
+========================================================
+The central limit theorem gives only an asymptotic distribution. As an approximation for a finite number of observations, it provides a reasonable approximation only when close to the peak of the normal distribution; it requires a very large number of observations to stretch into the tails.

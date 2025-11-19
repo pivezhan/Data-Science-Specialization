@@ -1,0 +1,17 @@
+{
+    "contents" : "setwd(\"C:\\\\Users\\\\lenovo\\\\Desktop\\\\Rlearning\\\\r programming\\\\week4\")\n\nstr(str)\nstr(lm)\nstr(ls)\nx<-rnorm(100,2,4)\nstr(x)\nsummary(x)\nf<-gl(40,10)\nstr(f)\nsummary(f)\nlibrary(datasets)\nstr(airquality)\nm<-matrix(rnorm(100),10,10)\n\nstr(m)\nm[,1]\n\n\ns<-split(airquality,airquality$Month)\nstr(s)\n\n#################simulation\n# lm(y~x)\n sample.interval=10000\nRprof(ls)\n\n\n# quiz4\nset.seed(1)\nrpois(5, 2)\n\nlibrary(datasets)\ndata(mtcars)\nhead(mtcars)\ny<-mtcars$mpg\nx1<-mtcars$cyl\nx2<-mtcars$disp\n\nRprof()\nfit <- lm(y ~ x1 + x2)\nRprof(NULL)\nsummaryRprof()$by.self\nsummaryRprof()$by.total\n\n\n",
+    "created" : 1430640265684.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1265307963",
+    "id" : "A14E8F69",
+    "lastKnownWriteTime" : 1430682137,
+    "path" : "C:/Users/lenovo/Desktop/Rlearning/r programming/week4/rprog4.R",
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

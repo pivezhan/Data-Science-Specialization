@@ -1,0 +1,23 @@
+cd C:/Users/lenovo/Desktop/pro/programmingassignment2
+git init
+
+git clone https://github.com/pivezhandi/ProgrammingAssignment2.git
+
+git remote add origin https://github.com/pivezhandi/ProgrammingAssignment2
+
+git add .
+git status
+git commit -m edit cachematrix.R
+
+
+cd C:/Users/lenovo/Desktop/Rlearning/Data Scientists Toolbox/week1
+
+git init
+git remote add origin https://github.com/pivezhan/datasciencecoursera
+git add .
+git status
+git commit -m add HelloWorld.md
+git log
+git push origin master
+##pivezhan
+##worldis69

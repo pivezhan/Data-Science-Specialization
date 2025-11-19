@@ -1,0 +1,16 @@
+git init
+git clone https://github.com/pivezhandi/ExData_Plotting1
+cd C:/Users/lenovo/Desktop/ExData_Plotting1
+git clone https://github.com/pivezhandi/ExData_Plotting1.git
+git remote add origin https://github.com/pivezhandi/
+
+git add -A
+git commit -m --all
+git log
+git push origin master
+##pivezhandi
+##Payande69007
+
+cd C:/Users/lenovo/Desktop/pro/shinyApp
+
+git clone https://github.com/pivezhandi/shinyApp

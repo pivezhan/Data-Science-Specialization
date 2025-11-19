@@ -1,0 +1,39 @@
+setwd(file.path("D:", "sbu", "RLearning", "exploratory data analysis","project2"))
+# http://stackoverflow.com/questions/1181060
+
+NEI <-readRDS("summarySCC_PM25.rds")
+SCC <-readRDS("Source_Classification_Code.rds")
+
+head(SNEI)
+
+library(dplyr); library(tidyr)
+BaltimoreNEI<-filter(NEI,fips=="24510")
+SNEI_by_type<-group_by(SNEI,type)
+summarize(SNEI_by_year,EmissionPoints=sum(Emissions[year]),year=n())
+
+TypeUnique <- unique(SNEI$type)
+yearUnique <- unique(SNEI$year)
+SNEIR<-matrix(rep(1:length(TypeUnique)*length(yearUnique)),
+              length(TypeUnique), length(yearUnique))
+for (i in 1:length(unique(SNEI$type))){     
+        SNEIT<-SNEI[(SNEI$type==TypeUnique[i]),]
+SNEIR[i,]<-
+        tapply(SNEIT$Emissions, SNEIT$year, sum)
+}
+SNEIR<-data.frame(SNEIR)
+colnames(SNEIR)<-unique(SNEI$year)
+SNEIR<-mutate(SNEIR,types=unique(SNEI$type))
+
+library(reshape)
+BaltimoreTypesNEI <- melt(SNEIR,id="types",variable_name="date")
+names(BaltimoreTypesNEI) <- sub("value","count",names(BaltimoreTypesNEI))
+
+library(ggplot2)
+g <- ggplot(BaltimoreTypesNEI, aes(x=date, y=count, col=types, group=types)) +
+        geom_line() +
+        ggtitle("Total Emission per year in different Types of Baltimore City") +
+        labs(x = "year",y = "Total Emissions") 
+print(g) 
+
+dev.copy(png, file = "plot3.png" ) ## Copy my plot to a PNG file
+dev.off() ## closing the PNG device!

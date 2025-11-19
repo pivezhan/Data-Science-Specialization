@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html xmlns:fb="http://www.facebook.com/2008/fbml">
+<head><script src="http://sports-ak.espn.go.com/sports/optimizely.js"></script><meta charset="iso-8859-1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<script type="text/javascript">    
+    if(true && navigator && navigator.userAgent.toLowerCase().indexOf("teamstream") >= 0) {
+        window.location = 'http://a.m.espn.go.com/mobilecache/general/apps/sc';
+    }
+</script>
+	<script>(function(){function r(a){a=a.replace(/[\[]/,"\\[").replace(/[\]]/,"\\]");var c=new RegExp("[\\?&]"+a+"=([^&#]*)"),b=c.exec(location.search);return b==null?"":decodeURIComponent(b[1].replace(/\+/g," "));}var p=navigator.userAgent,o=window.location,l=document.cookie,f=document.referrer,n=(f===""||f.indexOf(".go.com")!==-1),d=(n)?"http://m.espn.go.com/nfl/clubhouse?teamId=33&src=desktop":"http://m.espn.go.com/nfl/clubhouse?teamId=33&src=desktop&rand=ref~%7B%22ref%22%3A%22"+encodeURIComponent(f)+"%22%7D",i=(p.match(/iPad/i)||(p.match(/Android/i)&&!p.match(/Mobile/i))||p.match(/RIM Tablet/i)||p.match(/Silk/i)),k=(p.match(/Mobile/i)||p.match(/Mini/i)),g=o.href.match(/src=mobile/i),q=l.indexOf("iphone_redirect=false")>-1,e=l.indexOf("iphone_redirect=true")>-1,j=r("addata"),h=r("ex_cid"),m=r("rand");if(j!=""){d+="&addata="+j;}if(h!=""){d+="&ex_cid="+h;}if(m==="beta"){d+="&rand=beta";}if(i){document.documentElement.className+=" tablet ";if((!p.match(/iPad/i)||e)&&!q){o.href=d;}}else{if(k&&!q&&!g){o.href=d;}}})();</script>
+	<title>Baltimore Ravens Football Clubhouse - ESPN</title>
+<meta name="slice" scheme="IE" content="off" />
+<meta name="google-site-verification" content="xuj1ODRluWa0frM-BjIr_aSHoUC7HB5C1MgmYAM_GkA" />
+<meta name="msvalidate.01" content="B1FEB7C682C46C8FCDA3130F3D18AC28" />
+<meta name="googlebot" content="noodp" />
+<meta name="robots" content="index, follow" />
+<meta name="description" content="Baltimore Ravens scores, news, schedule, players, stats, photos, rumors, and highlights on ESPN.com" />
+<meta name="keywords" content="baltimore ravens, nfl, scores, news, schedule, highlights" />
+<meta property="fb:app_id" content="116656161708917">
+<meta property="og:site_name" content="ESPN.com">
+<meta property="og:title" content="Baltimore Ravens" />
+<meta property="og:type" content="sports_team" />
+<meta property="og:description" content="Baltimore Ravens scores, news, schedule, players, stats, photos, rumors, and highlights on ESPN.com" />
+<meta property="og:image" content="http://a.espncdn.com/i/teamlogos/nfl/lrg/bal.gif" />
+<meta property="og:url" content="http://espn.go.com/nfl/team/_/name/bal/baltimore-ravens" />
+<meta name="twitter:site" content="espn">
+<meta name="twitter:title" content="Baltimore Ravens">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:description" content="Baltimore Ravens scores, news, schedule, players, stats, photos, rumors, and highlights on ESPN.com">
+<meta name="twitter:image" content="http://a.espncdn.com/i/teamlogos/nfl/lrg/bal.gif">
+<meta name="twitter:url" content="http://espn.go.com/nfl/team/_/name/bal/baltimore-ravens">
+<meta name="twitter:app:name:iphone" content="ESPN"/>
+<meta name="twitter:app:id:iphone" content="317469184"/>
+<meta name="twitter:app:name:googleplay" content="ESPN"/>
+<meta name="twitter:app:id:googleplay" content="com.espn.score_center"/>
+<link rel="canonical" href="http://espn.go.com/nfl/team/_/name/bal/baltimore-ravens" />
+
+		<script>var _sf_startpt=(new Date()).getTime();</script>
+<link rel="alternate" href="android-app://com.espn.score_center/sportscenter/x-callback-url/showClubhouse?uid=s:20~l:28~t:33&section=now" />
+<link rel="search" type="application/opensearchdescription+xml" href="http://a.espncdn.com/search/opensearch.xml" title="ESPN Search" />
+<link rel="stylesheet" href="http://a.espncdn.com/combiner/c/201401211964?css=global_reset.r1.css,base.r236.css,modules.r462.css,global_header.r44.css,header_topbar.r1.css,modules/global_nav.r54.css,modules/insider_enhanced.r1.css,modules/mem/mem.r12.1.css,modules/mem/mem_espn360.r8.4.css,modules/mem/skirmish.r8.css,modules/twin.r1.css,modules/facebook/button.r2.css,universal_overlay/universal_overlay.css,universal_overlay/media_overlay.css,universal_overlay/video_overlay.css,universal_overlay/photo_overlay.css,universal_overlay/dyk_overlay.css,fonts/bentonsans.css,fonts/bentonsansmedium.css" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://a.espncdn.com/combiner/c/201303290924?css=sprites/teamlogos.r18.css" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://a.espncdn.com/combiner/c/20120509325?css=modules/master_tables_10.r3.css" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://a.espncdn.com/combiner/c/20121024544?css=pagetype/clubhouse.r9.css" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://a.espncdn.com/combiner/c/201406161044?css=clubhouse_nfl_10.css" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://a.espncdn.com/combiner/c/20120509325?css=modules/tabs-page-nav.3.css" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://a.espncdn.com/prod/styles/transitionalHeader/transitional-header-clubhouse.css" type="text/css" media="screen" charset="utf-8" />
+<script type="text/javascript">
+var _vrq = _vrq || [];
+ _vrq.push(['id', 489]);
+ _vrq.push(['automate', false]);
+ _vrq.push(['track', function(){}]);
+ (function(d, a){var s = d.createElement(a),x = d.getElementsByTagName(a)[0];
+s.async = true;
+s.src = 'http://a.visualrevenue.com/vrs.js';
+ x.parentNode.insertBefore(s, x);})(document, 'script'); </script>
+<script src="http://a.espncdn.com/combiner/c?js=jquery-1.7.1.js,plugins/json2.r3.js,plugins/teacrypt.js,plugins/jquery.metadata.js,plugins/jquery.bgiframe.r3.js,plugins/jquery.easing.1.3.js,plugins/jquery.hoverIntent.js,plugins/jquery.jcarousel.0.2.9.js,plugins/jquery.tinysort.r4.js,plugins/jquery.pubsub.r5.js,ui/1.8.16/jquery.ui.core.js,ui/1.8.16/jquery.ui.widget.js,ui/1.8.16/jquery.ui.tabs.js,ui/1.8.16/jquery.ui.accordion.js,plugins/ba-debug-0.4.js,espn.l10n.r12.js,swfobject/2.2/swfobject.js,flashObjWrapper.r7.js,plugins/jquery.colorbox.1.3.14.js,plugins/jquery.ba-postmessage.js,espn.core.duo.r57.js,m/beta/betacheck.r6.js,espn.mem.r39.js,stub.search.r9.js,espn.nav.mega.r39b.js,espn.storage.r6.js,espn.p13n.r20.js,espn.geo.r3.js,espn.video.r81.r5.js,analytics/chartbeat/video/strategy_comprehensive.r1.js,registration/staticLogin.r12.06102014.js,espn.universal.overlay.r19.js,insider/espn.insider.20140915.js,espn.espn360.stub.r9.js,espn.myHeadlines.stub.r16.js,espn.myfaves.stub.r3.js,tsscoreboard.20090612.js,ie9pinning.r3.js,espn.f8.noauth.r3.js,espn.socialmediamod.r7.js"></script>
+<script>espn.core.navVersion = 'a';</script>
+<script>var ad_site="espn.us.com.nfl",ad_zone="nflteamclubhouse",ad_kvps="pgtyp=nflteamclubhouse;sp=nfl;tm=bal;nav=true;",ad_swid="",ad_counter=1,ad_ord=Math.floor(9999999999*Math.random()),ad_seg="",ad_mnr=-1<document.cookie.indexOf("grif=1")?"t":"f",ad_ref="other",ref=document.referrer,refsMap={"facebook.com":"facebook","twitter.com|t.co":"twitter","plus.url.google.com|plus.google.com":"googleplus","google.com":"google","bing.com":"bing","yahoo.com":"yahoo","espn.go.com":"espn"},refKey;for(refKey in refsMap)ref.match(refKey)&&(ad_ref=refsMap[refKey]);
+ad_kvps=ad_kvps+"ref="+ad_ref+";mnr="+ad_mnr+";";ad_swid=jQuery.cookie("SWID");"function"===typeof espn.core.ad_segments&&(ad_seg=espn.core.ad_segments(),null!=ad_seg&&""!=ad_seg&&(ad_kvps+=ad_seg));var ad_u="";null!=ad_swid&&""!=ad_swid&&(ad_u="swid="+ad_swid+";");</script>
+<link rel="stylesheet" href="http://a.espncdn.com/prod/styles/transitionalHeader/transitional-header.css" type="text/css" media="screen" charset="utf-8" />
+</head>
+<body class="nfl {sportId:28, teamId:33} clubhouse bal"  data-sport="nfl">
+<div class="mboxDefault"><link rel="stylesheet" charset="utf-8" media="screen" href="http://a.espncdn.com/prod/styles/modules/hideGravity.css" type="text/css" /></div><script>mboxCreate('ESPN_global');</script><!--[if IE 5]><div class="ie5"><![endif]-->
+<!--[if IE 6]><div class="ie ie6"><![endif]-->
+<!--[if IE 7]><div class="ie ie7"><![endif]-->
+<!--[if IE 8]><div class="ie ie8"><![endif]-->
+<!--[if IE 9]><div class="ie9"><![endif]-->
+<!-- begin bg-elements -->
+<div class="bg-elements">
+<!--espn.us.com.nfl sitezone--><!--http://ad.Doubleclick.net hostUrl-->
+<script>if("undefined"!=typeof ad_kvps&&"undefined"!=typeof ad_u&&"undefined"!=typeof ad_counter&&"undefined"!=typeof ad_ord){if("undefined"==typeof ad_site||"undefined"==typeof ad_zone)var ad_site="espn.us.com.nfl",ad_zone="nflteamclubhouse";var ad_finalString="http://ad.Doubleclick.net/adj/"+ad_site+"/"+ad_zone+";"+ad_kvps+"pos=Background_Skin;"+ad_u+"sz=1280x946,200x800,1x1;tile="+ad_counter+";ord="+ad_ord;document.write('<div data-cb-ad-id="Background_Skin" data-cb-dfp-id="'+ad_kvps+'sz=1280x946,200x800,1x1"><script src='+ad_finalString+'>\x3c/script></div>');ad_counter++};</script>
+<noscript><a href="http://ad.Doubleclick.net/jump/espn.us.com.nfl/nflteamclubhouse;pgtyp=nflteamclubhouse;sp=nfl;tm=bal;nav=true;sz=1280x946,200x800,1x1;" target="_blank"><img src="http://ad.Doubleclick.net/ad/espn.us.com.nfl/nflteamclubhouse;pgtyp=nflteamclubhouse;sp=nfl;tm=bal;nav=true;sz=1280x946,200x800,1x1;" border="0" alt=""></a></noscript>
+<!-- begin subheader -->
+<div id="subheader">
+<!-- begin content -->
+<div id="content-wrapper">
+<div id="ad-top" class="container">
+<!-- begin Banner ad -->
+<div class="span-6 ad banner top"><div class="ad-center"><div class="ad-wrapper"><!--espn.us.com.nfl sitezone--><!--http://ad.Doubleclick.net hostUrl-->
+<script>if("undefined"!=typeof ad_kvps&&"undefined"!=typeof ad_u&&"undefined"!=typeof ad_counter&&"undefined"!=typeof ad_ord){if("undefined"==typeof ad_site||"undefined"==typeof ad_zone)var ad_site="espn.us.com.nfl",ad_zone="nflteamclubhouse";var ad_finalString="http://ad.Doubleclick.net/adj/"+ad_site+"/"+ad_zone+";"+ad_kvps+"pos=Banner;"+ad_u+"sz=728x90,970x66,924x50,1x1;tile="+ad_counter+";ord="+ad_ord;document.write('<div data-cb-ad-id="Banner" data-cb-dfp-id="'+ad_kvps+'sz=728x90,970x66,924x50,1x1"><script src='+ad_finalString+'>\x3c/script></div>');ad_counter++};</script>
+<noscript><a href="http://ad.Doubleclick.net/jump/espn.us.com.nfl/nflteamclubhouse;pgtyp=nflteamclubhouse;sp=nfl;tm=bal;nav=true;sz=728x90,970x66,924x50,1x1;" target="_blank"><img src="http://ad.Doubleclick.net/ad/espn.us.com.nfl/nflteamclubhouse;pgtyp=nflteamclubhouse;sp=nfl;tm=bal;nav=true;sz=728x90,970x66,924x50,1x1;" border="0" alt=""></a></noscript>
+</div></div></div>
+<!-- end Banner ad -->
+</div>
+<div id="content" class="container">
+<div id="fb-root"></div><!--[if lte IE 7]><link rel="stylesheet" charset="utf-8" media="screen" href="http://a.espncdn.com/combiner/c?css=modules/browser-alert.r7.css" type="text/css" /><div class="span-6" id="browser-alert-wrapper" style="display:none;"><div class="mod-container mod-no-header-footer browser-alert"><div class="mod-content"><div class="gradient-container"><h1><span>Your Web Browser</span> is no longer supported</h1><p>To experience everything that ESPN.com has to offer, we recommend that you upgrade to a newer version of your web browser. Click the upgrade button to the right or <a href="http://espn.go.com/espn/news/story?id=5630562">learn more</a>.</p><ul><li><a class="btn-upgrade" href="http://www.microsoft.com/windows/internet-explorer/default.aspx">Upgrade</a></li><li><a class="btn-faq" href="http://espn.go.com/espn/news/story?id=5630562">FAQs</a></li></ul></div></div></div></div><script>(function(b){setTimeout(function(){var a=b("#browser-alert-wrapper");if(espn.cookie.get("browseralert")!="true"){b('<a class="btn-close" href="#">Close</a>').bind("click",function(){a.hide();espn.cookie.set("browseralert","true",30);return false}).appendTo(a.find(".gradient-container"));a.show();espn.cookie.set("browseralert","true")}},100)})(jQuery);</script><![endif]--><div id="sub-branding"><h1 class="h2 logo"><a href="http://espn.go.com/nfl/team/_/name/bal/baltimore-ravens" class="sub-brand-title"><b>Baltimore Ravens</b></a></h1><div class="presby"><!--espn.us.com.nfl sitezone--><!--http://ad.Doubleclick.net hostUrl-->
+<script>if("undefined"!=typeof ad_kvps&&"undefined"!=typeof ad_u&&"undefined"!=typeof ad_counter&&"undefined"!=typeof ad_ord){if("undefined"==typeof ad_site||"undefined"==typeof ad_zone)var ad_site="espn.us.com.nfl",ad_zone="nflteamclubhouse";var ad_finalString="http://ad.Doubleclick.net/adj/"+ad_site+"/"+ad_zone+";"+ad_kvps+"pos=EnhancedLogo;"+ad_u+"sz=180x45,1x1;tile="+ad_counter+";ord="+ad_ord;document.write('<div data-cb-ad-id="EnhancedLogo" data-cb-dfp-id="'+ad_kvps+'sz=180x45,1x1"><script src='+ad_finalString+'>\x3c/script></div>');ad_counter++};</script>
+<noscript><a href="http://ad.Doubleclick.net/jump/espn.us.com.nfl/nflteamclubhouse;pgtyp=nflteamclubhouse;sp=nfl;tm=bal;nav=true;sz=180x45,1x1;" target="_blank"><img src="http://ad.Doubleclick.net/ad/espn.us.com.nfl/nflteamclubhouse;pgtyp=nflteamclubhouse;sp=nfl;tm=bal;nav=true;sz=180x45,1x1;" border="0" alt=""></a></noscript>
+</div><div class="sub-title">AFC North</div></div>
+
+<div id="fb-root"></div>
+<script>
+	window.fbAsyncInit = function() {
+		FB.init({
+			appId: "116656161708917",
+			cookie: true, // these two are not required for partners that
+			status: true, // only rely on stk plugins and don't use connect
+			xfbml: true,
+			channelUrl: document.location.protocol + '//' + document.domain + '/facebook/channel.html'
+		});
+		jQuery(document).ready(function () {
+			FB.XFBML.parse();
+			FB.Event.subscribe('edge.create', function(href, widget) {
+				if(typeof anTrackLink === 'function') {
+					anTrackLink(jQuery('.fb_iframe_widget')[0],'espn','facebook','like');
+				}
+			});
+		});
+	};
+	(function() {
+		var e = document.createElement('script'); e.async = true;
+		e.src = document.location.protocol + '//connect.facebook.net/en_US/all.js';
+		document.getElementById('fb-root').appendChild(e);
+	}());
+</script>
+<script type="text/javascript">
+	var loggedIn = espn.core.loggedIn;
+	var displayModule = false;
+	var showAddButton = true;
+	var fadeTime = 1500;
+	var baseRef = '/';
+	var lang = 'en';
+	(function($) {
+		function resetData(checkSport, checkTeam){
+			if (loggedIn){
+				espn.p13n.reset({
+					success: function(data){
+						if (data != null && data != 'UNDEF' && typeof(data.myTeams) != 'UNDEF' && data.myTeams != null){
+							var count = 0;
+							var sportTypes = {10:'mlb',46:'nba',28:'nfl',90:'nhl',23:'ncf',41:'ncb',54:'ncw',600:'soccer'}
+							var sportAbbrevs = {10:'MLB',46:'NBA',28:'NFL',90:'NHL',23:'NCAAF',41:'NCAAM',54:'NCAAW',600:'Soccer'}
+							$.each(data.myTeams, function(i,item){
+								if ((checkTeam == item.id && checkSport == item.sport) || (checkTeam == 0 && checkSport == 0)){ // when updating a team, only update that specific team
+									var logo = '';
+									if (typeof(item.sport) != 'UNDEF' && item.sport != null){
+										sportType = sportTypes[item.sport];
+										sportAbbrev = sportAbbrevs[item.sport];
+										sport = item.sport;
+										abbrev = '';
+										swabbrev = '';
+										if (typeof(item.abbrev) != 'UNDEF' && item.abbrev != null){
+											abbrev = item.abbrev.toLowerCase();
+										}
+										if (typeof(item.sw_abbrev) != 'UNDEF' && item.sw_abbrev != null){
+											swabbrev = item.sw_abbrev.toLowerCase();
+										}
+										desc = item.text;
+										descSEO = desc;
+										while(descSEO.indexOf(' ')!=-1)descSEO=descSEO.replace(' ','-');
+										if (sport == 10 || sport == 28 || sport == 90 || sport == 46){ // mlb, nfl and nhl (new reshelled clubhouses will go here)
+											if (swabbrev == ''){ swabbrev = abbrev; }
+											logo = '<a href="http://espn.go.com/' + sportType + baseRef + 'team/_/name/' + abbrev + '/' + descSEO.toLowerCase() + '"  title="' + desc + '"><div class="logo-medium logo-' + sportType + '-medium ' + sportType + '-medium-' + item.id + '"></div></a>';
+										}
+										else if (sportType == 'ncf'){
+											tAbbrev = item.id
+											logo = '<a href="http://espn.go.com/college-football/team/_/id/' + tAbbrev + '/' + descSEO.toLowerCase() + '" title="' + desc + ' - ' + sportAbbrev + '"><img src="http://a.espncdn.com/i/teamlogos/ncaa/sml/trans/' + tAbbrev + '.gif" alt=""/></a>';
+										}
+										else if (sportType == 'ncb'){
+											tAbbrev = item.id
+											logo = '<a href="http://espn.go.com/mens-college-basketball/team/_/id/' + tAbbrev + '/' + descSEO.toLowerCase() + '" title="' + desc + ' - ' + sportAbbrev + '"><img src="http://a.espncdn.com/i/teamlogos/ncaa/sml/trans/' + tAbbrev + '.gif" alt=""/></a>';
+										}
+										else if (sportType == 'ncw'){ // ncaa
+											tAbbrev = item.id;
+											logoAbbrev = tAbbrev
+											if (item.sport == 54 && item.id == 2633){ logoAbbrev = tAbbrev + '_ncw'; }
+											logo = '<a href="http://espn.go.com/womens-college-basketball/team/_/id/' + tAbbrev + '/' + descSEO.toLowerCase() + '" title="' + desc + ' - ' + sportAbbrev + '"><img src="http://a.espncdn.com/i/teamlogos/ncaa/sml/trans/' + logoAbbrev + '.gif" alt=""/></a>';
+										}
+										else if (sportType == 'soccer'){ // all inclusive soccer list
+											logo = '<a href="http://espnfc.com/team?id=' + item.id + '" title="' + desc + ' ' + sportAbbrev + '"><img width="50" height="50" src="http://soccernet-akamai.espn.go.com/design05/i/clubhouse/badges/' + item.id + '.gif" alt=""/></a>';
+										}
+										if (count == 0 && !displayModule){
+											$('.mod-myespn .personalization-teams').html('');
+										}
+										if (logo != ''){
+											if (checkTeam == item.id && checkSport == item.sport){
+												$('.mod-myespn .personalization-teams').append(logo).fadeIn(fadeTime, function(){
+													espn.core.init.faves();
+												});
+											}
+											else{
+												$('.mod-myespn .personalization-teams').append(logo);
+											}
+										}
+										count++;
+									}
+									if (count == 1 && !displayModule){
+										$('#myespn-personalization').show();
+										displayModule = true;
+									}
+								}
+							});
+						}
+					}
+				});
+			}
+		}
+		$(document).ready(function() {
+			var teamId = $('body').metadata()['teamId'];
+			var sportId = $('body').metadata()['sportId'];
+			var groupId = $('body').metadata()['groupId'];
+			var teamName = 'Baltimore Ravens';
+			var abbrevs = {10:'mlb',46:'nba',28:'nfl',90:'nhl',23:'ncf',41:'ncb',54:'ncw'}
+			var teamAbbrev = abbrevs[sportId];
+			//disallow favorting for d2 schools based off of the groupId
+			var showFavorites = !((groupId == 35 && sportId == 23) || (groupId == 51 && (sportId == 54 || sportId == 41)))
+			if(showFavorites){
+				if (loggedIn){
+					if ($('#sub-branding h1').length > 0){
+						$('#sub-branding h1').after('<a class="btn-add-fave-team"></a>');
+					}
+					else{
+						$('#sub-branding h2').after('<a class="btn-add-fave-team"></a>');
+					}
+					resetData(0, 0);
+					espn.p13n.get({
+						"success" : function(data) {
+							if (data!=null && data!='UNDEF' && typeof(data.myTeams) != 'UNDEF' && data.myTeams != null) {
+								$.each(data.myTeams, function(i,item) {
+									if (typeof(item.sport) != 'UNDEF' && item.sport != null) {
+										if (item.sport == sportId && item.id == teamId){
+											showAddButton = false;
+										}
+									}
+								});
+							}
+							if (showAddButton){
+								$('#sub-branding a.btn-add-fave-team').html('Add to my favorites').show().attr("onclick","anTrackLink(this,'espn','teamclubhouse','" + teamAbbrev + "_" + teamName.toLowerCase().replace(' ','') + "_addfavorite_loggedin-add'); return false;");
+							}
+							else{
+								//$('#sub-branding a.btn-add-fave-team').html('Favorite Team').show().addClass('favorite').attr('name','&lpos=teamclubhouse&lid=' + teamAbbrev + '_'+teamName.toLowerCase().replace(' ','')+'_addfavorite_loggedin-modify');
+								$('#sub-branding a.btn-add-fave-team').html('Favorite Team').show().addClass('favorite cbOverlay').attr({href:'',name:'&lpos=teamclubhouse&lid=' + teamAbbrev + '_'+teamName.toLowerCase().replace(' ','')+'_addfavorite_loggedin-modify',tref:'/personalization/v3_1/personalization','data-language':lang.toLowerCase(),tab:'teams'});
+							}
+						},
+						"error" : function(){
+							$('body.clubhouse #clubhouse-city-teams').show();
+						}
+					});
+					$('#sub-branding a.btn-add-fave-team').click(function(){
+						if (showAddButton){ // don't allow the button to click through if it is informing you of their favorite team
+							showAddButton = false; // don't allow multiple clicks during the transition
+							espn.p13n.add(
+								{
+									"teams": sportId+":"+teamId
+								},
+								{
+									"success" : function() {
+										$('#sub-branding a.btn-add-fave-team').html('Added').addClass('favorite').css('cursor','default');
+										setTimeout(function(){
+												resetData(sportId,teamId);
+											}, fadeTime
+										);
+									},
+									"error" : function() {
+
+									}
+								}
+							);
+						}
+					});
+				}
+				else{
+					$('body.clubhouse #clubhouse-city-teams').show();
+					if ($('#sub-branding h1').length > 0){
+						$('#sub-branding h1').after('<a class="btn-add-fave-team">Sign in to personalize</a>');
+					}
+					else{
+						$('#sub-branding h2').after('<a class="btn-add-fave-team">Sign in to personalize</a>');
+					}
+					$('#sub-branding a.btn-add-fave-team').show().attr('href','').attr('name','&lops=teamclubhouse&lid=' + teamAbbrev + '_' + teamName.toLowerCase().replace(' ','') + '_addfavorite_loggedout').attr('tref','/members/v3_1/login').attr('data-options','{"addTeams":"'+sportId+':'+teamId+'","width":"820","height":"385"}').addClass("cbOverlay");
+				}
+
+			$('#sub-branding a.btn-add-fave-team').hover(
+				function(){
+					$(this).addClass('favorite').css('font-size','10px');
+				},
+				function(){
+					if (showAddButton){
+						$(this).removeClass('favorite').css('font-size','11px');
+					}
+				}
+			);
+
+			$('.inline-header ul.links li a').addClass('cbOverlay').attr({href:'',tref:'/personalization/v3_1/personalization','data-language':lang.toLowerCase(),tab:'teams'});
+			}
+		});
+	})(jQuery);
+</script><style>body.nfl .stathead td,body.nfl .stathead,.mod-content tr.stathead,.mod-content tr.stathead td,.mod-header,body.clubhouse .mod-calendar-month td.day.home div.day-top,body.clubhouse .mod-calendar-month tr.util td ul.key li span.home, body.nfl .mod-data-table .mod-header{background: #2B025B !important;}</style>
+
+	<div class="mod-page-tabs mod-pagenav-tabs"><ul class="ui-tabs"><li class="active"><a href="/nfl/team/_/name/bal/baltimore-ravens">Clubhouse</a></li><li ><a href="/nfl/team/stats/_/name/bal/baltimore-ravens">Stats</a></li><li ><a href="/nfl/team/schedule/_/name/bal/baltimore-ravens">Schedule</a></li><li ><a href="/nfl/team/roster/_/name/bal/baltimore-ravens">Roster</a></li><li ><a href="/nfl/team/splits/_/name/bal/baltimore-ravens">Splits</a></li><li ><a href="/nfl/team/depth/_/name/bal/baltimore-ravens">Depth Chart</a></li><li ><a href="/nfl/team/transactions/_/name/bal/baltimore-ravens">Transactions</a></li><li ><a href="/nfl/team/rankings/_/name/bal/baltimore-ravens">Rankings</a></li><li ><a href="/nfl/team/photos/_/name/bal/baltimore-ravens">Photos</a></li><li ><a href="/nfl/team/stadium/_/name/bal/baltimore-ravens">Stadium</a></li><li ><a href="/blog/baltimore-ravens">Blog</a></li></ul></div>
+	<div class="bg-opaque" id="my-teams-table">
+		<div class="span-4">
+			<div class="mod-container"><h3 class="hide">BALTIMORE RAVENS CALENDAR AND RESULTS</h3><div class="span-1"><div class="mod-container mod-game prev"><h4>2014 Season</h4><div class="mod-content"><div class="overview" style="min-height: 55px;"><ul class="links"><li><strong>Record:</strong></li><li>&nbsp;</li><li>Overall: 10-6</li><li>vs AFC North: 3-3</li><li>vs AFC: 6-6</li></ul></div><div class="stats" style="min-height: 55px;"><ul class="links"><li><strong>Team leaders:</strong></li><li>&nbsp;</li><li>Pass: <a href=http://espn.go.com/nfl/player/_/id/11252/joe-flacco>Flacco</a> 3986 yds</li><li>Rush: <a href=http://espn.go.com/nfl/player/_/id/11467/justin-forsett>Forsett</a> 1266 yds</li><li>Rec: <a href=http://espn.go.com/nfl/player/_/id/2622/steve-smith-sr.>Smith Sr.</a> 1065 yds</li></ul></div></div></div></div><div class="span-2"><div class="mod-container mod-no-footer mod-game current pre"><h4>Thu, Aug 13 <span>TBD </span></h4><div class="mod-content"><div class="gradient-container"><div class="game-details"><div class="time">M&T Bank Stadium</div><div class="venue">Preseason</div></div><div class="overview"><div class="team team-away"><a href="http://espn.go.com/nfl/team/_/name/no/new-orleans-saints"><div class="logo logo-large logo-nfl-large nfl-large-18"></div></a><div class="record"><h6>New Orleans</h6></div></div><div class="team team-home"><a href="http://espn.go.com/nfl/team/_/name/bal/baltimore-ravens"><div class="logo logo-large logo-nfl-large nfl-large-33"></div></a><div class="record"><h6>Baltimore</h6></div></div><div class="symbol">@</div><p class="links"><a href="/nfl/intel?gameId=400790313">Intel &#187;</a><a href="/nfl/conversation?gameId=400790313">Conversation &#187;</a><a href="http://www.stubhub.com/baltimore-ravens-tickets/?gcid=C12289x443&keyword=NFL+Clubhouse+Baltimore+Ravens+20150813">Tickets &#187;</a></p></div></div></div></div></div><div class="span-1 last"><div class="mod-container mod-game next"><h4>2014 Season</h4><div class="mod-content"><div class="overview" style="min-height: 55px;"><ul class="links"><li><strong>Record:</strong></li><li>&nbsp;</li><li>Overall: 10-6</li><li>vs AFC North: 3-3</li><li>vs AFC: 6-6</li></ul></div><div class="stats" style="min-height: 55px;"><ul class="links"><li><strong>Team leaders:</strong></li><li>&nbsp;</li><li>Pass: <a href=http://espn.go.com/nfl/player/_/id/11252/joe-flacco>Flacco</a> 3986 yds</li><li>Rush: <a href=http://espn.go.com/nfl/player/_/id/11467/justin-forsett>Forsett</a> 1266 yds</li><li>Rec: <a href=http://espn.go.com/nfl/player/_/id/2622/steve-smith-sr.>Smith Sr.</a> 1065 yds</li></ul></div></div></div></div></div><div class="mod-container mod-stat"><h3>2014 OVERALL NFL RANKINGS</h3><div class="span-1"><div class="mod-header"><h4>PASSING YDS</h4></div><div class="mod-content"><span class="stat">238.7</span><strong> 13th</strong> Overall</div></div><div class="span-1"><div class="mod-header"><h4>RUSHING YDS</h4></div><div class="mod-content"><span class="stat">126.2</span><strong> 8th</strong> Overall</div></div><div class="span-1"><div class="mod-header"><h4>OPP PASSING YDS</h4></div><div class="mod-content"><span class="stat">248.7</span><strong> 23rd</strong> Overall</div></div><div class="span-1 last"><div class="mod-header"><h4>OPP RUSHING YDS</h4></div><div class="mod-content"><span class="stat">88.3</span><strong> 4th</strong> Overall</div></div></div><style type="text/css">.mod-content table.tablehead { margin-bottom: 0; } ul.game-schedule li.team-logo-small, ul.game-schedule li.team-logo-small a { width: 21px; height: 21px; } ul.game-schedule li { padding: 2px; margin: 0 3px; }</style><div class="mod-container mod-table mod-no-header-footer"><div class="mod-content"><table cellspacing="1" cellpadding="3" class="tablehead"><tr class="stathead"><td colspan="7">2015 Preseason Schedule</td></tr><tr class="colhead"><td>WK</td><td>DATE</td><td>OPPONENT</td><td>RESULT/TIME (ET)</td><td>RESOURCES</td></tr><tr class="oddrow team-28-18"><td>HOF</td><td>Thu, Aug 13</td><td align="left"><ul class="game-schedule"><li class="game-status">vs</li><li class="team-logo-small logo-nfl-small nfl-small-18"><a href="http://espn.go.com/nfl/team/_/name/no/new-orleans-saints"></a></li><li class="team-name"><a href="http://espn.go.com/nfl/team/_/name/no/new-orleans-saints">New Orleans</a></li></ul></td><td>TBD </td><td><a href="http://www.stubhub.com/baltimore-ravens-tickets/?gcid=C12289x446&keyword=NFL+Team+Schedule+Baltimore+Ravens+20150813">Buy on StubHub</a></td></tr></table></div></div>
+                    <style type="text/css">
+                        .mod-fanshop .mod-content ul li {float:left;width:50%;}
+                        .mod-fanshop .mod-content ul li dd {float:left;width:100px;text-align:center;margin-top:5px;}
+                        .mod-fanshop .mod-content ul li dt {float:left;width:160px;margin-top:10px;}
+                    </style>
+                <div class="mod-container mod-no-footer mod-fanshop"><div class="mod-header"><h4>ESPN FAN SHOP <span style="position: relative; top: 4px; margin-right: 5px;"><a href="http://www.dickssportinggoods.com/category/index.jsp?categoryId=15501376&camp=Part:ESPNpart::nflclubhousefeed:BaltimoreRavens" rel="nofollow" target="_blank"><img src="http://a.espncdn.com/i/shop/dsg_presby.gif"/></a></span></h4></div><div class="mod-content"><ul><li><dl><dd><a href="http://www.dickssportinggoods.com/product/index.jsp?productId=34626156&camp=Part:ESPNpart::nflclubhousefeed:BaltimoreRavens" rel="nofollow" target="_blank"><img width="80" src="http://www.dickssportinggoods.com/graphics/product_images/pDSP1-18341369nm.jpg"/></a></dd><dt>Antigua Men's Baltimore Ravens Fusion Performance Purple Polo<br />Price: <a rel="nofollow" href="http://www.dickssportinggoods.com/product/index.jsp?productId=34626156&camp=Part:ESPNpart::nflclubhousefeed:BaltimoreRavens">$49.99</a></br> <a href="http://www.dickssportinggoods.com/product/index.jsp?productId=34626156&camp=Part:ESPNpart::nflclubhousefeed:BaltimoreRavens" rel="nofollow" target="_blank"><b><nobr>Shop &#187;</nobr></b></a></dt></dl></li><li><dl><dd><a href="http://www.dickssportinggoods.com/product/index.jsp?productId=34629576&camp=Part:ESPNpart::nflclubhousefeed:BaltimoreRavens" rel="nofollow" target="_blank"><img width="80" src="http://www.dickssportinggoods.com/graphics/product_images/pDSP1-18339465nm.jpg"/></a></dd><dt>Nfl Team Apparel Youth Baltimore Ravens Explosiveness Performance Purple T-shirt<a rel="nofollow" href="http://www.dickssportinggoods.com/product/index.jsp?productId=34629576&camp=Part:ESPNpart::nflclubhousefeed:BaltimoreRavens"></a></br> <a href="http://www.dickssportinggoods.com/product/index.jsp?productId=34629576&camp=Part:ESPNpart::nflclubhousefeed:BaltimoreRavens" rel="nofollow" target="_blank"><b><nobr>Shop &#187;</nobr></b></a></dt></dl></li></ul></div></div>
+				<div class="mod-container mod-tabs mod-tabs-header mod-no-footer mod-content-feed">
+					<div id="feed-tabs" class="mod-header">
+<h4>Baltimore NEWS FEED</h4>
+
+						<ul>
+							<li class="ui-tabs-selected"><a href="#default-tab">ALL</a></li>
+<li><a href="http://espn.go.com/nfl/team/_/name/bal/view/video">VIDEO</a></li>
+<li><a href="http://espn.go.com/nfl/team/_/name/bal/view/audio">AUDIO</a></li>
+
+						</ul>
+					</div>
+					<div class="mod-content">
+						<div id="default-tab">
+							<ol>
+								<li id="19286" class="result">
+<h3><a href="http://espn.go.com/blog/baltimore-ravens/post/_/id/19286/the-updated-baltimore-ravens-2015-calendar?ex_cid=espnapi_public">Updated Baltimore Ravens' 2015 calendar</a></h3>
+<p>A look at key dates for the Baltimore Ravens in the upcoming months.</p>
+<cite>about 16 hours ago | Jamison Hensley | ESPN.com</cite>
+</li>
+<li id="19260" class="result">
+<h3><a href="http://espn.go.com/blog/baltimore-ravens/post/_/id/19260/ravens-2015-mock-draft-tracker-2-0?ex_cid=espnapi_public">Ravens 2015 mock draft tracker 2.0</a></h3>
+<p>With 19 days before the start of the NFL draft, many analysts have the Ravens taking a playmaking CB or a fast-rising WR with the No. 26 overall pick.</p>
+<cite>about 1 day ago | Jamison Hensley | ESPN.com</cite>
+</li>
+<li id="19244" class="result">
+<h3><a href="http://espn.go.com/blog/baltimore-ravens/post/_/id/19244/ravens-recent-drafts-have-not-addressed-the-offense?ex_cid=espnapi_public">Ravens' recent drafts have not addressed the offense</a></h3>
+<p>The Baltimore Ravens are one of three teams not to take an offensive player in the first round in the past five NFL drafts.</p>
+<cite>about 1 day ago | Jamison Hensley | ESPN.com</cite>
+</li>
+<li id="19297" class="result">
+<h3><a href="http://espn.go.com/blog/baltimore-ravens/post/_/id/19297/ravens-respect-for-troy-polamalu-runs-deep?ex_cid=espnapi_public">Ravens' respect for Troy Polamalu runs deep</a></h3>
+<p>It was Troy Polamalu's ability to make game-changing plays that defined his career and garnered high respect from his fiercest rivals.</p>
+<cite>about 2 days ago | Jamison Hensley | ESPN.com</cite>
+</li>
+<li id="19276" class="result">
+<h3><a href="http://espn.go.com/blog/baltimore-ravens/post/_/id/19276/2015-baltimore-ravens-preseason-schedule?ex_cid=espnapi_public">2015 Baltimore Ravens preseason schedule</a></h3>
+<p>The Baltimore Ravens' 2015 preseason schedule has a familiar feel to it.</p>
+<cite>about 2 days ago | Jamison Hensley | ESPN.com</cite>
+</li>
+<li id="19256" class="result">
+<a href="http://espn.go.com/blog/baltimore-ravens/post/_/id/19256/kiper-mock-4-0-ravens-land-a-cornerback?ex_cid=espnapi_public"><img class="floatleft" height="75" width="134" src="http://a.espncdn.com/media/motion/2015/0409/dm_150409_nfl_kiper_latest_mock_draft/dm_150409_nfl_kiper_latest_mock_draft.jpg"/>
+</a>
+
+<h3><a href="http://espn.go.com/blog/baltimore-ravens/post/_/id/19256/kiper-mock-4-0-ravens-land-a-cornerback?ex_cid=espnapi_public">Mel Kiper Jr. mock 4.0: Ravens land a cornerback</a></h3>
+<p>Mel Kiper Jr. has the Baltimore Ravens zeroed in on Washington cornerback Marcus Peters once again.</p>
+<cite>about 2 days ago | Jamison Hensley | ESPN.com</cite>
+</li>
+<li id="19251" class="result">
+<h3><a href="http://espn.go.com/blog/baltimore-ravens/post/_/id/19251/ravens-surprisingly-re-sign-ol-jah-reid?ex_cid=espnapi_public">Ravens surprisingly re-sign OL Jah Reid</a></h3>
+<p>In perhaps the most unexpected move of their offseason, the Baltimore Ravens re-signed underachieving offensive lineman Jah Reid to a one-year deal.</p>
+<cite>about 2 days ago | Jamison Hensley | ESPN.com</cite>
+</li>
+<li id="19241" class="result">
+<h3><a href="http://espn.go.com/blog/baltimore-ravens/post/_/id/19241/why-eric-decosta-has-remained-with-the-ravens?ex_cid=espnapi_public">Why Eric DeCosta has remained with the Ravens</a></h3>
+<p>Why is Eric DeCosta so loyal to the Ravens? He doesn't appear in a rush to become the final decision-maker for a team.</p>
+<cite>about 2 days ago | Jamison Hensley | ESPN.com</cite>
+</li>
+<li id="19225" class="result">
+<h3><a href="http://espn.go.com/blog/baltimore-ravens/post/_/id/19225/john-harbaugh-praises-nfls-first-female-full-time-official?ex_cid=espnapi_public">John Harbaugh praises NFL's first female full-time official</a></h3>
+<p>Sarah Thomas worked a Baltimore preseason game last season and "did a good job," Harbaugh said.</p>
+<cite>about 3 days ago | Jamison Hensley | ESPN.com</cite>
+</li>
+<li id="19219" class="result">
+<h3><a href="http://espn.go.com/blog/baltimore-ravens/post/_/id/19219/ravens-met-with-marcus-peters-dorial-green-beckham?ex_cid=espnapi_public">Ravens met with Marcus Peters, Dorial Green-Beckham</a></h3>
+<p>The Ravens' recent hard-line stance on off-the-field problems doesn't mean they will keep their distance from players with character concerns.</p>
+<cite>about 3 days ago | Jamison Hensley | ESPN.com</cite>
+</li>
+<li style="list-style: none"><a class="view-more-posts" href="http://espn.go.com/nfl/team/_/name/bal/start/11">more</a></li>
+							</ol>
+						</div>
+						<div id="clubhouse-video-player" class="videoplayer1 videoplayer-redesign_clubhouse10">
+							<!-- placeholder -->
+						</div>
+					</div>
+				</div>
+				<script>
+					jQuery.getScriptCache('http://a.espncdn.com/combiner/c/?js=espn.newsfeed.r5.js', function() { //r3
+						espn.core.init.newsfeed();
+					});
+				</script>
+			<!-- begin sponsored links -->
+<div id="sponsored" class="mod-container mod-no-footer">
+<!-- begin sp links -->
+<div style="margin: 10px 0 0 0;">
+<!-- CONTENT: 09stats614, SPORT: nfl--><div style="margin:0px 0px 5px 0px; text-align: center; width: 614px;"><ins id="splinks-56283"></ins>
+        <script type="text/javascript">
+            (function($) {
+                // config params
+                var width = '614',
+                    height = '250',
+                    client = 'ca-espn-q-teams',
+                    channel = 'nfl bottom',
+                    lang = 'null';
+
+                // builds iframe HTML
+                function buildIframe(width, height, client, channel) {
+                    var path = 'http://sports-ak.espn.go.com/espn/sponsoredlinks/adsense/iframeCached';
+                    // pass params as the hash as they are only needed on the client
+                    var hash = '56283|' + width + '|' + height + '|' + client + '|' + channel + '|' + lang;
+                    var iframe = '<iframe seamless scrolling="no" frameborder="0" height="' + height + '" width="' + width + '" src="' + path + '#' + hash + '"></iframe>';
+                    return iframe;
+                }
+
+                // handles messages from child iframe
+                function handleMessage(event) {
+                    if (event.origin === 'http://sports-ak.espn.go.com') {
+                        $('#splinks-' + event.data).html('<!-- no ads served -->');
+                    }
+                }
+
+                if (typeof window.addEventListener === 'function') {
+                    window.addEventListener('message', handleMessage, false);
+                } else {
+                    window.attachEvent('onmessage', handleMessage);
+                }
+
+                // insert the iframe
+                if (espn.geo) {
+                    espn.geo.getLocation().done(function(loc) {
+                        if (loc.country.isoCode !== 'usa' || espn.core.mobileApple || espn.core.android) {
+                            // outside US or not on desktop
+                            client = 'ca-espn-nq';
+                        }
+                        $('#splinks-56283').html(buildIframe(width, height, client, channel));
+                    }).fail(function() {
+                        $('#splinks-56283').html(buildIframe(width, height, 'ca-espn-nq', channel));
+                    });
+                } else {
+                    // can't locate them, assume they are outside US
+                    $('#splinks-56283').html(buildIframe(width, height, 'ca-espn-nq', channel));
+                }
+            })(jQuery);
+        </script>
+    </div></div>
+<!-- end sp links -->
+</div>
+<!-- end sponsored links -->
+
+		</div>
+		<div class="span-2 last" id="my-players-table">
+			<ul class="links-row"><li><a target="_new" href="http://www.stubhub.com/baltimore-ravens-tickets/?gcid=C12289x443&keyword=Baltimore+Ravens+Top+Link" class="external">Tickets&nbsp;</a></li><li><a target="_new" href="http://www.dickssportinggoods.com/category/index.jsp?categoryId=15501376&camp=Part:ESPNpart::nflclubhousenav:BaltimoreRavens" class="external" rel="nofollow">Shop&nbsp;</a></li></ul><!-- begin city -->
+<div class="mod-container mod-no-footer mod-data-table mod-myespn" id="clubhouse-city-teams"><div class="mod-header"><h4>Baltimore Teams</h4></div><div class="mod-content"><a href="http://espn.go.com/mlb/team/_/name/bal/baltimore-orioles" title="Baltimore Orioles"><div class="logo-medium logo-mlb-medium mlb-medium-1"></div></a><a href="http://espn.go.com/nfl/team/_/name/bal/baltimore-ravens" title="Baltimore Ravens"><div class="logo-medium logo-nfl-medium nfl-medium-33"></div></a></div></div><!-- end city -->
+<style type="text/css">.videoplayer-show{ height: 169px !important; } .mod-inline.video-player.full-box { padding: 1px; }.mod-video-playlist {border-width: 0px; width: 290px; margin: 0 0 10px; 0; float: none; }.mod-video-playlist a, .mod-video-tags a { color: #225DB7; }</style><div class="clear"><div class="mod-inline video-player full-box with-playlist"><div class="videoplayer videoplayer-redesign_clubhouse_column" style="margin-top:0px !important;"><img src="http://a.espncdn.com/combiner/i?img=/media/motion/2015/0403/dm_150403_nfl_ravens_buzz/dm_150403_nfl_ravens_buzz.jpg&w=300&h=169" /></div><div id="videoInfo"><h5>Tight end bigger priority than receiver for Ravens</h5><div class="mod-video-tags"><span>ESPN Ravens reporter Jamison Hensley discusses draft priorities.</span><div class="mod-video-tags"><strong>Tags:</strong> <a href="http://search.espn.go.com/nfl/video/6">NFL</a>, <a href="http://search.espn.go.com/baltimore-ravens/video/6"> Baltimore Ravens</a></div></div></div><a id="videotoplay" style="display:none;" class="{trackingName: 'redesign_clubhouse_column', playRelatedExternally: 'false'}" href="http://espn.go.com/video/clip?id=12611805">Tight end bigger priority than receiver for Ravens</a><div class="mod-video-playlist"><h6>VIDEO PLAYLIST <img width="15" height="8" alt="video" src="http://a.espncdn.com/icons/video2.png" /></h6><ul class="bulletlinks"><li class=" first active"><a class="{trackingName: 'redesign_clubhouse_column', playRelatedExternally: 'false'}" href="http://espn.go.com/video/clip?id=12611805">Tight end bigger priority than receiver for Ravens</a><span style="display:none;"><h5>Tight end bigger priority than receiver for Ravens</h5><div class="mod-video-tags"><span>ESPN Ravens reporter Jamison Hensley discusses draft priorities.</span><div class="mod-video-tags"><strong>Tags:</strong> <a href="http://search.espn.go.com/nfl/video/6">NFL</a>, <a href="http://search.espn.go.com/baltimore-ravens/video/6"> Baltimore Ravens</a></div></div></span></li><li class=" next"><a class="{trackingName: 'redesign_clubhouse_column', playRelatedExternally: 'false'}" href="http://espn.go.com/video/clip?id=12600394">NFL learning from Rice incident</a><span style="display:none;"><h5>NFL learning from Rice incident</h5><div class="mod-video-tags"><span>The "NFL Live" crew discusses how the NFL has changed its handling of domestic violence cases since the Ray Rice incident.</span><div class="mod-video-tags"><strong>Tags:</strong> <a href="http://search.espn.go.com/nfl/video/6">NFL</a>, <a href="http://search.espn.go.com/greg-hardy/video/6"> Greg Hardy</a>, <a href="http://search.espn.go.com/dallas-cowboys/video/6"> Dallas Cowboys</a>, <a href="http://search.espn.go.com/carolina-panthers/video/6"> Carolina Panthers</a>, <a href="http://search.espn.go.com/ray-rice/video/6"> Ray Rice</a>, <a href="http://search.espn.go.com/baltimore-ravens/video/6"> Baltimore Ravens</a></div></div></span></li><li class=" last"><a class="{trackingName: 'redesign_clubhouse_column', playRelatedExternally: 'false'}" href="http://espn.go.com/video/clip?id=12594004">Matt Schaub brings experience as Ravens backup</a><span style="display:none;"><h5>Matt Schaub brings experience as Ravens backup</h5><div class="mod-video-tags"><span>ESPN Ravens reporter Jamison Hensley discusses QB Matt Schaub's signing with the team.</span><div class="mod-video-tags"><strong>Tags:</strong> <a href="http://search.espn.go.com/nfl/video/6">NFL</a>, <a href="http://search.espn.go.com/matt-schaub/video/6"> Matt Schaub</a>, <a href="http://search.espn.go.com/oakland-raiders/video/6"> Oakland Raiders</a>, <a href="http://search.espn.go.com/baltimore-ravens/video/6"> Baltimore Ravens</a></div></div></span></li></ul></div></div>
+		<script>
+		var ESPN_GLOBALS = {
+			"videoPlayers":{
+				"redesign_clubhouse_column":{
+					"height":169,
+					"width":300,
+					
+					"autostart":"true",
+					"trackingName":"redesign_clubhouse_column"
+				}
+			}
+		};
+
+		espn.video.embeded.play();
+		</script>
+	</div><div class="mod-container mod-no-header-footer mod-myespn" id="myespn-personalization"><div class="mod-content"><div class="gradient-container"><div class="inline-header"><h4>MyESPN</h4><ul class="links"><li><a href="http://espn.go.com/personalization/index?language=EN">Customize &#187;</a></li></ul></div><div class="personalization-teams">Start adding your favorite teams.</div></div></div></div><div class="mod-container mod-no-footer mod-data-table"><div class="mod-header"><h4>2014 Team Leaders</h4></div><div class="mod-content"><table class="mod-data"><thead><tr><th scope="col">PASSING</th><th scope="col" class="textright">ATT</th><th scope="col" class="textright">COMP</th><th scope="col" class="textright">YDS</th><th scope="col" class="textright">TD</th></tr></thead><tr class="even player-28-11252"><td><a href="http://espn.go.com/nfl/player/_/id/11252/joe-flacco">Joe Flacco</a></td><td class="textright">554</td><td class="textright">344</td><td class="textright">3986</td><td class="textright">27</td></tr><thead><tr><th scope="col">RUSHING</th><th scope="col" class="textright">ATT</th><th scope="col" class="textright">YDS</th><th scope="col" class="textright">AVG</th><th scope="col" class="textright">TD</th></tr></thead><tr class="even player-28-11467"><td><a href="http://espn.go.com/nfl/player/_/id/11467/justin-forsett">Justin Forsett</a></td><td class="textright">235</td><td class="textright">1266</td><td class="textright">5.4</td><td class="textright">8</td></tr><tr class="odd player-28-14891"><td><a href="http://espn.go.com/nfl/player/_/id/14891/bernard-pierce">Bernard Pierce</a></td><td class="textright">93</td><td class="textright">366</td><td class="textright">3.9</td><td class="textright">2</td></tr><thead><tr><th scope="col">RECEIVING</th><th scope="col" class="textright">REC</th><th scope="col" class="textright">YDS</th><th scope="col" class="textright">AVG</th><th scope="col" class="textright">TD</th></tr></thead><tr class="even player-28-2622"><td><a href="http://espn.go.com/nfl/player/_/id/2622/steve-smith-sr.">Steve Smith Sr.</a></td><td class="textright">79</td><td class="textright">1065</td><td class="textright">13.5</td><td class="textright">6</td></tr><tr class="odd player-28-14032"><td><a href="http://espn.go.com/nfl/player/_/id/14032/torrey-smith">Torrey Smith</a></td><td class="textright">49</td><td class="textright">767</td><td class="textright">15.7</td><td class="textright">11</td></tr></table><p class="footer"><a href="/nfl/team/stats/_/name/bal/baltimore-ravens">Team statistics &#187;</a></p></div></div><div class="mod-container mod-no-footer mod-data-table"><div class="mod-header"><h4>2014 AFC North STANDINGS</h4></div><div class="mod-content"><table class="mod-data"><thead><tr><th scope="col">TEAM</th><th scope="col" class="textright" title="Wins">W</th><th scope="col" class="textright" title="Losses">L</th><th scope="col" class="textright" title="Ties">T</th><th scope="col" class="textright" title="Win Percentage">PCT</th><th scope="col" class="textright" title="Points For">PF</th><th scope="col" class="textright" title="Points Against">PA</th></tr></thead><tr class="even team-28-23"><td><a href="http://espn.go.com/nfl/team/_/name/pit/pittsburgh-steelers">Pittsburgh</a></td><td class="textright">11</td><td class="textright">5</td><td class="textright">0</td><td class="textright">.688</td><td class="textright">436</td><td class="textright">368</td></tr><tr class="odd team-28-4"><td><a href="http://espn.go.com/nfl/team/_/name/cin/cincinnati-bengals">Cincinnati</a></td><td class="textright">10</td><td class="textright">5</td><td class="textright">1</td><td class="textright">.656</td><td class="textright">365</td><td class="textright">344</td></tr><tr class="even highlight team-28-33"><td><a href="http://espn.go.com/nfl/team/_/name/bal/baltimore-ravens">Baltimore</a></td><td class="textright">10</td><td class="textright">6</td><td class="textright">0</td><td class="textright">.625</td><td class="textright">409</td><td class="textright">302</td></tr><tr class="odd team-28-5"><td><a href="http://espn.go.com/nfl/team/_/name/cle/cleveland-browns">Cleveland</a></td><td class="textright">7</td><td class="textright">9</td><td class="textright">0</td><td class="textright">.438</td><td class="textright">299</td><td class="textright">337</td></tr></table><p class="footer"><a href="http://espn.go.com/nfl/standings">Complete standings &#187;</a></p></div></div><div class="mod-container mod-no-footer mod-data-table"><div class="mod-header"><h4>INJURIES</h4></div><div class="mod-content"><table class="mod-data"><thead><tr><th scope="col">PLAYER</th><th scope="col">POS</th><th scope="col" class="textright">DATE</th><th scope="col" class="textright">STATUS</th></tr></thead><tr class="player-28-13231"><td><a href="http://espn.go.com/nfl/player/_/id/13231/dennis-pitta">D. Pitta</a></td><td>TE</td><td class="textright">4/05</td><td class="textright">Ques.</td></tr></table><p class="footer"><a href="http://espn.go.com/nfl/injuries/_/team/bal">Complete Injury Report &#187;</a></p></div></div>
+	<!-- begin team tickets -->
+	<div class="stub-content">
+		<div class="stubhub-t gradient-container" style="overflow: hidden; background: #FFFFFF url(http://a.espncdn.com/i/advertising/stubhub/fanBg_team.jpg) repeat-x scroll center bottom;">
+			<div class="h-cont">
+				<a href="http://www.stubhub.com/baltimore-ravens-tickets/" onclick="this.href=this.href+'?gcid=C12289x443&keyword=Baltimore+RavensClubhouse+Ticket+Center'" title="Baltimore Ravens Tickets"><img src="http://a.espncdn.com/i/advertising/stubhub/h_team_stubhub.gif"/></a><a href="http://www.stubhub.com/baltimore-ravens-tickets/" onclick="this.href=this.href+'?gcid=C12289x443&keyword=Baltimore+RavensClubhouse+Ticket+Center'" title="Baltimore Ravens Tickets"><img class="tc" src="http://a.espncdn.com/i/advertising/stubhub/h_team_ticketcenter.gif"/></a>
+				<p class="action-cont"><img src="http://a.espncdn.com/i/advertising/stubhub/arrow.gif"/><a href="http://www.stubhub.com/baltimore-ravens-tickets/" onclick="this.href=this.href+'?gcid=C12289x443&keyword=Baltimore+RavensClubhouse+Ticket+Center'" title="Baltimore Ravens Tickets">See all tickets</a></p>
+			</div>
+
+			<p class="tick-cont">Find Tickets:</p>
+
+<script language="Javascript">
+function gotosite(loc) {
+    if(loc != null && loc != '') {
+        //location.href = loc;
+        //window.location = loc;
+        window.open(loc,'newwin');
+    }
+}
+</script>
+
+
+
+        <select width="165px" style="width: 165px;" name="url" class="tablesm" onChange="gotosite(this.options[this.selectedIndex].value+'?gcid=C12289x443&keyword='+this.options[this.selectedIndex].innerHTML.replace(/ /g,'+')+'+Baltimore+Ravens+Ticket+Center');" id="drop">
+
+        <option value="">Select Game:</option><option value="http://www.stubhub.com/nfl-tickets/?osid=sports-ln&gcid=C12289x443">All NFL Tickets</option><option value="http://www.stubhub.com/baltimore-ravens-tickets/">All Ravens Tickets</option>
+<option value="http://www.stubhub.com/baltimore-ravens-baltimore-m-t-bank-stadium-9-6-2015-9253744">Baltimore Ravens Season Tickets</option><option value="http://www.stubhub.com/season-parking-passes-only-baltimore-ravens-baltimore-m-t-bank-stadium-parking-lots-9-6-2015-9283464">SEASON PARKING PASSES ONLY Baltimore Ravens</option></select>
+<noscript><input type="Submit" value="GO" onsubmit="gotosite(document.forms[0].url.options[document.forms[0].url.selectedIndex].value);return false"></noscript>
+</form>
+			<div style="clear: both;"> </div> 
+			<p class="text-cont">
+			Buy <a href="http://www.stubhub.com/baltimore-ravens-tickets/" onclick=this.href=this.href+'?gcid=C12289x443&keyword=Baltimore+Ravens+Ticket+Center' title="Baltimore Ravens Tickets">Baltimore Ravens Tickets</a> at <a href="http://www.stubhub.com/mandt-bank-stadium-event-tickets/" onclick=this.href=this.href+'?gcid=C12289x443&keyword=Baltimore+Ravens+Ticket+Center' title="M&T Bank Stadium">M&T Bank Stadium</a> at <a href="http://www.stubhub.com/" onclick=this.href=this.href+'?gcid=C12289x443&keyword=Baltimore+Ravens+Ticket+Center' title="StubHub">StubHub</a>!</a></p>
+		</div>
+	</div>
+	<!-- end team tickets --><div class="mod-container mod-no-footer mod-data-table"><div class="mod-header"><h4>FREE AGENTS</h4></div><div class="mod-content"><table class="mod-data"><thead><tr><th scope="col">PLAYER</th><th scope="col">POS</th><th scope="col">FA TYPE</th><th scope="col">2015 TEAM</th></tr></thead><tr class="player-28-15103"><td><a href="http://espn.go.com/nfl/player/_/id/15103/christo-bilukidi">C. Bilukidi</a></td><td>DE</td><td>UFA</td><td>Ravens</td></tr><tr class="player-28-8546 odd"><td><a href="http://espn.go.com/nfl/player/_/id/8546/chris-canty">C. Canty</a></td><td>DE</td><td>Released</td><td>Ravens</td></tr><tr class="player-28-11261"><td><a href="http://espn.go.com/nfl/player/_/id/11261/antoine-cason">A. Cason</a></td><td>CB</td><td>UFA</td><td></td></tr><tr class="player-28-13267 odd"><td><a href="http://espn.go.com/nfl/player/_/id/13267/terrence-cody">T. Cody</a></td><td>DT</td><td>Released</td><td></td></tr><tr class="player-28-13848"><td><a href="http://espn.go.com/nfl/player/_/id/13848/morgan-cox">M. Cox</a></td><td>C</td><td>UFA</td><td>Ravens</td></tr><tr class="player-28-9684 odd"><td><a href="http://espn.go.com/nfl/player/_/id/9684/owen-daniels">O. Daniels</a></td><td>TE</td><td>UFA</td><td>Broncos</td></tr><tr class="player-28-11467"><td><a href="http://espn.go.com/nfl/player/_/id/11467/justin-forsett">J. Forsett</a></td><td>RB</td><td>UFA</td><td>Ravens</td></tr><tr class="player-28-13054 odd"><td><a href="http://espn.go.com/nfl/player/_/id/13054/danny-gorrer">D. Gorrer</a></td><td>DB</td><td>UFA</td><td></td></tr><tr class="player-28-14185"><td><a href="http://espn.go.com/nfl/player/_/id/14185/lawrence-guy">L. Guy</a></td><td>DE</td><td>UFA</td><td>Ravens</td></tr><tr class="player-28-15621 odd"><td><a href="http://espn.go.com/nfl/player/_/id/15621/will-hill">W. Hill</a></td><td>SS</td><td>RFA</td><td></td></tr><tr class="player-28-10517"><td><a href="http://espn.go.com/nfl/player/_/id/10517/jacoby-jones">J. Jones</a></td><td>WR</td><td>Released</td><td>Chargers</td></tr><tr class="player-28-14202 odd"><td><a href="http://espn.go.com/nfl/player/_/id/14202/pernell-mcphee">P. McPhee</a></td><td>DE</td><td>UFA</td><td>Bears</td></tr><tr class="player-28-13756"><td><a href="http://espn.go.com/nfl/player/_/id/13756/jeromy-miles">J. Miles</a></td><td>FS</td><td>UFA</td><td></td></tr><tr class="player-28-14891 odd"><td><a href="http://espn.go.com/nfl/player/_/id/14891/bernard-pierce">B. Pierce</a></td><td>RB</td><td>Released</td><td>Jaguars</td></tr><tr class="player-28-14042"><td><a href="http://espn.go.com/nfl/player/_/id/14042/william-rackley">W. Rackley</a></td><td>OG</td><td>UFA</td><td></td></tr><tr class="player-28-13999 odd"><td><a href="http://espn.go.com/nfl/player/_/id/13999/jah-reid">J. Reid</a></td><td>OT</td><td>UFA</td><td>Ravens</td></tr><tr class="player-28-10464"><td><a href="http://espn.go.com/nfl/player/_/id/10464/aaron-ross">A. Ross</a></td><td>DB</td><td>UFA</td><td></td></tr><tr class="player-28-14032 odd"><td><a href="http://espn.go.com/nfl/player/_/id/14032/torrey-smith">T. Smith</a></td><td>WR</td><td>UFA</td><td>49ers</td></tr><tr class="player-28-13645"><td><a href="http://espn.go.com/nfl/player/_/id/13645/darian-stewart">D. Stewart</a></td><td>DB</td><td>UFA</td><td>Broncos</td></tr><tr class="player-28-14163 odd"><td><a href="http://espn.go.com/nfl/player/_/id/14163/tyrod-taylor">T. Taylor</a></td><td>QB</td><td>UFA</td><td>Bills</td></tr><tr class="player-28-15683"><td><a href="http://espn.go.com/nfl/player/_/id/15683/justin-tucker">J. Tucker</a></td><td>PK</td><td>RFA</td><td></td></tr></table><p class="footer"><a href="http://insider.espn.go.com/nfl/fa">All free agents &#187;</a></p></div></div><div class="ad-box"><!-- begin InContent --><div class="gutter"><!--espn.us.com.nfl sitezone--><!--http://ad.Doubleclick.net hostUrl-->
+<script>if("undefined"!=typeof ad_kvps&&"undefined"!=typeof ad_u&&"undefined"!=typeof ad_counter&&"undefined"!=typeof ad_ord){if("undefined"==typeof ad_site||"undefined"==typeof ad_zone)var ad_site="espn.us.com.nfl",ad_zone="nflteamclubhouse";var ad_finalString="http://ad.Doubleclick.net/adj/"+ad_site+"/"+ad_zone+";"+ad_kvps+"pos=InContent;"+ad_u+"dcopt=ist;sz=300x600,300x250,1x1;tile="+ad_counter+";ord="+ad_ord;document.write('<div data-cb-ad-id="InContent" data-cb-dfp-id="'+ad_kvps+'sz=300x600,300x250,1x1"><script src='+ad_finalString+'>\x3c/script></div>');ad_counter++};</script>
+<noscript><a href="http://ad.Doubleclick.net/jump/espn.us.com.nfl/nflteamclubhouse;pgtyp=nflteamclubhouse;sp=espn;nav=true;sz=300x600,300x250,1x1;" target="_blank"><img src="http://ad.Doubleclick.net/ad/espn.us.com.nfl/nflteamclubhouse;pgtyp=nflteamclubhouse;sp=espn;nav=true;sz=300x600,300x250,1x1;" border="0" alt=""></a></noscript>
+</div><!-- end InContent -->
+</div><!-- nbtest here a --><!-- begin slice mod -->
+<div class="pm webiconmod" style="display:none;">
+<h3>IE8 Slices</h3>
+<div class="pm-inner">
+<span class="webicon" style="display:none;">
+<span id="nfl_bal_clubhouseslice" class="hslice" style="display: none;">
+<span style="display: none;" class="entry-title">ESPN: Ravens</span>
+<a rel="entry-content" href="http://espn.go.com/nfl/webslices/clubhouse?team=bal" style="display: none;"></a>
+<span style="display: none;">
+Updates every <span class="ttl">60</span> minute(s)
+</span>
+</span>
+<a href="#" onclick="javascript:window.external.AddToFavoritesBar('http://espn.go.com/nfl/webslices/clubhouse?team=bal#nfl_bal_clubhouseslice', 'ESPN\: Ravens', 'slice'); anTrackLink (this,'espn','webslice_nfl_bal_clubhouseslice_add','ESPN\: Ravens');">Add Ravens Slice</a></span><span class="webicon" style="display:none;">
+<span id="nfl_bal_clubhouseslice" class="hslice" style="display: none;">
+<span style="display: none;" class="entry-title">ESPN: Ravens</span>
+<a rel="entry-content" href="http://espn.go.com/nfl/webslices/clubhouse?team=bal" style="display: none;"></a>
+<span style="display: none;">
+Updates every <span class="ttl">60</span> minute(s)
+</span>
+</span>
+<a href="#" onclick="javascript:window.external.AddToFavoritesBar('http://espn.go.com/nfl/webslices/clubhouse?team=bal#nfl_bal_clubhouseslice', 'ESPN\: Ravens', 'slice'); anTrackLink (this,'espn','webslice_nfl_bal_clubhouseslice_add','ESPN\: Ravens');"><img src="http://a.espncdn.com/webslices/icons/12x12.png" alt="IE8 Web Slice" class="sliceicon-img" /></a></span></div>
+<div style="clear:both;">&nbsp;</div>
+</div>
+<!-- end slice mod -->
+
+		</div>
+		<div class="span-6">
+			<div class="mod-container mod-team-footer"><div class="logo-medium logo-nfl-medium nfl-medium-33"></div><h3 class="txt-nfl-bal">Baltimore Ravens</h3><ul><li class="active"><a href="/nfl/team/_/name/bal/baltimore-ravens">Clubhouse</a></li><li ><a href="/nfl/team/stats/_/name/bal/baltimore-ravens">Stats</a></li><li ><a href="/nfl/team/schedule/_/name/bal/baltimore-ravens">Schedule</a></li><li ><a href="/nfl/team/roster/_/name/bal/baltimore-ravens">Roster</a></li><li ><a href="/nfl/team/splits/_/name/bal/baltimore-ravens">Splits</a></li><li ><a href="/nfl/team/depth/_/name/bal/baltimore-ravens">Depth Chart</a></li><li ><a href="/nfl/team/transactions/_/name/bal/baltimore-ravens">Transactions</a></li><li ><a href="/nfl/team/rankings/_/name/bal/baltimore-ravens">Rankings</a></li><li ><a href="/nfl/team/photos/_/name/bal/baltimore-ravens">Photos</a></li><li ><a href="/nfl/team/stadium/_/name/bal/baltimore-ravens">Stadium</a></li><li ><a href="/blog/baltimore-ravens">Blog</a></li></ul></div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="clear"></div>
+	<script type="text/javascript" charset="UTF-8">(function(){function c(n){var k=document.cookie,s,e,l="length";if(k[l]>0){s=k.indexOf(n+"=");if(s!=-1){ s=s+n[l]+1;e=k.indexOf(";",s);if(e==-1)e=k[l];return unescape(k.substring(s,e));}}return"";}var a=c("releaseCandidate")=="true";this.ESPN_GLOBALS={videoPlayers:{redesign_clubhouse_column:{height:324,width:576,autostart:"true",playerType:!!a?"newskin_index09_dev":"redesign_clubhouse_column"}}}})();</script></div>
+<div id="global-viewport" data-behavior="global_nav_condensed global_nav_full"  class =" interior" >
+
+<nav id="global-nav-mobile" data-loadtype="server">
+</nav><div class="menu-overlay-primary"></div><div id="header-wrapper" data-behavior="global_header">
+<header id="global-header" class="espn-en">
+    <div class="menu-overlay-secondary"></div>
+
+	<div class="container">
+		<a id="global-nav-mobile-trigger" href="#" data-route="false"><span>Menu</span></a><h1><a name="&lpos=sitenavdefault&lid=sitenav_main-logo" href='http://espn.go.com' >ESPN</a></h1>
+		<ul class="tools">
+			<li class="search">
+				
+<a href="#" id="global-search-trigger"></a>
+<div id="global-search" class="global-search">
+	<input type="text" class="search-box" placeholder="Search Sports, Teams or Players..."><input type="submit" class="btn-search">
+</div>
+			</li>
+			<li class="user" data-behavior="profile_dropdown favorites_mgmt"></li>
+			<li>
+				<a href="#" id="global-scoreboard-trigger" data-route="false">Scores</a>
+			</li>
+		</ul>
+		
+
+	</div>
+		
+	
+<nav id="global-nav" data-loadtype="server">
+<ul itemscope="" itemtype="http://www.schema.org/SiteNavigationElement">
+<li itemprop="name"><a itemprop="url" href="/nfl/">NFL</a></li><li itemprop="name"><a itemprop="url" href="/nba/">NBA</a></li><li itemprop="name"><a itemprop="url" href="/mlb/">MLB</a></li><li itemprop="name"><a itemprop="url" href="/college-football/">NCAAF</a></li><li itemprop="name"><a itemprop="url" href="/mens-college-basketball/">NCAAM</a></li><li itemprop="name"><a itemprop="url" href="http://espnfc.com/">Soccer</a></li><li itemprop="name"><a itemprop="url" href="#">&hellip;</a><div><ul class="split"><li itemprop="name"><a itemprop="url" href="/nhl/">NHL</a></li><li itemprop="name"><a itemprop="url" href="/racing/nascar/">NASCAR</a></li><li itemprop="name"><a itemprop="url" href="/golf/">Golf</a></li><li itemprop="name"><a itemprop="url" href="/tennis/">Tennis</a></li><li itemprop="name"><a itemprop="url" href="/racing/">Racing</a></li><li itemprop="name"><a itemprop="url" href="/olympics/">Olympics</a></li><li itemprop="name"><a itemprop="url" href="/college-sports/">NCAA</a></li><li itemprop="name"><a itemprop="url" href="/womens-basketball/">NCAAW</a></li><li itemprop="name"><a itemprop="url" href="/horse-racing/">Horse</a></li><li itemprop="name"><a itemprop="url" href="/mma/">MMA</a></li><li itemprop="name"><a itemprop="url" href="/boxing/">Boxing</a></li><li itemprop="name"><a itemprop="url" href="/womens-basketball/">WNBA</a></li><li itemprop="name"><a itemprop="url" href="http://espn.go.com/college-sports/football/recruiting/">RN FB</a></li><li itemprop="name"><a itemprop="url" href="http://espn.go.com/college-sports/basketball/recruiting/index">RN BB</a></li><li itemprop="name"><a itemprop="url" href="http://espncricinfo.com/">Cricket</a></li><li itemprop="name"><a itemprop="url" href="http://www.espnscrum.com/">Rugby</a></li><li itemprop="name"><a itemprop="url" href="http://xgames.com/">XGames</a></li><li itemprop="name"><a itemprop="url" href="/chalk/">Chalk</a></li><li itemprop="name"><a itemprop="url" href="/endurance/">Endurance</a></li></ul></div></li><li class="pillar more-espn"><a href="#">More ESPN</a></li><li class="pillar fantasy"><a href="http://games.espn.go.com/frontpage/">Fantasy</a></li><li class="pillar listen"><a href="http://espn.go.com/espnradio/index">Listen</a></li><li class="pillar watch"><a href="http://espn.go.com/watchespn/index">Watch</a></li></ul>
+
+</nav>
+
+
+
+
+<nav id="global-nav-secondary" data-loadtype="server"  >
+<div class="global-nav-container">
+<ul class="first-group"><li class="sports" itemprop="name"><span class="positioning"><a href="/nfl/"><a href="/nfl/"><span class="brand-logo "><img src="http://a.espncdn.com/combiner/i?img=/i/teamlogos/leagues/500/nfl.png&w=80&h=80&transparent=true"></span><span class="link-text">NFL</span></a></span></li><li class="sub"><a href="/nfl/"  data-breakpoints="desktop,desktop-lg"  data-mobile="false" ><span class="link-text">Home</span><span class="link-text-short">Home</span></a></li><li class="sub"><a href="/blog/nflnation"  data-blog="true"  data-sportAbbrev="nfl" ><span class="link-text">NFL Nation</span><span class="link-text-short">NFL Nation</span></a></li><li class="sub"><a href="http://espn.go.com/nfl/draft"  data-mobile="false" ><span class="link-text">Draft</span><span class="link-text-short">Draft</span></a></li><li class="sub"><a href="http://espn.go.com/nfl/scoreboard" ><span class="link-text">Scores</span><span class="link-text-short">Scores</span></a></li><li class="sub"><a href="http://espn.go.com/nfl/standings"  data-mobile="false" ><span class="link-text">Standings</span><span class="link-text-short">Standings</span></a></li><li class="sub"><a href="http://espn.go.com/nfl/teams"  data-sportAbbrev="nfl" ><span class="link-text">Teams</span><span class="link-text-short">Teams</span></a></li><li class="sub"><a href="http://espn.go.com/nfl/statistics"  data-mobile="false" ><span class="link-text">Stats</span><span class="link-text-short">Stats</span></a></li><li class="sub"><a href="http://espn.go.com/nfl/transactions"  data-mobile="false" ><span class="link-text">Transactions</span><span class="link-text-short">Transactions</span></a></li><li class='sub sub-more-nolink sub-more-more has-sub'><a href='#'>More</a><div><ul ><li class="sub"><a href="http://espn.go.com/nfl/schedule"  data-mobile="false" ><span class="link-text">Schedule</span><span class="link-text-short">Schedule</span></a></li><li class="sub"><a href="http://insider.espn.go.com/nfl/freeagency/"  data-mobile="false" ><span class="link-text">Free Agency</span><span class="link-text-short">Free Agency</span></a></li><li class="sub"><a href="http://espn.go.com/nfl/players"  data-mobile="false" ><span class="link-text">Players</span><span class="link-text-short">Players</span></a></li><li class="sub insider"><a href="/blog/nfl/rumors/insider/" ><span class="link-text">Rumors</span><span class="link-text-short">Rumors</span></a></li><li class="sub"><a href="/chalk/" ><span class="link-text">Odds & Info</span><span class="link-text-short">Odds & Info</span></a></li><li class="sub"><a href="http://espn.go.com/nfl/powerrankings"  data-mobile="false" ><span class="link-text">Power Rankings</span><span class="link-text-short">Power Rankings</span></a></li><li class="sub"><a href="http://espn.go.com/nfl/qbr"  data-mobile="false" ><span class="link-text">QBR</span><span class="link-text-short">QBR</span></a></li><li class="sub"><a href="http://espn.go.com/nfl/weekly/leaders"  data-mobile="false" ><span class="link-text">Weekly Leaders</span><span class="link-text-short">Weekly Leaders</span></a></li><li class="sub"><a href="http://espn.go.com/nfl/attendance"  data-mobile="false" ><span class="link-text">Attendance</span><span class="link-text-short">Attendance</span></a></li><li class="sub"><a href="http://espn.go.com/nfl/coaches"  data-mobile="false" ><span class="link-text">Coaches</span><span class="link-text-short">Coaches</span></a></li><li class="sub insider"><a href="http://insider.espn.go.com/insider/pickcenter/index?sport=nfl"  data-mobile="false" ><span class="link-text">PickCenter</span><span class="link-text-short">PickCenter</span></a></li><li class="sub external"><a href="http://www.dickssportinggoods.com/category/index.jsp?categoryId=15496176&camp=Part:ESPNPart_NFLNav:Shop:SubNavLink"  data-mobile="false" ><span class="link-text">Shop</span><span class="link-text-short">Shop</span></a></li><li class="sub external"><a href="http://www.stubhub.com/regular-season-nfl-tickets/"  data-mobile="false" ><span class="link-text">Tickets</span><span class="link-text-short">Tickets</span></a></li></ul></div></li></ul>
+	<script type="text/javascript">
+		var espn = espn || {};
+		espn.nav = espn.nav || {};
+		espn.nav.navId = 11929946;	
+		espn.nav.isFallback = false;	
+		
+		
+		
+	</script>
+</div>
+</nav>
+
+</header></div></div></div>
+<!-- end content -->
+</div>
+<!-- end subheader -->
+<!-- begin footer -->
+<div id="footer" class="container">
+<script type="text/javascript">
+void 0!==window.jQuery&&jQuery(document).on("track.search",function(n,o,c,e,t){"function"==typeof t&&t.call()});
+
+//<![CDATA[
+var link = window.location;
+var bugText = '<a href="#" onclick="window.open(\'http://dynamic.espn.go.com/espn/bugs?url=' + escape(link) + '\', \'Bugs\',\'noresizable,noscrollbars,height=400,width=400\');">Report a Bug</a> | ';
+//]]>
+</script>
+<span style="font-weight:bold;">ESPN.com:</span> <a href="http://sports.espn.go.com/espn/news/story?page=help/index">Help</a> | <a href="http://espnmediazone.com/us/" rel="nofollow">Press</a> | <a href="http://www.espncms.com/Advertise-on-ESPN.aspx" rel="nofollow">Advertise on ESPN.com</a> | <a href="http://www.espncms.com" rel="nofollow">Sales Media Kit</a> | <a href="http://preferences.truste.com/2.0/?type=espn&affiliateId=148" onclick="window.open('http://preferences.truste.com/2.0/?type=espn&affiliateId=148','popup','width=986,height=878,scrollbars=yes,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false">Interest-Based Ads</a> | <script type="text/javascript">document.write(bugText);</script><a href="http://espn.go.com/espn/corrections">Corrections</a> | <a href="http://sports.espn.go.com/espn/news/story?page=contact/index">Contact Us</a> | <a href="http://espn.go.com/espn/sitemap">Site Map</a> | <a href="http://espncareers.com">Jobs at ESPN</a> | <!--a href="http://corporate.disney.go.com/corporate/sourcing.html" rel="nofollow"><span style="font-weight:bold;">Supplier Information</span></a--><a href="http://go.com">Go.com</a><br/>&copy; 2015  ESPN Internet Ventures. <a href="http://disneytermsofuse.com/" rel="nofollow">Terms of Use</a>, <a href="http://disneyprivacycenter.com/" rel="nofollow">Privacy Policy</a>, <a href="https://disneyprivacycenter.com/notice-to-california-residents/" rel="nofollow">Your California Privacy Rights</a>,  <a href="https://disneyprivacycenter.com/kids-privacy-policy/english/">Children's Online Privacy Policy</a> and <a href="http://preferences-mgr.truste.com/?type=espn&affiliateId=148">Interest-Based Ads</a> are applicable to you.  All rights reserved.
+
+<!--
+<a href="http://www.espnshop.com/" onClick="location.href('http://log.go.com/log?srvc=sz&guid=73B641A0-6660-4EFC-B8FF-9DE23E8CD9BD&drop=0&addata=3374:65:478847:65&a=1&goto=http://www.espnshop.com/');return false">Shop</a>
+--></div>
+<!-- end footer -->
+<!--[if lte IE 9]></div><![endif]-->
+</div>
+<!-- end bg-elements -->
+<script type="text/javascript">jQuery(document).ready(function() {var ua = navigator.userAgent;if (ua && ua.indexOf("Trident/4.0") >= 0) { jQuery(".webicon").show(); }if (ua && ua.indexOf("Trident/4.0") >= 0) { jQuery(".webiconmod").show(); }});</script><script type="text/javascript" src="http://a.espncdn.com/combiner/c/3301909?js=transitionalHeader/espn.i18n-espn-en.js,transitionalHeader/nav-external-domestic.js"></script>
+
+<!-- SiteCatalyst code version: H.21.3 Copyright 1997-2010 Omniture, Inc. http://www.omniture.com -->
+<script type="text/javascript">
+	var undef = 'undefined'
+	,s_account="wdgespcom"
+	,omniPageName = "espn:nfl:teams:clubhouse:baltimore+ravens"
+	
+	,insiderStatus = ""
+	,anGen = ""
+	,anYear = ""
+	,anDateString = ""
+	,anLoginStatus = ""
+	,callOmniture = function(){
+		/*-- core story s_omni properties --*/
+		if (typeof anCV != "undefined"){anParseLoginBarInfo(anCV);}
+		s_omni.pageName="nfl:teams:clubhouse:baltimore+ravens";
+		s_omni.server = window.location.host; // Server from the Host
+		s_omni.channel = "nfl";
+		s_omni.prop1 = "espn";
+		s_omni.prop4 = "clubhouse";
+		s_omni.prop5 = "nfl:teams";
+		s_omni.prop11 = (insiderStatus !== null) ? insiderStatus + ":premium-no" : "premium-no";
+		s_omni.prop13 = "automated-general";
+		s_omni.prop17 = "en";
+		s_omni.prop21 = anDateString;
+		s_omni.prop22 = anGen;
+		s_omni.prop25 = "football";
+		s_omni.prop26 = "nfl";
+		s_omni.prop29 = anLoginStatus;
+		s_omni.prop30 = "n";
+		s_omni.prop32 = "nfl:teamid=33-baltimore+ravens";
+		s_omni.hier1 = "nfl:teams:clubhouse:baltimore+ravens";
+		s_omni.eVar7 = anYear + ":" + anGen + ":" + anLoginStatus + ":" + s_omni.prop11 + ":";
+		s_omni.eVar9 = "en";
+		s_omni.eVar13 = "nfl:teams:clubhouse:baltimore+ravens";
+		s_omni.eVar19 = "football";
+		s_omni.eVar21 = "nfl";
+		
+		if (s_omni.prop11=="anonymous:premium-yes" || s_omni.prop11=="insider-no:premium-yes" && typeof s_omni.prop4!="undefined" &&
+			(s_omni.prop4=="story" || s_omni.prop4=="blog")) {
+			if (typeof s_omni.events != "undefined" && s_omni.events!="") {
+				s_omni.events = s_omni.events+",event8";
+			} else { 
+				s_omni.events="event8";
+			}
+		}
+		
+		s_omni.prop38 = "Desktop";
+		s_omni.eVar38 = "D=c38";
+		
+		
+		anVersion = "_11apr14_v2_0_r5_";
+		
+		/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+		
+		var s_code = s_omni.t();
+		if(s_code) {
+			var sci = new Image(1,1);
+			sci.onload = function() {console.log("loaded no append")};
+			sci.src = s_code;
+		}
+		
+	};	
+</script>
+
+
+
+<script type="text/javascript">
+	if (typeof(s_omni) === 'undefined') {
+		(function($) {
+			// we want to load the analytics files from the cache if possible - so, let's use full $.ajax() calls
+			$.ajax({
+				type:'GET',
+				url: 'http://a.espncdn.com/combiner/c?js=analytics/sOmni.js,analytics/analytics.js,analytics/externalnielsen.js&v=15',
+				dataType: 'script',
+				cache: true,
+				success: function() {
+					var lgSrc;
+					if(typeof anCV !== undef && anCV === '' && $('#form-memberarea').length > 0) {
+						lgSrc = 'https://r.espn.go.com/members/util/getUserInfo?cb=runOmnitureIndependently&regType=true';
+						$.getScript(lgSrc); // we don't want this to be cached - so we'll use the $.getScript() method
+					} else {
+						callOmniture();
+					}
+				}
+			});
+
+		}(jQuery));
+	}
+</script>
+
+<!-- End SiteCatalyst code version: H.21. -->
+
+
+<!-- Begin comScore Tag -->
+<script type="text/javascript">
+	if (typeof(jQuery) !== 'undefined') {
+		jQuery(function($) {
+			if(typeof window._comscore === 'undefined') {
+				window._comscore = window._comscore || [];
+				window._comscore.push({ c1: "2", c2: "3000005" });
+				jQuery.getScript((document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js");
+			}
+		});
+	}
+</script>
+<!-- End comScore Tag -->
+		<script>
+		var _sf_async_config={
+			"uid":22222,
+			"domain":"espn.go.com",
+			"pingServer":"pespn.chartbeat.net",
+			"useCanonical":true,
+			"useSubDomains":false,
+			"sections":"nfl",
+			"authors":"clubhouse"
+		};
+		if (typeof(ad_site) !== 'undefined') { _sf_async_config.zone = ad_site; }
+
+		// load both chartbeat_pub and chartbeat_video
+		(function () {
+			function a() {
+				window._sf_endpt = (new Date()).getTime();
+
+				var cbDomain = (("https:"==document.location.protocol)?"https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/":"http://static.chartbeat.com/");
+
+				var c = document.createElement("script");
+				c.setAttribute("language","javascript");
+				c.setAttribute("type","text/javascript");
+				c.setAttribute("src", cbDomain+"js/chartbeat_pub.js");
+				document.body.appendChild(c);
+
+				if(typeof StrategyInterface !== 'undefined' && (typeof espn !== 'undefined' && typeof espn.video !== 'undefined')){
+					var e = document.createElement("script");
+					e.setAttribute("language",	"javascript");
+					e.setAttribute("type", "text/javascript");
+					e.setAttribute("src", cbDomain+"js/chartbeat_video.js");
+					document.body.appendChild(e);
+				}
+			}
+			var b = window.onload;
+			window.onload = (typeof window.onload != "function") ? a : function () { b(); a() }
+		})();
+		//(function(){function a(){window._sf_endpt=(new Date()).getTime();var c=document.createElement("script");c.setAttribute("language","javascript");c.setAttribute("type","text/javascript");c.setAttribute("src",(("https:"==document.location.protocol)?"https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/":"http://static.chartbeat.com/")+"js/chartbeat_pub.js");document.body.appendChild(c)}var b=window.onload;window.onload=(typeof window.onload!="function")?a:function(){b();a()}})();
+		</script>
+	
+<!-- dynamic logic: safecount -->
+<script src="http://content.dl-rms.com/rms/mother/508/nodetag.js"></script>
+
+<script type="text/javascript" charset="utf-8">buildOutHeadlinesForPinnedSite();</script>
+<script type="text/javascript">
+   var isInIFrame = (window.location != window.parent.location) ? true : false;
+   if(isInIFrame){ if(document.referrer){ if(document.referrer.indexOf(".go.com")==-1){ top.location.href=self.location.href; } } }
+</script>
+
+<script type='text/javascript'>
+  //<![CDATA[
+    (function(){
+    window.gravityInsightsParams = {
+      'type': 'content',
+      'action': '',
+      'site_guid': '9a41401e9b7c945344e001ee7f23031e'
+    };
+    var b,c;b="https:"===document.location.protocol?"https://b-ssl.grvcdn.com/moth-min.js":"http://b.grvcdn.com/moth-min.js";window.grvMakeScript=function(d){var a;a=document.createElement("script");a.type="text/javascript";a.async=!0;a.src=d;return a};c=document.getElementsByTagName("script")[0];b&&c.parentNode.insertBefore(window.grvMakeScript(b),c);})();
+  //]]>
+</script></body>
+</html>

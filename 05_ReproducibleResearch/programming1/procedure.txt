@@ -1,0 +1,11 @@
+cd C:/Users/lenovo/Desktop/peer1/RepData_PeerAssessment1
+git init
+
+git clone https://github.com/pivezhan/RepData_PeerAssessment1
+
+git remote add origin https://github.com/pivezhan/ProgrammingAssignment2
+
+git add .
+git status
+git commit -m edit cachematrix.R
+

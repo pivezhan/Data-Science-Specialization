@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>The Lattice Plotting System in R</title>
+  <meta charset="utf-8">
+  <meta name="description" content="The Lattice Plotting System in R">
+  <meta name="author" content="Roger D. Peng, Associate Professor of Biostatistics">
+  <meta name="generator" content="slidify">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="The%20Lattice%20Plotting%20System%20in%20R_files/default.css" media="all">
+  <link rel="stylesheet" href="The%20Lattice%20Plotting%20System%20in%20R_files/phone.htm" media="only screen and (max-device-width: 480px)">
+  <link rel="stylesheet" href="The%20Lattice%20Plotting%20System%20in%20R_files/slidify.css">
+  <link rel="stylesheet" href="The%20Lattice%20Plotting%20System%20in%20R_files/tomorrow.css">
+  <script src="The%20Lattice%20Plotting%20System%20in%20R_files/slides.js" data-requiremodule="slides" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><script src="The%20Lattice%20Plotting%20System%20in%20R_files/order.js" data-requiremodule="order" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script><script src="The%20Lattice%20Plotting%20System%20in%20R_files/slide_config.js" data-requiremodule="slide_config" data-requirecontext="_" charset="utf-8" type="text/javascript"></script><script src="The%20Lattice%20Plotting%20System%20in%20R_files/modernizr.js" data-requiremodule="modernizr.custom.45394" data-requirecontext="_" charset="utf-8" type="text/javascript"></script><script src="The%20Lattice%20Plotting%20System%20in%20R_files/prettify.js" data-requiremodule="prettify/prettify" data-requirecontext="_" charset="utf-8" type="text/javascript"></script><script src="The%20Lattice%20Plotting%20System%20in%20R_files/hammer.js" data-requiremodule="hammer" data-requirecontext="_" charset="utf-8" type="text/javascript"></script><script src="The%20Lattice%20Plotting%20System%20in%20R_files/slide-controller.js" data-requiremodule="slide-controller" data-requirecontext="_" charset="utf-8" type="text/javascript"></script><script src="The%20Lattice%20Plotting%20System%20in%20R_files/slide-deck.js" data-requiremodule="slide-deck" data-requirecontext="_" charset="utf-8" type="text/javascript"></script><!-- base href="http://datasciencespecialization.github.io/courses/04_ExploratoryAnalysis/PlottingLattice/index.html" --> <!-- This amazingness opens all links in a new tab. -->
+  <script data-main="../../libraries/frameworks/io2012/js/slides" src="The%20Lattice%20Plotting%20System%20in%20R_files/require-1.js">
+  </script>
+  
+    <link rel="stylesheet" href="The%20Lattice%20Plotting%20System%20in%20R_files/custom_003.css">
+<link rel="stylesheet" href="The%20Lattice%20Plotting%20System%20in%20R_files/custom_004.css">
+<link rel="stylesheet" href="The%20Lattice%20Plotting%20System%20in%20R_files/custom_005.css">
+<link rel="stylesheet" href="The%20Lattice%20Plotting%20System%20in%20R_files/custom.css">
+<link rel="stylesheet" href="The%20Lattice%20Plotting%20System%20in%20R_files/custom.orig">
+<link rel="stylesheet" href="The%20Lattice%20Plotting%20System%20in%20R_files/custom_002.css">
+<link rel="stylesheet" href="The%20Lattice%20Plotting%20System%20in%20R_files/ribbons.css">
+
+<style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Hover_Arrow {position: absolute; width: 15px; height: 11px; cursor: pointer}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 2px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 2px 2em; background: transparent}
+.MathJax_MenuTitle {background-color: #CCCCCC; margin: -1px -1px 1px -1px; text-align: center; font-style: italic; font-size: 80%; color: #444444; padding: 2px 0; overflow: hidden}
+.MathJax_MenuArrow {position: absolute; right: .5em; color: #666666}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuRadioCheck {position: absolute; left: 1em}
+.MathJax_MenuLabel {padding: 2px 2em 4px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #CCCCCC; margin: 4px 1px 0px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: Highlight; color: HighlightText}
+.MathJax_Menu_Close {position: absolute; width: 31px; height: 31px; top: -15px; left: -15px}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1px; bottom: 2px; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><link href="http://datasciencespecialization.github.io/courses/04_ExploratoryAnalysis/PlottingLattice/images/google_developers_logo_tiny.png" type="image/png" rel="icon"><link href="The%20Lattice%20Plotting%20System%20in%20R_files/css.css" rel="stylesheet"></head>
+<body class="loaded" style="opacity: 0"><div style="display: none;" id="MathJax_Message"></div>
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+    <!-- END LOGO SLIDE -->
+    
+
+    <!-- TITLE SLIDE -->
+    <!-- Should I move this to a Local Layout File? -->
+    <slide data-total-slides="15" data-slide-num="1" class="title-slide segue nobackground current">
+      <aside class="gdbar">
+        <img src="The%20Lattice%20Plotting%20System%20in%20R_files/bloomberg_shield.png">
+      </aside>
+      <hgroup class="auto-fadein">
+        <h1>The Lattice Plotting System in R</h1>
+        <h2></h2>
+        <p>Roger D. Peng, Associate Professor of Biostatistics<br>Johns Hopkins Bloomberg School of Public Health</p>
+      </hgroup>
+          </slide>
+
+    <!-- SLIDES -->
+      <slide data-total-slides="15" data-slide-num="2" class="next" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>The Lattice Plotting System</h2>
+  </hgroup>
+  <article>
+    <p>The lattice plotting system is implemented using the following packages:</p>
+
+<ul>
+<li><p><em>lattice</em>: contains code for producing Trellis graphics, which are
+independent of the “base” graphics system; includes functions like
+<code>xyplot</code>, <code>bwplot</code>, <code>levelplot</code></p></li>
+<li><p><em>grid</em>: implements a different graphing system independent of the
+“base” system; the <em>lattice</em> package builds on top of <em>grid</em></p>
+
+<ul>
+<li>We seldom call functions from the <em>grid</em> package directly</li>
+</ul></li>
+<li><p>The lattice plotting system does not have a "two-phase" aspect with
+separate plotting and annotation like in base plotting</p></li>
+<li><p>All plotting/annotation is done at once with a single function call</p></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide data-total-slides="15" data-slide-num="3" class="far-next" id="slide-2" style="background:;">
+  <hgroup>
+    <h2>Lattice Functions</h2>
+  </hgroup>
+  <article>
+    <ul>
+<li><code>xyplot</code>: this is the main function for creating scatterplots </li>
+<li><code>bwplot</code>: box-and-whiskers plots (“boxplots”)</li>
+<li><code>histogram</code>: histograms</li>
+<li><code>stripplot</code>: like a boxplot but with actual points </li>
+<li><code>dotplot</code>: plot dots on "violin strings"</li>
+<li><code>splom</code>: scatterplot matrix; like <code>pairs</code> in base plotting system </li>
+<li><code>levelplot</code>, <code>contourplot</code>: for plotting "image" data</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide data-total-slides="15" data-slide-num="4" class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>Lattice Functions</h2>
+  </hgroup>
+  <article>
+    <p>Lattice functions generally take a formula for their first argument, usually of the form</p>
+
+<pre><code class="r">xyplot(y ~ x | f * g, data)
+</code></pre>
+
+<ul>
+<li><p>We use the <em>formula notation</em> here, hence the <code>~</code>.</p></li>
+<li><p>On the left of the ~ is the y-axis variable, on the right is the
+x-axis variable</p></li>
+<li><p>f and g are <em>conditioning variables</em> — they are optional</p>
+
+<ul>
+<li>the * indicates an interaction between two variables</li>
+</ul></li>
+<li><p>The second argument is the data frame or list from which the
+variables in the formula should be looked up</p>
+
+<ul>
+<li>If no data frame or list is passed, then the parent frame is used.</li>
+</ul></li>
+<li><p>If no other arguments are passed, there are defaults that can be used.</p></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide data-total-slides="15" data-slide-num="5" class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>Simple Lattice Plot</h2>
+  </hgroup>
+  <article>
+    <pre><code class="r"><span class="keyword">library</span>(lattice)
+<span class="keyword">library</span>(datasets)
+<span class="comment">## Simple scatterplot</span>
+xyplot(Ozone ~ Wind, data = airquality)
+</code></pre>
+
+<p><img src="The%20Lattice%20Plotting%20System%20in%20R_files/unnamed-chunk-1.png" alt="plot of chunk unnamed-chunk-1"> </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide data-total-slides="15" data-slide-num="6" class="" id="slide-5" style="background:;">
+  <hgroup>
+    <h2>Simple Lattice Plot</h2>
+  </hgroup>
+  <article>
+    <pre><code class="r"><span class="keyword">library</span>(datasets)
+<span class="keyword">library</span>(lattice)
+<span class="comment">## Convert 'Month' to a factor variable</span>
+airquality &lt;- transform(airquality, Month = factor(Month))
+xyplot(Ozone ~ Wind | Month, data = airquality, layout = c(<span class="number">5</span>, <span class="number">1</span>))
+</code></pre>
+
+<p><img src="The%20Lattice%20Plotting%20System%20in%20R_files/unnamed-chunk-2.png" alt="plot of chunk unnamed-chunk-2"> </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide data-total-slides="15" data-slide-num="7" class="" id="slide-6" style="background:;">
+  <hgroup>
+    <h2>Lattice Behavior</h2>
+  </hgroup>
+  <article>
+    <p>Lattice functions behave differently from base graphics functions in
+one critical way.</p>
+
+<ul>
+<li><p>Base graphics functions plot data directly to the graphics device
+(screen, PDF file, etc.)</p></li>
+<li><p>Lattice graphics functions return an object of class <strong>trellis</strong></p></li>
+<li><p>The print methods for lattice functions actually do the work of
+plotting the data on the graphics device.</p></li>
+<li><p>Lattice functions return "plot objects" that can, in principle, be
+stored (but it’s usually better to just save the code + data).</p></li>
+<li><p>On the command line, trellis objects are <em>auto-printed</em> so that it
+appears the function is plotting the data</p></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide data-total-slides="15" data-slide-num="8" class="" id="slide-7" style="background:;">
+  <hgroup>
+    <h2>Lattice Behavior</h2>
+  </hgroup>
+  <article>
+    <pre><code class="r">p &lt;- xyplot(Ozone ~ Wind, data = airquality)  <span class="comment">## Nothing happens!</span>
+print(p)  <span class="comment">## Plot appears</span>
+</code></pre>
+
+<p><img src="The%20Lattice%20Plotting%20System%20in%20R_files/unnamed-chunk-3.png" alt="plot of chunk unnamed-chunk-3"> </p>
+
+<pre><code class="r">xyplot(Ozone ~ Wind, data = airquality)  <span class="comment">## Auto-printing</span>
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide data-total-slides="15" data-slide-num="9" class="" id="slide-8" style="background:;">
+  <hgroup>
+    <h2>Lattice Panel Functions</h2>
+  </hgroup>
+  <article>
+    <ul>
+<li><p>Lattice functions have a <strong>panel function</strong> which controls what
+happens inside each panel of the plot.</p></li>
+<li><p>The <em>lattice</em> package comes with default panel functions, but you
+can supply your own if you want to customize what happens in each
+panel</p></li>
+<li><p>Panel functions receive the x/y coordinates of the data points
+in their panel (along with any optional arguments)</p></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide data-total-slides="15" data-slide-num="10" class="" id="slide-9" style="background:;">
+  <hgroup>
+    <h2>Lattice Panel Functions</h2>
+  </hgroup>
+  <article>
+    <pre><code class="r">set.seed(<span class="number">10</span>)
+x &lt;- rnorm(<span class="number">100</span>)
+f &lt;- rep(<span class="number">0</span>:<span class="number">1</span>, each = <span class="number">50</span>)
+y &lt;- x + f - f * x + rnorm(<span class="number">100</span>, sd = <span class="number">0.5</span>)
+f &lt;- factor(f, labels = c(<span class="string">"Group 1"</span>, <span class="string">"Group 2"</span>))
+xyplot(y ~ x | f, layout = c(<span class="number">2</span>, <span class="number">1</span>))  <span class="comment">## Plot with 2 panels</span>
+</code></pre>
+
+<p><img src="The%20Lattice%20Plotting%20System%20in%20R_files/unnamed-chunk-5.png" alt="plot of chunk unnamed-chunk-5"> </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide data-total-slides="15" data-slide-num="11" class="" id="slide-10" style="background:;">
+  <hgroup>
+    <h2>Lattice Panel Functions</h2>
+  </hgroup>
+  <article>
+    <pre><code class="r"><span class="comment">## Custom panel function</span>
+xyplot(y ~ x | f, panel = <span class="keyword">function</span>(x, y, <span class="keyword">...</span>) {
+    panel.xyplot(x, y, <span class="keyword">...</span>)  <span class="comment">## First call the default panel function for 'xyplot'</span>
+    panel.abline(h = median(y), lty = <span class="number">2</span>)  <span class="comment">## Add a horizontal line at the median</span>
+})
+</code></pre>
+
+<p><img src="The%20Lattice%20Plotting%20System%20in%20R_files/unnamed-chunk-6.png" alt="plot of chunk unnamed-chunk-6"> </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide data-total-slides="15" data-slide-num="12" class="" id="slide-11" style="background:;">
+  <hgroup>
+    <h2>Lattice Panel Functions: Regression line</h2>
+  </hgroup>
+  <article>
+    <pre><code class="r"><span class="comment">## Custom panel function</span>
+xyplot(y ~ x | f, panel = <span class="keyword">function</span>(x, y, <span class="keyword">...</span>) {
+    panel.xyplot(x, y, <span class="keyword">...</span>)  <span class="comment">## First call default panel function</span>
+    panel.lmline(x, y, col = <span class="number">2</span>)  <span class="comment">## Overlay a simple linear regression line</span>
+})
+</code></pre>
+
+<p><img src="The%20Lattice%20Plotting%20System%20in%20R_files/unnamed-chunk-7.png" alt="plot of chunk unnamed-chunk-7"> </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide data-total-slides="15" data-slide-num="13" class="" id="slide-12" style="background:;">
+  <hgroup>
+    <h2>Many Panel Lattice Plot: Example from MAACS</h2>
+  </hgroup>
+  <article>
+    <ul>
+<li><p>Study: Mouse Allergen and Asthma Cohort Study (MAACS)</p></li>
+<li><p>Study subjects: Children with asthma living in Baltimore City, many
+allergic to mouse allergen</p></li>
+<li><p>Design: Observational study, baseline home visit + every 3 months for a year.</p></li>
+<li><p>Question: How does indoor airborne mouse allergen vary over time and
+across subjects?</p></li>
+</ul>
+
+<p><a href="http://www.ncbi.nlm.nih.gov/pubmed/23810154">Ahluwalia et al., <em>Journal of Allergy and Clinical Immunology</em>, 2013</a></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide data-total-slides="15" data-slide-num="14" class="" id="slide-13" style="background:;">
+  <hgroup>
+    <h2>Many Panel Lattice Plot</h2>
+  </hgroup>
+  <article>
+    <p><img src="The%20Lattice%20Plotting%20System%20in%20R_files/unnamed-chunk-8.png" alt="plot of chunk unnamed-chunk-8"> </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+      <slide data-total-slides="15" data-slide-num="15" class="" id="slide-14" style="background:;">
+  <hgroup>
+    <h2>Summary</h2>
+  </hgroup>
+  <article>
+    <ul>
+<li><p>Lattice plots are constructed with a single function call to a core
+lattice function (e.g. <code>xyplot</code>)</p></li>
+<li><p>Aspects like margins and spacing are automatically handled and
+defaults are usually sufficient</p></li>
+<li><p>The lattice system is ideal for creating conditioning plots where
+you examine the same kind of plot under many different conditions</p></li>
+<li><p>Panel functions can be specified/customized to modify what is
+plotted in each of the plot panels</p></li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  <div id="prev-slide-area" class="slide-area"></div><div id="next-slide-area" class="slide-area"></div></slides>
+
+  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+
+
+<script src="The%20Lattice%20Plotting%20System%20in%20R_files/jquery-1.js"></script>
+<script>window.jQuery || document.write('<script src="../../libraries/widgets/quiz/js/jquery-1.7.min.js"><\/script>')</script>
+<!-- Load Javascripts for Widgets -->
+<!-- MathJax: Fall back to local if CDN offline but local image fonts are not supported (saves >100MB) -->
+<script type="text/x-mathjax-config;executed=true">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [['$','$'], ['\\(','\\)']],
+      processEscapes: true
+    }
+  });
+</script>
+<script type="text/javascript" src="The%20Lattice%20Plotting%20System%20in%20R_files/MathJax.js"></script>
+<!-- <script src="https://c328740.ssl.cf1.rackcdn.com/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script> -->
+<script>window.MathJax || document.write('<script type="text/x-mathjax-config">MathJax.Hub.Config({"HTML-CSS":{imageFont:null}});<\/script><script src="../../libraries/widgets/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"><\/script>')
+</script>
+<!-- LOAD HIGHLIGHTER JS FILES -->
+<script src="The%20Lattice%20Plotting%20System%20in%20R_files/highlight.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<!-- DONE LOADING HIGHLIGHTER JS FILES -->
+</body><!-- Grab CDN jQuery, fall back to local if offline --></html>

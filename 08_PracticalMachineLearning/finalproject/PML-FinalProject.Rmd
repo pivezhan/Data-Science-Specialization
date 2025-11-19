@@ -1,0 +1,133 @@
+---
+title: "Practical Machine Learning Final Project"
+author: "mt"
+date: "Saturday, September 27, 2015"
+output: html_document
+---
+
+*This research proposed an efficient method in classification of Human Activity Recognition tasks.
+
+*The evaluated tuned models show higher than 99 percent mean accuracy and gained more training and testing accuracy in comparison to previous studies.
+
+*Human Activity Recognition(HAR) is a key research area in last 8 years and has broad range of applications in smart human activity recognition. 
+
+The training data for this project are available here: 
+
+https://d396qusza40orc.cloudfront.net/predmachlearn/pml-training.csv
+
+The test data are available here: 
+
+https://d396qusza40orc.cloudfront.net/predmachlearn/pml-testing.csv
+
+
+all needed libraries loaded as below:
+```{r, , echo=TRUE,results='hide', message=FALSE}
+setwd(file.path("D:", "sbu", "Rlearning",
+                "practical machine learning", "finalproject"))
+library(randomForest); library(gbm);
+library(caret); library(doParallel); 
+require(foreach); library(adabag); library(xtable);
+```
+Here gbm for Boosting adabag for bagging and randomforest package have been introduced.
+in this study class A corresponded to specified execution of exercise and other 4 classes showed mistakes  in execution of exercise. All patients were between the ages of 20-28 and surveillance have been done by experienced weight lifter\cite{james2013introduction}.
+
+First the dataset should be cleaned from not assigned values.
+```{r, , echo=TRUE,results='hide', message=FALSE, warning=FALSE}
+set.seed(123)
+data <- read.csv("pml-training.csv", na.strings=c("#DIV/0!"))
+
+## Data set cleaning procedure starts from here
+CleanedData <- data
+for(i in c(8:ncol(CleanedData)-1)) {CleanedData[,i] = as.numeric(as.character(CleanedData[,i]))}
+
+## removing all features with not assigned values
+featuresnames <- colnames(CleanedData[colSums(is.na(CleanedData)) == 0])[-(1:7)]
+```
+
+75 percent of data asigned for training and others are for testing sets as below.
+```{r, , echo=TRUE,results='hide', message=FALSE, warning=FALSE}
+
+features <- CleanedData[featuresnames]
+TrainData <- createDataPartition(y=features$classe, p=3/4, list=FALSE )
+training <- features[TrainData,]
+testing <- features[-TrainData,]
+
+```
+
+*Random forest provides an improvement over bagged trees, each time a split have been considered on a tree, a random selection of $m$ predictors are chosen as split candidates from the full set of $p$ predictors
+```{r, , echo=TRUE,results='hide', message=FALSE, warning=FALSE}
+mtry<-11 # Number of features at each splits
+treenumber<-50 # Number of trees at each split
+fit2 <- foreach(ntree=treenumber, .combine=randomForest::combine, .packages='randomForest') %dopar%
+        randomForest(training[-ncol(training)], mtry=mtry, training$classe, ntree=ntree)
+```
+Out of Bag error is a way of  error estimations of test results in bagged models. 
+
+*The key idea here is that in bootstrap, sampling occurs on  two-thirds of  observations and another one-thirds that not used in fitting, could be referred as out of bag samples and equivalent error called out of sample error.
+
+*Typically best number of evaluated features at each split could be assigned by the value $m\approx\sqrt{p}$. Random forest could be the best and fastest decision tree model in big classification problems like pattern recognition by assigning appropriate tuning parameters.
+
+*Generalized Boosted Model(gbm) is another package in R that implements Freund and Schapire's adaboost algorithm.
+
+*In contrary to bagging and Random Forest models the big number of trees in Boosting model could cause overfitting.
+
+*learning rate in Boosting model known as shrinkage value($\lambda$), this mechanism controls the rate that model could learn, this value depends on the case study.
+
+*Number of splits($d$) in Boosting model controls the complexity of the boosted ensemble and generally $d$ shows the interaction depth.
+```{r, , echo=TRUE,results='hide', message=FALSE, warning=FALSE}
+library(gbm);
+fit3 <-gbm(classe~., data = training, var.monotone = NULL,
+           n.trees = treenumber, interaction.depth = 16, n.minobsinnode = 10            ,shrinkage = 0.3, bag.fraction = 0.5, train.fraction = 1.0,
+           cv.folds=0, keep.data = TRUE, verbose = "CV",
+           class.stratify.cv=NULL, n.cores = NULL)
+```
+###Test and Train Accuracy
+
+Random forest train and test accuracy is as below
+```{r, , echo=TRUE,results='markup', message=FALSE, warning=FALSE}
+TestPred <- predict(fit2, newdata=testing)
+TrainPred <- predict(fit2, newdata=training)
+RFacctest <- with(testing,mean((classe==TestPred))) ##misclassification 
+RFacctrain <- with(training,mean((classe==TrainPred)))
+confusionMatrix(TestPred, testing$classe)
+```
+
+Boosting model train and test accuracy is as below
+```{r, , echo=TRUE,results='markup', message=FALSE, warning=FALSE}
+TestPred <- predict(fit3, newdata=testing, n.trees=treenumber,type="response")
+TrainPred <- predict(fit3, newdata=training, n.trees=treenumber,type="response")
+class <- c("A","B","C","D","E")
+gbmtestpre<-rep(0, nrow(TestPred))
+gbmtrainpre<-rep(0, nrow(TrainPred))
+testmaxpre<-apply(TestPred, 1, max)
+trainmaxpre<-apply(TrainPred, 1, max)
+for (k in 1:nrow(TestPred)){
+        gbmtestpre[k] <- class[(TestPred[k,,]==testmaxpre[k])]
+}
+for (k in 1:nrow(TrainPred)){
+        gbmtrainpre[k] <- class[(TrainPred[k,,]==trainmaxpre[k])]
+}
+boostacctest<-with(testing,mean(classe==gbmtestpre))
+boostacctrain<-with(training,mean(classe==gbmtrainpre))
+confusionMatrix(gbmtestpre, testing$classe)
+```
+
+so finally random forest model shows 
+```{r, ,results='markup', echo=F}
+RFacctest
+``` 
+test accuracy and 
+```{r, ,results='markup', echo=F} 
+RFacctrain
+```
+train accuracy. Boosting model shows  
+```{r, ,results='markup', echo=F} 
+boostacctest
+``` 
+test accuracy and 
+```{r, ,results='markup', echo=F} 
+boostacctrain
+```
+train accuracy.
+
+finally all of 20 extra tests have been evaluated and shows correct answers in both two proposed algorithms.
